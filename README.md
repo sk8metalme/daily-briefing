@@ -8,7 +8,7 @@ Claude Code のクラウドroutine（cronスケジュールされたエージェ
 
 1. 対象トピックの新着記事・研究・実践レポートを世界中から調査
 2. 実業務で再現可能な「実践知」を重視して3件を選定（過去選定分と重複しない）
-3. 各記事を日本語で要約し、`briefings/YYYY/YYYY-MM-DD.md` に保存
+3. 各記事を日本語で要約し、`briefings/YYYY/MM/YYYY-MM-DD.md` に保存
 4. `selected-articles.md`（重複防止インデックス）に選定記事を追記
 5. main ブランチに直接コミット & push
 
@@ -28,7 +28,8 @@ Claude Code のクラウドroutine（cronスケジュールされたエージェ
 ```
 briefings/
   YYYY/
-    YYYY-MM-DD.md      # 日次ブリーフィング（3記事の日本語要約）
+    MM/
+      YYYY-MM-DD.md    # 日次ブリーフィング（3記事の日本語要約）
 selected-articles.md    # 選定済み記事インデックス（重複防止用）
 ```
 
