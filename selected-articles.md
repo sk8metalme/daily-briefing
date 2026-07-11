@@ -10,3 +10,6 @@
 | 2026-07-11 | Context Engineering: Memory, Compaction, and Tool Clearing for Production Agents | https://tianpan.co/blog/2026-02-26-context-engineering-memory-compaction-tool-clearing |
 | 2026-07-11 | How I Use Claude Code | https://boristane.com/blog/how-i-use-claude-code/ |
 | 2026-07-11 | A Survey of Development Workflows in the Coding Agent Era | https://nyosegawa.com/en/posts/coding-agent-workflow-2026/ |
+| 2026-07-12 | 3 Simple Techniques to Reduce Token Consumption in Claude Code and Codex | https://tech.autoscout24.com/blog/posts/3-techniques-to-reduce-token-consumption-claude-code-codex/ |
+| 2026-07-12 | Context Is a Budget — Reducing Token Usage in AI-Assisted Development | https://foojay.io/today/context-is-a-budget-eight-levers-and-three-workflow-patterns/ |
+| 2026-07-12 | Harness engineering for coding agent users | https://martinfowler.com/articles/harness-engineering.html |
