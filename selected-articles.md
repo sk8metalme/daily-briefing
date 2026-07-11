@@ -4,3 +4,6 @@
 
 | 選定日 | タイトル | URL |
 |--------|---------|-----|
+| 2026-07-11 | Harness design for long-running application development | https://www.anthropic.com/engineering/harness-design-long-running-apps |
+| 2026-07-11 | 5 Context Window Tricks That Cut My Token Usage in Half | https://dev.to/novaelvaris/5-context-window-tricks-that-cut-my-token-usage-in-half-hfl |
+| 2026-07-11 | Using Local Coding Agents | https://magazine.sebastianraschka.com/p/using-local-coding-agents |
