@@ -13,3 +13,6 @@
 | 2026-07-12 | 3 Simple Techniques to Reduce Token Consumption in Claude Code and Codex | https://tech.autoscout24.com/blog/posts/3-techniques-to-reduce-token-consumption-claude-code-codex/ |
 | 2026-07-12 | Context Is a Budget — Reducing Token Usage in AI-Assisted Development | https://foojay.io/today/context-is-a-budget-eight-levers-and-three-workflow-patterns/ |
 | 2026-07-12 | Harness engineering for coding agent users | https://martinfowler.com/articles/harness-engineering.html |
+| 2026-07-13 | MCP tool design: Practical approaches and tradeoffs | https://aws.amazon.com/blogs/machine-learning/mcp-tool-design-practical-approaches-and-tradeoffs/ |
+| 2026-07-13 | Context Compaction Is a Decision, Not a Threshold | https://blakecrosley.com/blog/agent-context-compaction |
+| 2026-07-13 | Loop Engineering with Agents | https://dassum.medium.com/loop-engineering-with-agents-5e9b984e8d8a |
