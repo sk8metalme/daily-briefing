@@ -1,0 +1,170 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "gpt-oss-120b コーディング・ハーネス調査",
+    "description": "重み固定で実務コーディング性能を引き上げる構成と検証計画。",
+    "generatedAt": "2026-07-12T12:00:00+09:00",
+    "charts": [
+      {
+        "id": "reasoning_effort_results",
+        "title": "Reasoning effort別の公式コーディング評価",
+        "subtitle": "gpt-oss-120b、MXFP4、pass@1相当の公式評価値。推論tokenと遅延は固定されていない。",
+        "type": "bar",
+        "dataset": "official_coding_results",
+        "sourceId": "gpt_oss_model_card",
+        "encodings": {
+          "x": {"field": "effort", "type": "nominal", "label": "Reasoning effort"},
+          "y": {"field": "score", "type": "quantitative", "label": "Score", "format": "percent"},
+          "color": {"field": "benchmark", "type": "nominal", "label": "Benchmark"}
+        },
+        "yAxisTitle": "Score",
+        "valueFormat": "percent",
+        "showLegend": true,
+        "palette": {"kind": "categorical", "roots": ["blue", "gold"]},
+        "layout": "full"
+      }
+    ],
+    "tables": [
+      {
+        "id": "priority_table",
+        "title": "推奨実装の優先順位",
+        "subtitle": "直接証拠と間接証拠を分け、寄与を一段ずつ検証する。",
+        "dataset": "priorities",
+        "sourceId": "research_synthesis",
+        "defaultSort": {"field": "priority", "direction": "asc"},
+        "columns": [
+          {"field": "priority", "label": "優先", "type": "text"},
+          {"field": "change", "label": "変更", "type": "text"},
+          {"field": "evidence", "label": "根拠", "type": "text"},
+          {"field": "confidence", "label": "120B確度", "type": "text"}
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "gpt_oss_model_card",
+        "label": "OpenAI gpt-oss model card",
+        "path": "https://arxiv.org/html/2508.10925",
+        "query": {
+          "engine": "snapshot",
+          "language": "sql",
+          "sql": "SELECT * FROM official_model_card_table_3 WHERE model = 'gpt-oss-120b' AND benchmark IN ('SWE-bench Verified', 'Aider Polyglot')",
+          "description": "OpenAI model card Table 3の固定モデル・reasoning effort別評価値。",
+          "executed_at": "2026-07-12T12:00:00+09:00",
+          "tables_used": ["official_model_card_table_3"],
+          "filters": ["model = gpt-oss-120b", "benchmark in SWE-bench Verified and Aider Polyglot"],
+          "metric_definitions": {"score": "モデルカード掲載のbenchmark scoreを100で割ったfractional rate。"}
+        }
+      },
+      {
+        "id": "harmony_docs",
+        "label": "OpenAI Harmony response format",
+        "path": "https://developers.openai.com/cookbook/articles/openai-harmony"
+      },
+      {
+        "id": "raw_cot_docs",
+        "label": "OpenAI raw CoT handling",
+        "path": "https://developers.openai.com/cookbook/articles/gpt-oss/handle-raw-cot"
+      },
+      {
+        "id": "vllm_docs",
+        "label": "OpenAI gpt-oss with vLLM",
+        "path": "https://developers.openai.com/cookbook/articles/gpt-oss/run-vllm"
+      },
+      {
+        "id": "gpt_oss_repo",
+        "label": "OpenAI gpt-oss repository",
+        "path": "https://github.com/openai/gpt-oss"
+      },
+      {
+        "id": "claw_swe_bench",
+        "label": "Claw-SWE-Bench",
+        "path": "https://arxiv.org/html/2606.12344"
+      },
+      {
+        "id": "harness_bench",
+        "label": "Harness-Bench",
+        "path": "https://arxiv.org/html/2605.27922"
+      },
+      {
+        "id": "research_synthesis",
+        "label": "Primary-source synthesis",
+        "path": "README.md",
+        "query": {
+          "engine": "snapshot",
+          "language": "sql",
+          "sql": "SELECT * FROM implementation_priorities ORDER BY priority",
+          "description": "公式gpt-oss文書とハーネス研究を根拠レベル別に統合した優先順位。",
+          "executed_at": "2026-07-12T12:00:00+09:00",
+          "tables_used": ["implementation_priorities"]
+        }
+      }
+    ],
+    "blocks": [
+      {"id": "title", "type": "markdown", "body": "# gpt-oss-120b コーディング・ハーネス調査"},
+      {"id": "technical_summary", "type": "markdown", "sourceId": "gpt_oss_model_card", "body": "## 技術サマリー\n\n**最優先はHarmony互換性の保証。** その上でreasoning effortを課題別に切り替え、編集・テスト・diff reviewをtool result駆動の状態機械にする。公式評価では同じgpt-oss-120bで、SWE-bench Verifiedがlowの47.9%からhighの62.4%へ14.5ポイント、Aider Polyglotが24.0%から44.4%へ20.4ポイント上昇した。ただし推論tokenと遅延も増える。"},
+      {"id": "key_finding", "type": "markdown", "sourceId": "gpt_oss_model_card", "body": "## 高いreasoning effortはコーディング成績を押し上げる\n\n下図はmodel revisionとMXFP4重みを固定し、reasoning effortを変えた公式結果。両benchmarkでlow < medium < highだが、無料の改善ではなくtest-time computeとの交換条件として読む。実運用ではmediumを基準に、再現失敗や反復失敗でhighへ昇格するrouterを比較する。"},
+      {"id": "reasoning_chart", "type": "chart", "chartId": "reasoning_effort_results", "layout": "full"},
+      {"id": "scope", "type": "markdown", "body": "## 比較範囲と指標定義\n\n**直接証拠**はgpt-oss-120b固定の公式評価、**間接証拠**は別モデル固定のハーネス比較。SWE-bench VerifiedとAider Polyglotの値は公式scaffold込みでありraw model単体ではない。主指標はtask pass、補助指標はtool parse error、lint/test到達、wall time、reasoning token、retry、禁止path変更とする。"},
+      {"id": "method", "type": "markdown", "sourceId": "harmony_docs", "body": "## Harmony履歴規則を最初の検証対象にする\n\nFunction call後の次samplingでは直前final以降のanalysis、tool call、tool resultを保持し、final後の次ターンでは過去analysisを破棄する。systemとdeveloperの役割、analysis/commentary/final channel、decode-time stop tokenもfixtureで検証する。raw CoTはend userへ表示しない。"},
+      {"id": "indirect", "type": "markdown", "sourceId": "claw_swe_bench", "body": "## 一般ハーネスには大きな改善余地がある\n\nClaw-SWE-BenchではGLM 5.1固定でminimal adapter 19.1%、full adapter 73.4%だった。差は54.3ポイントだが、workspace整合、prompt、patch取得・cleaning等を同時変更した結果であり、gpt-ossへの効果量でも単一要素ablationでもない。"},
+      {"id": "recommendations", "type": "markdown", "body": "## 一段ずつ導入し寄与を分離する\n\nP0 Harmony conformance、P1 reasoning router、P2 coding tool構造化、P3 edit/test/diff状態機械、P4 filesystem stateと選択的contextの順にA/Bする。高コストlaneだけP5 best-of-Nと実行結果selectorを加える。"},
+      {"id": "priority", "type": "table", "tableId": "priority_table", "layout": "full"},
+      {"id": "limitations", "type": "markdown", "body": "## 限界とrobustness check\n\nHarmony実装、tool schema、編集primitive、state管理をgpt-oss-120b固定で個別に変えた公開ablationは未確認。10〜15件・1 seedでscreening後、30〜50件・3 seed、同一model revision・runtime・budgetで比較する。pass rateだけでなくparse error、禁止変更、コストguardrailもpromotion条件にする。"},
+      {"id": "next_steps", "type": "markdown", "body": "## 推奨する次の検証\n\n1. Harmony transcript conformance testを作る。\n2. private coding task 10〜15件で現行 / Harmony準拠 / reasoning routerを比較する。\n3. 改善を確認してからedit-test状態機械を追加する。\n4. tool parse error、反復失敗、stale stateをtraceから自動集計する。"},
+      {"id": "further_questions", "type": "markdown", "body": "## 追加で確定すべき条件\n\n対象hardware、inference engine、現在のagent framework、許容latency、task mixが未指定。これらでreasoning routerの閾値とcontext budgetが変わるため、実装前に現行traceと実行環境を採取する。"}
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-07-12T12:00:00+09:00",
+    "status": "ready",
+    "datasets": {
+      "official_coding_results": [
+        {"model": "gpt-oss-120b", "effort": "low", "effort_order": 1, "benchmark": "SWE-bench Verified", "score": 0.479, "score_pct": 47.9, "quantization": "MXFP4", "evaluation": "official model card"},
+        {"model": "gpt-oss-120b", "effort": "medium", "effort_order": 2, "benchmark": "SWE-bench Verified", "score": 0.526, "score_pct": 52.6, "quantization": "MXFP4", "evaluation": "official model card"},
+        {"model": "gpt-oss-120b", "effort": "high", "effort_order": 3, "benchmark": "SWE-bench Verified", "score": 0.624, "score_pct": 62.4, "quantization": "MXFP4", "evaluation": "official model card"},
+        {"model": "gpt-oss-120b", "effort": "low", "effort_order": 1, "benchmark": "Aider Polyglot", "score": 0.240, "score_pct": 24.0, "quantization": "MXFP4", "evaluation": "official model card"},
+        {"model": "gpt-oss-120b", "effort": "medium", "effort_order": 2, "benchmark": "Aider Polyglot", "score": 0.342, "score_pct": 34.2, "quantization": "MXFP4", "evaluation": "official model card"},
+        {"model": "gpt-oss-120b", "effort": "high", "effort_order": 3, "benchmark": "Aider Polyglot", "score": 0.444, "score_pct": 44.4, "quantization": "MXFP4", "evaluation": "official model card"}
+      ],
+      "priorities": [
+        {"priority": "P0", "change": "Harmony renderer/parserと履歴規則", "evidence": "OpenAI公式仕様", "confidence": "高"},
+        {"priority": "P1", "change": "medium基準・失敗時highのreasoning router", "evidence": "OpenAI公式reasoning effort別評価。router規則はローカルA/Bで検証", "confidence": "中"},
+        {"priority": "P2", "change": "coding toolの小さな構造化", "evidence": "OpenAI Harmony/tool仕様 + Harness-Bench", "confidence": "中"},
+        {"priority": "P3", "change": "edit/test/diff状態機械", "evidence": "公式agentic eval + Claw-SWE-Bench", "confidence": "中"},
+        {"priority": "P4", "change": "filesystem state + 選択的context", "evidence": "Harness-Bench等", "confidence": "低〜中"},
+        {"priority": "P5", "change": "実行境界 + best-of-N + 実行結果selector", "evidence": "一般的test-time selectionと安全なagent実行境界", "confidence": "低〜中"}
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "gpt_oss_model_card",
+      "label": "OpenAI gpt-oss model card",
+      "path": "https://arxiv.org/html/2508.10925",
+      "query": {
+        "engine": "snapshot",
+        "language": "sql",
+        "sql": "SELECT * FROM official_model_card_table_3 WHERE model = 'gpt-oss-120b' AND benchmark IN ('SWE-bench Verified', 'Aider Polyglot')",
+        "description": "OpenAI model card Table 3の固定モデル・reasoning effort別評価値。",
+        "executed_at": "2026-07-12T12:00:00+09:00",
+        "tables_used": ["official_model_card_table_3"]
+      }
+    },
+    {"id": "harmony_docs", "label": "OpenAI Harmony response format", "path": "https://developers.openai.com/cookbook/articles/openai-harmony"},
+    {"id": "raw_cot_docs", "label": "OpenAI raw CoT handling", "path": "https://developers.openai.com/cookbook/articles/gpt-oss/handle-raw-cot"},
+    {"id": "vllm_docs", "label": "OpenAI gpt-oss with vLLM", "path": "https://developers.openai.com/cookbook/articles/gpt-oss/run-vllm"},
+    {"id": "gpt_oss_repo", "label": "OpenAI gpt-oss repository", "path": "https://github.com/openai/gpt-oss"},
+    {"id": "claw_swe_bench", "label": "Claw-SWE-Bench", "path": "https://arxiv.org/html/2606.12344"},
+    {"id": "harness_bench", "label": "Harness-Bench", "path": "https://arxiv.org/html/2605.27922"},
+    {"id": "research_synthesis", "label": "Primary-source synthesis", "path": "README.md"}
+  ],
+  "package_info": {
+    "root": "gpt-oss-120b-harness-research-2026-07",
+    "manifestPath": "artifact.json",
+    "snapshotPath": "artifact.json"
+  }
+}

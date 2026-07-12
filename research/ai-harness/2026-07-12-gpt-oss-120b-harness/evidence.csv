@@ -1,0 +1,9 @@
+model,condition,benchmark,score,unit,evidence_scope,source
+gpt-oss-120b,reasoning low,SWE-bench Verified,47.9,percent,direct fixed-model official evaluation,https://arxiv.org/html/2508.10925
+gpt-oss-120b,reasoning medium,SWE-bench Verified,52.6,percent,direct fixed-model official evaluation,https://arxiv.org/html/2508.10925
+gpt-oss-120b,reasoning high,SWE-bench Verified,62.4,percent,direct fixed-model official evaluation,https://arxiv.org/html/2508.10925
+gpt-oss-120b,reasoning low,Aider Polyglot,24.0,percent,direct fixed-model official evaluation,https://arxiv.org/html/2508.10925
+gpt-oss-120b,reasoning medium,Aider Polyglot,34.2,percent,direct fixed-model official evaluation,https://arxiv.org/html/2508.10925
+gpt-oss-120b,reasoning high,Aider Polyglot,44.4,percent,direct fixed-model official evaluation,https://arxiv.org/html/2508.10925
+GLM 5.1,minimal direct-diff adapter,Claw-SWE-Bench,19.1,percent,indirect fixed-model adapter comparison,https://arxiv.org/html/2606.12344
+GLM 5.1,full adapter,Claw-SWE-Bench,73.4,percent,indirect fixed-model adapter comparison,https://arxiv.org/html/2606.12344
