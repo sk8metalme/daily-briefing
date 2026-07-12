@@ -1,0 +1,6 @@
+model,harness,benchmark,resolved_pct,scope,source
+Qwen 3.6-flash,OpenClaw,Claw-SWE-Bench,66.0,350 issues one run,https://arxiv.org/html/2606.12344
+Qwen 3.6-flash,Hermes,Claw-SWE-Bench,62.6,350 issues one run,https://arxiv.org/html/2606.12344
+Qwen 3.6-flash,ZeroClaw,Claw-SWE-Bench,58.3,350 issues one run,https://arxiv.org/html/2606.12344
+Qwen 3.6-flash,NanoBot,Claw-SWE-Bench,47.4,350 issues one run,https://arxiv.org/html/2606.12344
+Qwen 3.6-flash,GenericAgent,Claw-SWE-Bench,38.6,350 issues one run,https://arxiv.org/html/2606.12344

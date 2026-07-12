@@ -1,0 +1,118 @@
+{
+  "surface": "report",
+  "manifest": {
+    "version": 1,
+    "surface": "report",
+    "title": "Qwen3.6-27B コーディング・ハーネス調査",
+    "description": "固定モデルのコーディング性能を引き上げる構成と検証計画。",
+    "generatedAt": "2026-07-12T12:00:00+09:00",
+    "charts": [{
+      "id": "qwen_harness_spread",
+      "title": "Qwen 3.6-flash固定でもハーネスで27.4pt差",
+      "subtitle": "Claw-SWE-Bench、Qwen 3.6-flash、350 issues、各セル1試行。27Bへの改善幅ではない。",
+      "type": "bar",
+      "dataset": "claw_results",
+      "sourceId": "claw_swe_bench",
+      "encodings": {
+        "x": {"field": "harness", "type": "nominal", "label": "Harness"},
+        "y": {"field": "resolved", "type": "quantitative", "label": "Resolved", "format": "percent"}
+      },
+      "yAxisTitle": "Resolved rate",
+      "valueFormat": "percent",
+      "layout": "full"
+    }],
+    "tables": [{
+      "id": "priority_table",
+      "title": "推奨実装の優先順位",
+      "dataset": "priorities",
+      "sourceId": "research_synthesis",
+      "columns": [
+        {"field": "priority", "label": "優先", "type": "text"},
+        {"field": "change", "label": "変更", "type": "text"},
+        {"field": "evidence", "label": "根拠", "type": "text"},
+        {"field": "confidence", "label": "27B確度", "type": "text"}
+      ]
+    }],
+    "sources": [
+      {"id": "claw_swe_bench", "label": "Claw-SWE-Bench", "path": "https://arxiv.org/html/2606.12344"},
+      {"id": "qwen_model_card", "label": "Qwen3.6-27B official model card", "path": "https://huggingface.co/Qwen/Qwen3.6-27B"},
+      {"id": "qwen_code", "label": "Qwen Code official repository", "path": "https://github.com/QwenLM/qwen-code"},
+      {"id": "meta_harness", "label": "Meta-Harness", "path": "https://arxiv.org/html/2603.28052"},
+      {"id": "harness_bench", "label": "Harness-Bench", "path": "https://arxiv.org/html/2605.27922"},
+      {"id": "effective_harness_engineering", "label": "Effective Harness Engineering", "path": "https://arxiv.org/html/2605.15221"},
+      {"id": "fujitsu_qwen35_harness", "label": "Fujitsu Research Qwen3.5-27B multi-agent harness", "path": "https://blog-en.fltech.dev/entry/2026/04/07/swebench"},
+      {"id": "research_synthesis", "label": "Primary-source synthesis", "path": "README.md"}
+    ],
+    "blocks": [
+      {"id": "title", "type": "markdown", "body": "# Qwen3.6-27B コーディング・ハーネス調査\n\n**結論:** 公式parser、実ファイル編集＋Git patch抽出、テスト駆動loop、filesystem状態管理の組み合わせが本命。"},
+      {"id": "chart", "type": "chart", "chartId": "qwen_harness_spread", "layout": "full"},
+      {"id": "findings", "type": "markdown", "body": "## Key findings\n\n- Qwen 3.6-flash固定比較ではハーネス間に**27.4pt**差。27Bへの効果量は未確定。\n- bare adapterより、実workspace編集・Git抽出・workspace整合・patch cleaning等を含むfull adapterが有力。単一要素ablationではない。\n- 公式coding基準は `temperature=0.6, top_p=0.95, top_k=20`、tool parserは `qwen3_coder`。\n- 長いsessionでは `preserve_thinking` を独立条件としてA/Bする。"},
+      {"id": "priority", "type": "table", "tableId": "priority_table", "layout": "full"},
+      {"id": "method", "type": "markdown", "body": "## Method / limitations\n\n一次情報と同一モデル比較を優先。Qwen3.6-27B固定の公開ablationは未確認。Clawの直接証拠は3.6-flashかつ各セル1試行。\n\n## Next step\n\n10〜15件・1seedで候補を選び、本試験ではA raw / B official loop / C edit-test / D filesystem state / E preserve thinkingを30〜50件・3seed・固定budgetで比較する。"}
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "generatedAt": "2026-07-12T12:00:00+09:00",
+    "status": "ready",
+    "datasets": {
+      "claw_results": [
+        {"harness": "OpenClaw", "resolved": 0.660},
+        {"harness": "Hermes", "resolved": 0.626},
+        {"harness": "ZeroClaw", "resolved": 0.583},
+        {"harness": "NanoBot", "resolved": 0.474},
+        {"harness": "GenericAgent", "resolved": 0.386}
+      ],
+      "priorities": [
+        {"priority": "P0", "change": "qwen3 + qwen3_coder parser", "evidence": "Qwen公式", "confidence": "高"},
+        {"priority": "P1", "change": "実ファイル編集 + Git patch抽出", "evidence": "Claw-SWE-Bench", "confidence": "中〜高"},
+        {"priority": "P2", "change": "再現→修正→test→lint状態機械", "evidence": "複数研究", "confidence": "中"},
+        {"priority": "P3", "change": "filesystem state + 選択的context", "evidence": "Meta-Harness等", "confidence": "中"}
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "claw_swe_bench",
+      "label": "Claw-SWE-Bench",
+      "path": "https://arxiv.org/html/2606.12344",
+      "query": {
+        "engine": "snapshot",
+        "sql": "SELECT * FROM (VALUES ('OpenClaw',0.660),('Hermes',0.626),('ZeroClaw',0.583),('NanoBot',0.474),('GenericAgent',0.386)) AS t(harness,resolved)",
+        "description": "Paper table values for fixed Qwen 3.6-flash.",
+        "executed_at": "2026-07-12T12:00:00+09:00",
+        "tables_used": ["paper_table"]
+      }
+    },
+    {
+      "id": "qwen_model_card",
+      "label": "Qwen3.6-27B official model card",
+      "path": "https://huggingface.co/Qwen/Qwen3.6-27B",
+      "query": {
+        "engine": "snapshot",
+        "sql": "SELECT 'qwen3' AS reasoning_parser, 'qwen3_coder' AS tool_parser, 0.6 AS coding_temperature, 0.95 AS top_p, 20 AS top_k",
+        "description": "Official serving and coding generation settings.",
+        "executed_at": "2026-07-12T12:00:00+09:00",
+        "tables_used": ["official_model_card"]
+      }
+    },
+    {"id": "qwen_code", "label": "Qwen Code official repository", "path": "https://github.com/QwenLM/qwen-code"},
+    {"id": "meta_harness", "label": "Meta-Harness", "path": "https://arxiv.org/html/2603.28052"},
+    {"id": "harness_bench", "label": "Harness-Bench", "path": "https://arxiv.org/html/2605.27922"},
+    {"id": "effective_harness_engineering", "label": "Effective Harness Engineering", "path": "https://arxiv.org/html/2605.15221"},
+    {"id": "fujitsu_qwen35_harness", "label": "Fujitsu Research Qwen3.5-27B multi-agent harness", "path": "https://blog-en.fltech.dev/entry/2026/04/07/swebench"},
+    {
+      "id": "research_synthesis",
+      "label": "Primary-source synthesis",
+      "path": "README.md",
+      "query": {
+        "engine": "snapshot",
+        "sql": "SELECT * FROM (VALUES ('P0','Qwen official'),('P1','Claw-SWE-Bench'),('P2','Claw-SWE-Bench and Harness-Bench'),('P3','Meta-Harness')) AS t(priority,evidence)",
+        "description": "Evidence mapping for implementation priorities.",
+        "executed_at": "2026-07-12T12:00:00+09:00",
+        "tables_used": ["primary_source_mapping"]
+      }
+    }
+  ],
+  "package_info": {"root": "qwen36-harness-research-2026-07", "manifestPath": "artifact.json", "snapshotPath": "artifact.json"}
+}
