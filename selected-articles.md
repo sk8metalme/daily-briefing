@@ -16,3 +16,6 @@
 | 2026-07-13 | Agent Skills: The Context Engineering Revolution | https://www.blog.brightcoding.dev/2026/07/08/agent-skills-the-context-engineering-revolution |
 | 2026-07-13 | Using local LLMs for agentic coding | https://blog.alexewerlof.com/p/local-llms-for-agentic-coding |
 | 2026-07-13 | My LLM coding workflow going into 2026 | https://addyosmani.com/blog/ai-coding-workflow/ |
+| 2026-07-14 | Harness Engineering for Self-Improvement | https://lilianweng.github.io/posts/2026-07-04-harness/ |
+| 2026-07-14 | Context Compaction Is a Decision, Not a Threshold | https://blakecrosley.com/blog/agent-context-compaction |
+| 2026-07-14 | Context management in agent harnesses: memory, files, and subagents | https://arize.com/blog/context-management-in-agent-harnesses/ |
