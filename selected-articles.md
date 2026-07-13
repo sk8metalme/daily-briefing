@@ -13,3 +13,6 @@
 | 2026-07-12 | 3 Simple Techniques to Reduce Token Consumption in Claude Code and Codex | https://tech.autoscout24.com/blog/posts/3-techniques-to-reduce-token-consumption-claude-code-codex/ |
 | 2026-07-12 | Context Is a Budget — Reducing Token Usage in AI-Assisted Development | https://foojay.io/today/context-is-a-budget-eight-levers-and-three-workflow-patterns/ |
 | 2026-07-12 | Harness engineering for coding agent users | https://martinfowler.com/articles/harness-engineering.html |
+| 2026-07-13 | Agent Skills: The Context Engineering Revolution | https://www.blog.brightcoding.dev/2026/07/08/agent-skills-the-context-engineering-revolution |
+| 2026-07-13 | Using local LLMs for agentic coding | https://blog.alexewerlof.com/p/local-llms-for-agentic-coding |
+| 2026-07-13 | My LLM coding workflow going into 2026 | https://addyosmani.com/blog/ai-coding-workflow/ |
