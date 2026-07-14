@@ -19,3 +19,6 @@
 | 2026-07-14 | Harness Engineering for Self-Improvement | https://lilianweng.github.io/posts/2026-07-04-harness/ |
 | 2026-07-14 | Context Compaction Is a Decision, Not a Threshold | https://blakecrosley.com/blog/agent-context-compaction |
 | 2026-07-14 | Context management in agent harnesses: memory, files, and subagents | https://arize.com/blog/context-management-in-agent-harnesses/ |
+| 2026-07-15 | Loop Engineering: Designing the System That Drives the Agent Instead of Prompting It | https://saulius.io/blog/loop-engineering-systems-that-drive-agents |
+| 2026-07-15 | Optimizing Local LLM Context for Agentic Coding with Ollama and OpenCode | https://tkamucheka.github.io/blog/2026/02/15/opencode-ollama-integration/ |
+| 2026-07-15 | 12 Ways to Cut Token Consumption in Claude Code | https://www.firecrawl.dev/blog/claude-code-token-efficiency |
