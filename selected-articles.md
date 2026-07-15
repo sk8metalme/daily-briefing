@@ -22,3 +22,6 @@
 | 2026-07-15 | Loop Engineering: Designing the System That Drives the Agent Instead of Prompting It | https://saulius.io/blog/loop-engineering-systems-that-drive-agents |
 | 2026-07-15 | Optimizing Local LLM Context for Agentic Coding with Ollama and OpenCode | https://tkamucheka.github.io/blog/2026/02/15/opencode-ollama-integration/ |
 | 2026-07-15 | 12 Ways to Cut Token Consumption in Claude Code | https://www.firecrawl.dev/blog/claude-code-token-efficiency |
+| 2026-07-16 | Running Multiple AI Coding Agents in Parallel | https://zenvanriel.com/ai-engineer-blog/running-multiple-ai-coding-agents-parallel/ |
+| 2026-07-16 | Hidden Technical Debt of AI Systems: Agent Harness | https://leehanchung.github.io/blogs/2026/05/08/hidden-technical-debt-agent-harness/ |
+| 2026-07-16 | Running a Local Coding Agent with Gemma 4 and Pi | https://patloeber.com/gemma-4-pi-agent/ |
