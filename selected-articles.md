@@ -25,3 +25,6 @@
 | 2026-07-16 | Running Multiple AI Coding Agents in Parallel | https://zenvanriel.com/ai-engineer-blog/running-multiple-ai-coding-agents-parallel/ |
 | 2026-07-16 | Hidden Technical Debt of AI Systems: Agent Harness | https://leehanchung.github.io/blogs/2026/05/08/hidden-technical-debt-agent-harness/ |
 | 2026-07-16 | Running a Local Coding Agent with Gemma 4 and Pi | https://patloeber.com/gemma-4-pi-agent/ |
+| 2026-07-17 | Context Engineering for AI Agents: Lessons from Building Manus | https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus |
+| 2026-07-17 | Loop engineering: Getting started with loops | https://claude.com/blog/getting-started-with-loops |
+| 2026-07-17 | Stop wasting Claude tokens: 5 tricks I actually use every day | https://mydataschool.com/blog/how-to-save-tokens/ |
