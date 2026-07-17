@@ -28,3 +28,6 @@
 | 2026-07-17 | Context Engineering for AI Agents: Lessons from Building Manus | https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus |
 | 2026-07-17 | Loop engineering: Getting started with loops | https://claude.com/blog/getting-started-with-loops |
 | 2026-07-17 | Stop wasting Claude tokens: 5 tricks I actually use every day | https://mydataschool.com/blog/how-to-save-tokens/ |
+| 2026-07-18 | Agent Harness Engineering | https://addyosmani.com/blog/agent-harness-engineering/ |
+| 2026-07-18 | How to roll your own local AI coding agents | https://www.theregister.com/software/2026/05/02/how-to-roll-your-own-local-ai-coding-agents/5230018 |
+| 2026-07-18 | Reduce Wasted Tokens | https://gomzkov.medium.com/reduce-wasted-tokens-d36eb5b46442 |
