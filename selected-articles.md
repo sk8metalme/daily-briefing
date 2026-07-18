@@ -31,3 +31,6 @@
 | 2026-07-18 | Agent Harness Engineering | https://addyosmani.com/blog/agent-harness-engineering/ |
 | 2026-07-18 | How to roll your own local AI coding agents | https://www.theregister.com/software/2026/05/02/how-to-roll-your-own-local-ai-coding-agents/5230018 |
 | 2026-07-18 | Reduce Wasted Tokens | https://gomzkov.medium.com/reduce-wasted-tokens-d36eb5b46442 |
+| 2026-07-19 | Context Engineering for Commercial Agent Systems | https://www.jeremydaly.com/context-engineering-for-commercial-agent-systems/ |
+| 2026-07-19 | Feedback Loop Engineering | https://www.danieldemmel.me/blog/feedback-loop-engineering |
+| 2026-07-19 | I Tested 12 AI Dev Tools. I Kept Three | https://medium.com/@kuldeepjadeja7/i-tested-12-ai-dev-tools-i-kept-three-874476cef1c7 |
