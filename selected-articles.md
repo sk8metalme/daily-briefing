@@ -34,3 +34,6 @@
 | 2026-07-19 | Context Engineering for Commercial Agent Systems | https://www.jeremydaly.com/context-engineering-for-commercial-agent-systems/ |
 | 2026-07-19 | Feedback Loop Engineering | https://www.danieldemmel.me/blog/feedback-loop-engineering |
 | 2026-07-19 | I Tested 12 AI Dev Tools. I Kept Three | https://medium.com/@kuldeepjadeja7/i-tested-12-ai-dev-tools-i-kept-three-874476cef1c7 |
+| 2026-07-20 | 3つの手法でToken消費量40%削減 — ADKで実践するContext Engineering | https://techblog.lycorp.co.jp/ja/20260323b |
+| 2026-07-20 | The Agentic Loop: A Practical Field Guide | https://dev.to/truongpx396/the-agentic-loop-a-practical-field-guide-mnc |
+| 2026-07-20 | Run a Local Coding Agent End-to-End: Ollama + Qwen3-Coder + VS Code | https://llmconfigurator.com/en/guides/coding-agents/setup-local-coding-agent |
