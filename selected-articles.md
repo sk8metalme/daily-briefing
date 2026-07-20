@@ -37,3 +37,6 @@
 | 2026-07-20 | 3つの手法でToken消費量40%削減 — ADKで実践するContext Engineering | https://techblog.lycorp.co.jp/ja/20260323b |
 | 2026-07-20 | The Agentic Loop: A Practical Field Guide | https://dev.to/truongpx396/the-agentic-loop-a-practical-field-guide-mnc |
 | 2026-07-20 | Run a Local Coding Agent End-to-End: Ollama + Qwen3-Coder + VS Code | https://llmconfigurator.com/en/guides/coding-agents/setup-local-coding-agent |
+| 2026-07-21 | Skill Issue: Harness Engineering for Coding Agents | https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents |
+| 2026-07-21 | Context Engineering: A Practical Guide for AI Agents | https://sourcegraph.com/blog/context-engineering |
+| 2026-07-21 | The Art of Loop Engineering | https://www.langchain.com/blog/the-art-of-loop-engineering |
