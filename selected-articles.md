@@ -40,3 +40,6 @@
 | 2026-07-21 | Skill Issue: Harness Engineering for Coding Agents | https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents |
 | 2026-07-21 | Context Engineering: A Practical Guide for AI Agents | https://sourcegraph.com/blog/context-engineering |
 | 2026-07-21 | The Art of Loop Engineering | https://www.langchain.com/blog/the-art-of-loop-engineering |
+| 2026-07-22 | How We Cut LLM Costs by 59% With Prompt Caching | https://projectdiscovery.io/blog/how-we-cut-llm-cost-with-prompt-caching |
+| 2026-07-22 | How Agents Manage Other Agents: Four Subagents Patterns in 2026 | https://www.philschmid.de/subagent-patterns-2026 |
+| 2026-07-22 | Building an Evaluation Harness for Production AI Agents: A 12-Metric Framework From 100+ Deployments | https://towardsdatascience.com/building-an-evaluation-harness-for-production-ai-agents-a-12-metric-framework-from-100-deployments/ |
