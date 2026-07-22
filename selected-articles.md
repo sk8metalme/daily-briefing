@@ -43,3 +43,6 @@
 | 2026-07-22 | How We Cut LLM Costs by 59% With Prompt Caching | https://projectdiscovery.io/blog/how-we-cut-llm-cost-with-prompt-caching |
 | 2026-07-22 | How Agents Manage Other Agents: Four Subagents Patterns in 2026 | https://www.philschmid.de/subagent-patterns-2026 |
 | 2026-07-22 | Building an Evaluation Harness for Production AI Agents: A 12-Metric Framework From 100+ Deployments | https://towardsdatascience.com/building-an-evaluation-harness-for-production-ai-agents-a-12-metric-framework-from-100-deployments/ |
+| 2026-07-23 | How Anthropic Runs Large-Scale Code Migrations with Claude Code | https://claude.com/blog/ai-code-migration |
+| 2026-07-23 | Engineering Den: Claude Code Skills and Hooks for Frontend Teams | https://www.redpanda.com/blog/claude-code-skills-hooks-frontend |
+| 2026-07-23 | Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks | https://arxiv.org/abs/2601.06007 |
