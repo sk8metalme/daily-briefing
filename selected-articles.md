@@ -46,3 +46,6 @@
 | 2026-07-23 | How Anthropic Runs Large-Scale Code Migrations with Claude Code | https://claude.com/blog/ai-code-migration |
 | 2026-07-23 | Engineering Den: Claude Code Skills and Hooks for Frontend Teams | https://www.redpanda.com/blog/claude-code-skills-hooks-frontend |
 | 2026-07-23 | Don't Break the Cache: An Evaluation of Prompt Caching for Long-Horizon Agentic Tasks | https://arxiv.org/abs/2601.06007 |
+| 2026-07-24 | Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance | https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/ |
+| 2026-07-24 | From Conductor to Orchestrator: A Practical Guide to Multi-Agent Coding in 2026 | https://htdocs.dev/posts/from-conductor-to-orchestrator-a-practical-guide-to-multi-agent-coding-in-2026/ |
+| 2026-07-24 | Spring AI Agentic Patterns (Part 4): Subagent Orchestration | https://spring.io/blog/2026/01/27/spring-ai-agentic-patterns-4-task-subagents/ |
