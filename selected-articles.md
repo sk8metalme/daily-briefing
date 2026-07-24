@@ -49,3 +49,6 @@
 | 2026-07-24 | Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance | https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/ |
 | 2026-07-24 | From Conductor to Orchestrator: A Practical Guide to Multi-Agent Coding in 2026 | https://htdocs.dev/posts/from-conductor-to-orchestrator-a-practical-guide-to-multi-agent-coding-in-2026/ |
 | 2026-07-24 | Spring AI Agentic Patterns (Part 4): Subagent Orchestration | https://spring.io/blog/2026/01/27/spring-ai-agentic-patterns-4-task-subagents/ |
+| 2026-07-25 | Maintainability Sensors for Coding Agents | https://martinfowler.com/articles/sensors-for-coding-agents.html |
+| 2026-07-25 | Orchestrating AI Code Review at Scale | https://blog.cloudflare.com/ai-code-review/ |
+| 2026-07-25 | The Agent Loop Decoded: Three Levels Every Agent Engineer Must Know | https://blogs.oracle.com/developers/the-agent-loop-decoded-three-levels-every-agent-engineer-must-know |
