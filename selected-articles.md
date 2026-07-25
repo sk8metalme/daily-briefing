@@ -52,3 +52,6 @@
 | 2026-07-25 | Maintainability Sensors for Coding Agents | https://martinfowler.com/articles/sensors-for-coding-agents.html |
 | 2026-07-25 | Orchestrating AI Code Review at Scale | https://blog.cloudflare.com/ai-code-review/ |
 | 2026-07-25 | The Agent Loop Decoded: Three Levels Every Agent Engineer Must Know | https://blogs.oracle.com/developers/the-agent-loop-decoded-three-levels-every-agent-engineer-must-know |
+| 2026-07-26 | Building a Coding Agent From Scratch: Harness Architecture | https://www.decodingai.com/p/building-a-coding-agent-from-scratch-system-design |
+| 2026-07-26 | Context Engineering: Compaction & Agent Memory for Automated Malware Analysis | https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/ |
+| 2026-07-26 | Three Years of Building Agents in Production (Part 2) | https://www.mabl.com/blog/three-years-of-building-agents-in-production-part-2 |
