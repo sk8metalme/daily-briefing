@@ -55,3 +55,6 @@
 | 2026-07-26 | Building a Coding Agent From Scratch: Harness Architecture | https://www.decodingai.com/p/building-a-coding-agent-from-scratch-system-design |
 | 2026-07-26 | Context Engineering: Compaction & Agent Memory for Automated Malware Analysis | https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/ |
 | 2026-07-26 | Three Years of Building Agents in Production (Part 2) | https://www.mabl.com/blog/three-years-of-building-agents-in-production-part-2 |
+| 2026-07-27 | Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting | https://arxiv.org/abs/2607.00038 |
+| 2026-07-27 | Local Agentic Coding Workflow 2026: The Full Guide [Tested] | https://www.kunalganglani.com/blog/local-agentic-coding-workflow-2026 |
+| 2026-07-27 | The new rules of context engineering for Claude 5 generation models | https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models |
