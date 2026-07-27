@@ -58,3 +58,6 @@
 | 2026-07-27 | Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting | https://arxiv.org/abs/2607.00038 |
 | 2026-07-27 | Local Agentic Coding Workflow 2026: The Full Guide [Tested] | https://www.kunalganglani.com/blog/local-agentic-coding-workflow-2026 |
 | 2026-07-27 | The new rules of context engineering for Claude 5 generation models | https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models |
+| 2026-07-28 | Loop Engineering: How to Design Agent Loops That Actually Converge | https://www.developersdigest.tech/blog/loop-engineering-designing-agent-loops |
+| 2026-07-28 | Claude Code context window: one trick cuts tokens 64% | https://wotai.co/blog/claude-code-context-window |
+| 2026-07-28 | Stop Overengineering Your Agent Harness | https://hugobowne.substack.com/p/stop-overengineering-your-agent-harness |
