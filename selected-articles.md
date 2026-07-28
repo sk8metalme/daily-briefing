@@ -61,3 +61,6 @@
 | 2026-07-28 | Loop Engineering: How to Design Agent Loops That Actually Converge | https://www.developersdigest.tech/blog/loop-engineering-designing-agent-loops |
 | 2026-07-28 | Claude Code context window: one trick cuts tokens 64% | https://wotai.co/blog/claude-code-context-window |
 | 2026-07-28 | Stop Overengineering Your Agent Harness | https://hugobowne.substack.com/p/stop-overengineering-your-agent-harness |
+| 2026-07-29 | Orchestrating AI Agents: A Subagent Architecture | https://clouatre.ca/posts/orchestrating-ai-agents-subagent-architecture/ |
+| 2026-07-29 | Self-Compacting Language Model Agents | https://arxiv.org/abs/2606.23525 |
+| 2026-07-29 | Minimum VRAM for Local LLMs in 2026: GPU Tiers Tested | https://www.kunalganglani.com/blog/local-llms-complete-guide |
