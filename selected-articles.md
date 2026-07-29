@@ -64,3 +64,6 @@
 | 2026-07-29 | Orchestrating AI Agents: A Subagent Architecture | https://clouatre.ca/posts/orchestrating-ai-agents-subagent-architecture/ |
 | 2026-07-29 | Self-Compacting Language Model Agents | https://arxiv.org/abs/2606.23525 |
 | 2026-07-29 | Minimum VRAM for Local LLMs in 2026: GPU Tiers Tested | https://www.kunalganglani.com/blog/local-llms-complete-guide |
+| 2026-07-30 | An update on recent Claude Code quality reports | https://www.anthropic.com/engineering/april-23-postmortem |
+| 2026-07-30 | The Dirty Secret Behind Loop Engineering | https://dev.to/mcsee/the-dirty-secret-behind-loop-engineering-1748 |
+| 2026-07-30 | ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents | https://arxiv.org/abs/2604.10352 |
