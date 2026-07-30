@@ -67,3 +67,6 @@
 | 2026-07-30 | An update on recent Claude Code quality reports | https://www.anthropic.com/engineering/april-23-postmortem |
 | 2026-07-30 | The Dirty Secret Behind Loop Engineering | https://dev.to/mcsee/the-dirty-secret-behind-loop-engineering-1748 |
 | 2026-07-30 | ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents | https://arxiv.org/abs/2604.10352 |
+| 2026-07-31 | Architecting efficient context-aware multi-agent framework for production | https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/ |
+| 2026-07-31 | Improving token efficiency in GitHub Agentic Workflows | https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/ |
+| 2026-07-31 | Modern Agent Harness Blueprint 2026 | https://gist.github.com/amazingvince/52158d00fb8b3ba1b8476bc62bb562e3 |
