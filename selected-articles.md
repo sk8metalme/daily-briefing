@@ -70,3 +70,6 @@
 | 2026-07-31 | Architecting efficient context-aware multi-agent framework for production | https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/ |
 | 2026-07-31 | Improving token efficiency in GitHub Agentic Workflows | https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/ |
 | 2026-07-31 | Modern Agent Harness Blueprint 2026 | https://gist.github.com/amazingvince/52158d00fb8b3ba1b8476bc62bb562e3 |
+| 2026-08-01 | The actual science of prompt engineering for coding agents | https://bence-a-toth.medium.com/the-actual-science-of-prompt-engineering-for-coding-agents-d5f5c040263b |
+| 2026-08-01 | Miscellaneous Thoughts About Building Stuff with AI | https://www.brentozar.com/archive/2026/07/miscellaneous-thoughts-about-building-stuff-with-ai/ |
+| 2026-08-01 | Coding Agent Development Workflows | https://medium.com/nick-tune-tech-strategy-blog/coding-agent-development-workflows-af52e6f912aa |
