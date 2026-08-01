@@ -73,3 +73,6 @@
 | 2026-08-01 | The actual science of prompt engineering for coding agents | https://bence-a-toth.medium.com/the-actual-science-of-prompt-engineering-for-coding-agents-d5f5c040263b |
 | 2026-08-01 | Miscellaneous Thoughts About Building Stuff with AI | https://www.brentozar.com/archive/2026/07/miscellaneous-thoughts-about-building-stuff-with-ai/ |
 | 2026-08-01 | Coding Agent Development Workflows | https://medium.com/nick-tune-tech-strategy-blog/coding-agent-development-workflows-af52e6f912aa |
+| 2026-08-02 | Harness Engineering: From Agent Prompts to Engineering Control Systems | https://gtcode.com/articles/harness-engineering/ |
+| 2026-08-02 | Agent Context Compaction for Long-Running Sessions: Techniques and Tradeoffs | https://zylos.ai/research/2026-04-21-agent-context-compaction-long-running-sessions/ |
+| 2026-08-02 | Prompt Caching for AI Agents: How to Cut Cost and Latency Without Breaking Context | https://medium.com/toward-next-ai/prompt-caching-for-ai-agents-how-to-cut-cost-and-latency-without-breaking-context-245dc2502b4b |
