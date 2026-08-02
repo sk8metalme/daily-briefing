@@ -76,3 +76,6 @@
 | 2026-08-02 | Harness Engineering: From Agent Prompts to Engineering Control Systems | https://gtcode.com/articles/harness-engineering/ |
 | 2026-08-02 | Agent Context Compaction for Long-Running Sessions: Techniques and Tradeoffs | https://zylos.ai/research/2026-04-21-agent-context-compaction-long-running-sessions/ |
 | 2026-08-02 | Prompt Caching for AI Agents: How to Cut Cost and Latency Without Breaking Context | https://medium.com/toward-next-ai/prompt-caching-for-ai-agents-how-to-cut-cost-and-latency-without-breaking-context-245dc2502b4b |
+| 2026-08-03 | MCP tool design: Practical approaches and tradeoffs | https://aws.amazon.com/blogs/machine-learning/mcp-tool-design-practical-approaches-and-tradeoffs/ |
+| 2026-08-03 | Context Engineering: The 2026 Playbook for AI Agents | https://cruxdigits.nl/blog/context-engineering-ai-agents-2026/ |
+| 2026-08-03 | Case Study: AI Coding Rollout at a 100-Dev Team 2026 | https://www.digitalapplied.com/blog/case-study-ai-coding-rollout-100-dev-team-quarterly-data-2026 |
