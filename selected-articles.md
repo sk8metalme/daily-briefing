@@ -79,3 +79,6 @@
 | 2026-08-03 | MCP tool design: Practical approaches and tradeoffs | https://aws.amazon.com/blogs/machine-learning/mcp-tool-design-practical-approaches-and-tradeoffs/ |
 | 2026-08-03 | Context Engineering: The 2026 Playbook for AI Agents | https://cruxdigits.nl/blog/context-engineering-ai-agents-2026/ |
 | 2026-08-03 | Case Study: AI Coding Rollout at a 100-Dev Team 2026 | https://www.digitalapplied.com/blog/case-study-ai-coding-rollout-100-dev-team-quarterly-data-2026 |
+| 2026-08-04 | TRACE: Compiling User Corrections into Runtime Enforcement for Coding Agents | https://arxiv.org/abs/2606.13174 |
+| 2026-08-04 | Debugging multi-agent AI: When the failure is in the space between agents | https://blog.sentry.io/debugging-multi-agent-ai-when-the-failure-is-in-the-space-between-agents/ |
+| 2026-08-04 | How Coding Agents Fail Their Users: A Large-Scale Analysis of Developer-Agent Misalignment in 20,574 Real-World Sessions | https://arxiv.org/abs/2605.29442 |
