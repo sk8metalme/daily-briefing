@@ -82,3 +82,6 @@
 | 2026-08-04 | TRACE: Compiling User Corrections into Runtime Enforcement for Coding Agents | https://arxiv.org/abs/2606.13174 |
 | 2026-08-04 | Debugging multi-agent AI: When the failure is in the space between agents | https://blog.sentry.io/debugging-multi-agent-ai-when-the-failure-is-in-the-space-between-agents/ |
 | 2026-08-04 | How Coding Agents Fail Their Users: A Large-Scale Analysis of Developer-Agent Misalignment in 20,574 Real-World Sessions | https://arxiv.org/abs/2605.29442 |
+| 2026-08-05 | Claude Code Subagents and Multi-Agent Orchestration Guide | https://hidekazu-konishi.com/entry/claude_code_subagents_and_orchestration_guide.html |
+| 2026-08-05 | Leveling Up: The Current State of Self-Hosted Coding LLMs in August 2026 | https://dev.to/lightningdev123/leveling-up-the-current-state-of-self-hosted-coding-llms-in-august-2026-1pfb |
+| 2026-08-05 | Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI | https://arxiv.org/abs/2607.01418 |
