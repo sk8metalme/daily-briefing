@@ -85,3 +85,6 @@
 | 2026-08-05 | Claude Code Subagents and Multi-Agent Orchestration Guide | https://hidekazu-konishi.com/entry/claude_code_subagents_and_orchestration_guide.html |
 | 2026-08-05 | Leveling Up: The Current State of Self-Hosted Coding LLMs in August 2026 | https://dev.to/lightningdev123/leveling-up-the-current-state-of-self-hosted-coding-llms-in-august-2026-1pfb |
 | 2026-08-05 | Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI | https://arxiv.org/abs/2607.01418 |
+| 2026-08-06 | Using Subagents to Improve Claude Code Results | https://software.rajivprab.com/2026/07/13/using-subagents-to-improve-claude-code/ |
+| 2026-08-06 | Loop Engineering: How to Design Coding Agent Loops | https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026 |
+| 2026-08-06 | Local AI coding agent setup with OpenCode and Ollama | https://stridenote.net/local-ai-coding-agent-tutorial/ |
