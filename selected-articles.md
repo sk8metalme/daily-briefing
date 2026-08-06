@@ -88,3 +88,6 @@
 | 2026-08-06 | Using Subagents to Improve Claude Code Results | https://software.rajivprab.com/2026/07/13/using-subagents-to-improve-claude-code/ |
 | 2026-08-06 | Loop Engineering: How to Design Coding Agent Loops | https://explainx.ai/blog/loop-engineering-coding-agents-claude-code-guide-2026 |
 | 2026-08-06 | Local AI coding agent setup with OpenCode and Ollama | https://stridenote.net/local-ai-coding-agent-tutorial/ |
+| 2026-08-07 | Claude Code Hooks: From Linting to Hardened AI Workflows | https://thomas-wiegold.com/blog/claude-code-hooks/ |
+| 2026-08-07 | Speculative Decoding Is Finally Useful for Local LLMs | https://blog.bymar.co/posts/speculative-decoding-local-llms-2026/ |
+| 2026-08-07 | Claude Code Best Practices: 8 Rules I Learned the Hard Way | https://www.iwoszapar.com/p/claude-code-best-practices |
