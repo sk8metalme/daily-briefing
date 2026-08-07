@@ -91,3 +91,6 @@
 | 2026-08-07 | Claude Code Hooks: From Linting to Hardened AI Workflows | https://thomas-wiegold.com/blog/claude-code-hooks/ |
 | 2026-08-07 | Speculative Decoding Is Finally Useful for Local LLMs | https://blog.bymar.co/posts/speculative-decoding-local-llms-2026/ |
 | 2026-08-07 | Claude Code Best Practices: 8 Rules I Learned the Hard Way | https://www.iwoszapar.com/p/claude-code-best-practices |
+| 2026-08-08 | Harness Engineering Best Practices for Claude Code/Codex Users, Explained Plainly | https://nyosegawa.com/en/posts/harness-engineering-best-practices-2026/ |
+| 2026-08-08 | 11 Context Engineering Tips to Cut Coding Agent Tokens | https://www.decodingai.com/p/11-context-engineering-tips-cut-coding-agent-tokens |
+| 2026-08-08 | vLLM Complete Setup Guide for Local LLMs (2026): Install, Tune, Serve | https://localaimaster.com/blog/vllm-complete-setup-guide |
