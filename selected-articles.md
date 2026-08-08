@@ -94,3 +94,6 @@
 | 2026-08-08 | Harness Engineering Best Practices for Claude Code/Codex Users, Explained Plainly | https://nyosegawa.com/en/posts/harness-engineering-best-practices-2026/ |
 | 2026-08-08 | 11 Context Engineering Tips to Cut Coding Agent Tokens | https://www.decodingai.com/p/11-context-engineering-tips-cut-coding-agent-tokens |
 | 2026-08-08 | vLLM Complete Setup Guide for Local LLMs (2026): Install, Tune, Serve | https://localaimaster.com/blog/vllm-complete-setup-guide |
+| 2026-08-09 | Speaking to AI Agents like Cavemen Saves 65% of Tokens. We Test. | https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/ |
+| 2026-08-09 | Codex CLI Multi-Agent Orchestration v2: Complete Guide | https://codex.danielvaughan.com/2026/04/11/codex-cli-multi-agent-orchestration-v2-complete-guide/ |
+| 2026-08-09 | Local LLM vs Claude for Coding: $500 GPU Tested | https://www.kunalganglani.com/blog/local-llm-vs-claude-coding-benchmark |
