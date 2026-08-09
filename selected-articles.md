@@ -97,3 +97,6 @@
 | 2026-08-09 | Speaking to AI Agents like Cavemen Saves 65% of Tokens. We Test. | https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/ |
 | 2026-08-09 | Codex CLI Multi-Agent Orchestration v2: Complete Guide | https://codex.danielvaughan.com/2026/04/11/codex-cli-multi-agent-orchestration-v2-complete-guide/ |
 | 2026-08-09 | Local LLM vs Claude for Coding: $500 GPU Tested | https://www.kunalganglani.com/blog/local-llm-vs-claude-coding-benchmark |
+| 2026-08-10 | Instruction Adherence in Coding Agent Configuration Files: A Factorial Study of Four File-Structure Variables | https://arxiv.org/abs/2605.10039 |
+| 2026-08-10 | Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories | https://arxiv.org/abs/2607.27250 |
+| 2026-08-10 | Building your own PR reviewer with coding agents | https://www.huuhka.net/building-your-own-pr-reviewer-with-coding-agents/ |
