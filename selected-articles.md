@@ -98,5 +98,8 @@
 | 2026-08-09 | Codex CLI Multi-Agent Orchestration v2: Complete Guide | https://codex.danielvaughan.com/2026/04/11/codex-cli-multi-agent-orchestration-v2-complete-guide/ |
 | 2026-08-09 | Local LLM vs Claude for Coding: $500 GPU Tested | https://www.kunalganglani.com/blog/local-llm-vs-claude-coding-benchmark |
 | 2026-08-10 | Instruction Adherence in Coding Agent Configuration Files: A Factorial Study of Four File-Structure Variables | https://arxiv.org/abs/2605.10039 |
+| 2026-08-11 | The Code Agent Orchestra – what makes multi-agent coding work | https://addyosmani.com/blog/code-agent-orchestra/ |
+| 2026-08-11 | My Claude Code Setup After 4 Months of Daily Use (2026) | https://okhlopkov.com/claude-code-setup-mcp-hooks-skills-2026/ |
+| 2026-08-11 | Keep Agentic AI Simple: A Practical Workflow for Software Development | https://timdeschryver.dev/blog/keep-agentic-ai-simple-a-practical-workflow-for-software-development |
 | 2026-08-10 | Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories | https://arxiv.org/abs/2607.27250 |
 | 2026-08-10 | Building your own PR reviewer with coding agents | https://www.huuhka.net/building-your-own-pr-reviewer-with-coding-agents/ |
