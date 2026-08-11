@@ -103,3 +103,6 @@
 | 2026-08-11 | Keep Agentic AI Simple: A Practical Workflow for Software Development | https://timdeschryver.dev/blog/keep-agentic-ai-simple-a-practical-workflow-for-software-development |
 | 2026-08-10 | Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories | https://arxiv.org/abs/2607.27250 |
 | 2026-08-10 | Building your own PR reviewer with coding agents | https://www.huuhka.net/building-your-own-pr-reviewer-with-coding-agents/ |
+| 2026-08-12 | Coding Agents Don't Need Bigger Context Windows — They Need a Context Compiler | https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/ |
+| 2026-08-12 | The Context Window Gap: Why Codex CLI Caps GPT-5.6's Million-Token Window at 272K | https://codex.danielvaughan.com/2026/07/20/context-window-gap-codex-cli-gpt56-advertised-vs-effective-budget-compaction-strategy/ |
+| 2026-08-12 | Loop Engineering for AI Agents: Implementation Beyond Theory | https://pub.towardsai.net/loop-engineering-for-ai-agents-implementation-beyond-theory-f92cd3a79f19 |
