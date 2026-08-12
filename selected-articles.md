@@ -106,3 +106,6 @@
 | 2026-08-12 | Coding Agents Don't Need Bigger Context Windows — They Need a Context Compiler | https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/ |
 | 2026-08-12 | The Context Window Gap: Why Codex CLI Caps GPT-5.6's Million-Token Window at 272K | https://codex.danielvaughan.com/2026/07/20/context-window-gap-codex-cli-gpt56-advertised-vs-effective-budget-compaction-strategy/ |
 | 2026-08-12 | Loop Engineering for AI Agents: Implementation Beyond Theory | https://pub.towardsai.net/loop-engineering-for-ai-agents-implementation-beyond-theory-f92cd3a79f19 |
+| 2026-08-13 | How I Cut an AI Agent's Token Use by 94% | https://vivekhaldar.com/articles/compiling-an-ai-agent-skill/ |
+| 2026-08-13 | A Practical Guide to Reducing Token Spend | https://www.adamhjk.com/blog/a-practical-guide-to-reducing-token-spend/ |
+| 2026-08-13 | Claude Code Hooks Explained: The Deterministic Layer Around Your Agent | https://blakecrosley.com/blog/claude-code-hooks-explained |
