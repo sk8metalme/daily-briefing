@@ -109,3 +109,6 @@
 | 2026-08-13 | How I Cut an AI Agent's Token Use by 94% | https://vivekhaldar.com/articles/compiling-an-ai-agent-skill/ |
 | 2026-08-13 | A Practical Guide to Reducing Token Spend | https://www.adamhjk.com/blog/a-practical-guide-to-reducing-token-spend/ |
 | 2026-08-13 | Claude Code Hooks Explained: The Deterministic Layer Around Your Agent | https://blakecrosley.com/blog/claude-code-hooks-explained |
+| 2026-08-14 | Claude Code Advanced Best Practices: 11 Practical Techniques for Hooks, Subagents & Context Management | https://smartscope.blog/en/generative-ai/claude/claude-code-best-practices-advanced-2026/ |
+| 2026-08-14 | How prompt caching cut our production AI agent input costs by 77% | https://derivai.substack.com/p/prompt-caching-production-ai-agent-costs |
+| 2026-08-14 | Speculative Decoding for Local LLMs in 2026: The Setup That Doubles Your Tokens per Second (and When It Backfires) | https://runaihome.com/blog/speculative-decoding-llama-cpp-local-llm-setup-2026/ |
