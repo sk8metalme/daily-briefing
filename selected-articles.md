@@ -112,3 +112,6 @@
 | 2026-08-14 | Claude Code Advanced Best Practices: 11 Practical Techniques for Hooks, Subagents & Context Management | https://smartscope.blog/en/generative-ai/claude/claude-code-best-practices-advanced-2026/ |
 | 2026-08-14 | How prompt caching cut our production AI agent input costs by 77% | https://derivai.substack.com/p/prompt-caching-production-ai-agent-costs |
 | 2026-08-14 | Speculative Decoding for Local LLMs in 2026: The Setup That Doubles Your Tokens per Second (and When It Backfires) | https://runaihome.com/blog/speculative-decoding-llama-cpp-local-llm-setup-2026/ |
+| 2026-08-15 | AGENTS.md, SKILL.md, DESIGN.md: How AI Instructions Split into Three Layers | https://dev.to/aws-builders/agentsmd-skillmd-designmd-how-ai-instructions-split-into-three-layers-d0g |
+| 2026-08-15 | Ollama Performance Tuning: Batching, KV Cache, and OOM | https://eastondev.com/blog/en/posts/ai/20260410-ollama-performance-optimization/ |
+| 2026-08-15 | Lessons Learned from Deploying AI Agents in Production | https://harness-engineering.ai/blog/lessons-learned-from-deploying-ai-agents-in-production/ |
