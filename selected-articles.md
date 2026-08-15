@@ -115,3 +115,6 @@
 | 2026-08-15 | AGENTS.md, SKILL.md, DESIGN.md: How AI Instructions Split into Three Layers | https://dev.to/aws-builders/agentsmd-skillmd-designmd-how-ai-instructions-split-into-three-layers-d0g |
 | 2026-08-15 | Ollama Performance Tuning: Batching, KV Cache, and OOM | https://eastondev.com/blog/en/posts/ai/20260410-ollama-performance-optimization/ |
 | 2026-08-15 | Lessons Learned from Deploying AI Agents in Production | https://harness-engineering.ai/blog/lessons-learned-from-deploying-ai-agents-in-production/ |
+| 2026-08-16 | What Context Does a Coding Agent Actually Need to Act? | https://arxiv.org/abs/2607.09691 |
+| 2026-08-16 | Harness Engineering for Agentic AI Coding Tools: An Exploratory Study | https://arxiv.org/abs/2602.14690 |
+| 2026-08-16 | My Agentic Development Workflow (as of July 2026) | https://vishsubramanian.me/my-agentic-development-workflow-as-of-july-2026/ |
