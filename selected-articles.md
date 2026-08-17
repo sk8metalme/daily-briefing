@@ -121,3 +121,6 @@
 | 2026-08-17 | Code execution with MCP: building more efficient AI agents | https://www.anthropic.com/engineering/code-execution-with-mcp |
 | 2026-08-17 | Background Coding Agents: Predictable Results Through Strong Feedback Loops (Honk, Part 3) | https://engineering.atspotify.com/2025/12/feedback-loops-background-coding-agents-part-3 |
 | 2026-08-17 | One llama.cpp Update Made Local AI 65% Faster | https://python.plainenglish.io/one-llama-cpp-update-made-local-ai-65-faster-78e5ee25a82e |
+| 2026-08-18 | I Didn't Know I Was Doing Harness Engineering | https://dev.to/tomtokita/i-didnt-know-i-was-doing-harness-engineering-5a01 |
+| 2026-08-18 | A GPU-Poor's Guide to Local LLM Inference in 2026 | https://pub.towardsai.net/a-gpu-poors-guide-to-local-llm-inference-in-2026-48d59cafd215 |
+| 2026-08-18 | Introducing Dynamic Subagents in Deep Agents | https://www.langchain.com/blog/introducing-dynamic-subagents-in-deep-agents |
