@@ -124,3 +124,6 @@
 | 2026-08-18 | I Didn't Know I Was Doing Harness Engineering | https://dev.to/tomtokita/i-didnt-know-i-was-doing-harness-engineering-5a01 |
 | 2026-08-18 | A GPU-Poor's Guide to Local LLM Inference in 2026 | https://pub.towardsai.net/a-gpu-poors-guide-to-local-llm-inference-in-2026-48d59cafd215 |
 | 2026-08-18 | Introducing Dynamic Subagents in Deep Agents | https://www.langchain.com/blog/introducing-dynamic-subagents-in-deep-agents |
+| 2026-08-19 | Engineering MCP Tools for Token Efficiency | https://compilersaysno.com/posts/engineering-mcp-tools-for-token-efficiency/ |
+| 2026-08-19 | How I Use AI in 2026 (Coding, Writing, Learning, Assistant-ing) | https://blog.sshh.io/p/how-i-use-ai-in-2026-coding-writing |
+| 2026-08-19 | Claude Code Subagents: A 2026 Practical Guide | https://www.tembo.io/blog/claude-code-subagents |
