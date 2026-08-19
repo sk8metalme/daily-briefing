@@ -127,3 +127,6 @@
 | 2026-08-19 | Engineering MCP Tools for Token Efficiency | https://compilersaysno.com/posts/engineering-mcp-tools-for-token-efficiency/ |
 | 2026-08-19 | How I Use AI in 2026 (Coding, Writing, Learning, Assistant-ing) | https://blog.sshh.io/p/how-i-use-ai-in-2026-coding-writing |
 | 2026-08-19 | Claude Code Subagents: A 2026 Practical Guide | https://www.tembo.io/blog/claude-code-subagents |
+| 2026-08-20 | My Agentic Coding Setup, July 2026 | https://domenic.me/agentic-coding-setup/ |
+| 2026-08-20 | I tried to organize the state of local LLMs in the summer of 2026 | https://dev.classmethod.jp/en/articles/local-llm-guide-2026-summer/ |
+| 2026-08-20 | Minions: Stripe's one-shot, end-to-end coding agents—Part 2 | https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2 |
