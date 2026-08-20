@@ -130,3 +130,6 @@
 | 2026-08-20 | My Agentic Coding Setup, July 2026 | https://domenic.me/agentic-coding-setup/ |
 | 2026-08-20 | I tried to organize the state of local LLMs in the summer of 2026 | https://dev.classmethod.jp/en/articles/local-llm-guide-2026-summer/ |
 | 2026-08-20 | Minions: Stripe's one-shot, end-to-end coding agents—Part 2 | https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents-part-2 |
+| 2026-08-21 | LoopsBench: From Harness Engineering to Loop Engineering in Coding Agent Evaluation | https://arxiv.org/abs/2608.00267 |
+| 2026-08-21 | Prompt-Induced Waste in Large Reasoning Models: A Preregistered Two-Harness Benchmark of Coding Agents | https://arxiv.org/abs/2608.01347 |
+| 2026-08-21 | AI Agent Memory Design Guide - Working, Long-Term, and Procedural Memory with Forgetting and Staleness Management | https://hidekazu-konishi.com/entry/ai_agent_memory_design_guide.html |
