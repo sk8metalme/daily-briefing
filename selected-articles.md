@@ -133,3 +133,6 @@
 | 2026-08-21 | LoopsBench: From Harness Engineering to Loop Engineering in Coding Agent Evaluation | https://arxiv.org/abs/2608.00267 |
 | 2026-08-21 | Prompt-Induced Waste in Large Reasoning Models: A Preregistered Two-Harness Benchmark of Coding Agents | https://arxiv.org/abs/2608.01347 |
 | 2026-08-21 | AI Agent Memory Design Guide - Working, Long-Term, and Procedural Memory with Forgetting and Staleness Management | https://hidekazu-konishi.com/entry/ai_agent_memory_design_guide.html |
+| 2026-08-22 | Don't Classify. Hallucinate! | https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications |
+| 2026-08-22 | Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript | https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/ |
+| 2026-08-22 | How Stripe Built Their Knowledge AI Platform on Deep Agents | https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents |
