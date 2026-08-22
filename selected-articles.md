@@ -136,3 +136,6 @@
 | 2026-08-22 | Don't Classify. Hallucinate! | https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications |
 | 2026-08-22 | Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript | https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/ |
 | 2026-08-22 | How Stripe Built Their Knowledge AI Platform on Deep Agents | https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents |
+| 2026-08-23 | Context Engineering in 2026: Why We Stopped Compacting Our Agent's Context | https://www.louisbouchard.ai/context-engineering-2026/ |
+| 2026-08-23 | Reducing MCP token usage by 100x — you don't need code mode | https://www.speakeasy.com/blog/how-we-reduced-token-usage-by-100x-dynamic-toolsets-v2/ |
+| 2026-08-23 | Claude Code Architecture (Reverse Engineered) | https://vrungta.substack.com/p/claude-code-architecture-reverse |
