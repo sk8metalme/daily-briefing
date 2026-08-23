@@ -139,3 +139,6 @@
 | 2026-08-23 | Context Engineering in 2026: Why We Stopped Compacting Our Agent's Context | https://www.louisbouchard.ai/context-engineering-2026/ |
 | 2026-08-23 | Reducing MCP token usage by 100x — you don't need code mode | https://www.speakeasy.com/blog/how-we-reduced-token-usage-by-100x-dynamic-toolsets-v2/ |
 | 2026-08-23 | Claude Code Architecture (Reverse Engineered) | https://vrungta.substack.com/p/claude-code-architecture-reverse |
+| 2026-08-24 | Claude Code Subagents: The 2026 Production Playbook | https://www.totalum.app/blog/claude-code-subagents-totalum |
+| 2026-08-24 | Harness, Graph, and Loop Engineering — How to Evolve From Prompts and Context | https://sarthakai.substack.com/p/harness-graph-and-loop-engineering |
+| 2026-08-24 | MCP Tool Schema Design Guide 2026 — 7 Principles for name, description, inputSchema, and annotations | https://kansei-link.com/en/insights/mcp-tool-schema-design-guide-2026.html |
