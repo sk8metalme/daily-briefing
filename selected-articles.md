@@ -142,3 +142,6 @@
 | 2026-08-24 | Claude Code Subagents: The 2026 Production Playbook | https://www.totalum.app/blog/claude-code-subagents-totalum |
 | 2026-08-24 | Harness, Graph, and Loop Engineering — How to Evolve From Prompts and Context | https://sarthakai.substack.com/p/harness-graph-and-loop-engineering |
 | 2026-08-24 | MCP Tool Schema Design Guide 2026 — 7 Principles for name, description, inputSchema, and annotations | https://kansei-link.com/en/insights/mcp-tool-schema-design-guide-2026.html |
+| 2026-08-25 | Building an internal agent: Context window compaction | https://lethain.com/agents-context-compaction/ |
+| 2026-08-25 | Skills vs Hooks vs Prompts: Claude Code Decision Guide (2026) | https://explainx.ai/blog/skills-vs-hooks-vs-prompts-when-to-use-each-2026 |
+| 2026-08-25 | Claude Code Token Optimization: Full System Guide (2026) | https://buildtolaunch.substack.com/p/claude-code-token-optimization |
