@@ -145,3 +145,6 @@
 | 2026-08-25 | Building an internal agent: Context window compaction | https://lethain.com/agents-context-compaction/ |
 | 2026-08-25 | Skills vs Hooks vs Prompts: Claude Code Decision Guide (2026) | https://explainx.ai/blog/skills-vs-hooks-vs-prompts-when-to-use-each-2026 |
 | 2026-08-25 | Claude Code Token Optimization: Full System Guide (2026) | https://buildtolaunch.substack.com/p/claude-code-token-optimization |
+| 2026-08-26 | Harness engineering for coding agent users | https://martinfowler.com/articles/harness-engineering.html |
+| 2026-08-26 | GitHub MCP Token Cost: A 2026 Autopsy and 4 Fixes | https://getunblocked.com/blog/github-mcp-token-cost/ |
+| 2026-08-26 | Spec-Driven Development in 2026: What It Is, the Tooling, and How Teams Actually Use It | https://dev.to/krlz/spec-driven-development-in-2026-what-it-is-the-tooling-and-how-teams-actually-use-it-2fk2 |
