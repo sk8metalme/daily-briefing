@@ -148,3 +148,6 @@
 | 2026-08-26 | Harness engineering for coding agent users | https://martinfowler.com/articles/harness-engineering.html |
 | 2026-08-26 | GitHub MCP Token Cost: A 2026 Autopsy and 4 Fixes | https://getunblocked.com/blog/github-mcp-token-cost/ |
 | 2026-08-26 | Spec-Driven Development in 2026: What It Is, the Tooling, and How Teams Actually Use It | https://dev.to/krlz/spec-driven-development-in-2026-what-it-is-the-tooling-and-how-teams-actually-use-it-2fk2 |
+| 2026-08-27 | How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep | https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep |
+| 2026-08-27 | We removed 80% of our agent's tools | https://vercel.com/blog/we-removed-80-percent-of-our-agents-tools |
+| 2026-08-27 | MCP compression: Preventing tool bloat in AI agents | https://www.atlassian.com/blog/developer/mcp-compression-preventing-tool-bloat-in-ai-agents/ |
