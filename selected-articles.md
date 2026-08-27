@@ -151,3 +151,6 @@
 | 2026-08-27 | How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep | https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep |
 | 2026-08-27 | We removed 80% of our agent's tools | https://vercel.com/blog/we-removed-80-percent-of-our-agents-tools |
 | 2026-08-27 | MCP compression: Preventing tool bloat in AI agents | https://www.atlassian.com/blog/developer/mcp-compression-preventing-tool-bloat-in-ai-agents/ |
+| 2026-08-28 | The Hidden Cost of Fewer Tokens | https://outpost.ranger.net/post/the-hidden-cost-of-fewer-tokens/ |
+| 2026-08-28 | llama.cpp Speculative Decoding: Does It Work on Cheap GPUs? | https://inventivehq.com/blog/llama-cpp-speculative-decoding-consumer-gpu |
+| 2026-08-28 | Build a Coding Agent from Scratch: Prompt Compaction | https://justacuriousengineer.substack.com/p/build-a-coding-agent-from-scratch-aac |
