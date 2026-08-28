@@ -154,3 +154,6 @@
 | 2026-08-28 | The Hidden Cost of Fewer Tokens | https://outpost.ranger.net/post/the-hidden-cost-of-fewer-tokens/ |
 | 2026-08-28 | llama.cpp Speculative Decoding: Does It Work on Cheap GPUs? | https://inventivehq.com/blog/llama-cpp-speculative-decoding-consumer-gpu |
 | 2026-08-28 | Build a Coding Agent from Scratch: Prompt Compaction | https://justacuriousengineer.substack.com/p/build-a-coding-agent-from-scratch-aac |
+| 2026-08-29 | Agentic Engineering at Zalando: a snapshot | https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html |
+| 2026-08-29 | 2026年6月版 AIエージェントを本当に使いこなすコツ ― 調査・設計・コーディング別 実践ガイド | https://qiita.com/yun_bow/items/d35ddd7b41d9a9875f15 |
+| 2026-08-29 | ローカルLLM KV キャッシュ量子化ガイド 2026年版：llama.cpp / vLLM で KV Cache を Q4 / Q8 に落として VRAM と tok/sec はどう変わるか | https://mypcrig.com/blog/local-llm-kv-cache-quantization-guide-2026/ |
