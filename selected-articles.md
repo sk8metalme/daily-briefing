@@ -157,3 +157,6 @@
 | 2026-08-29 | Agentic Engineering at Zalando: a snapshot | https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html |
 | 2026-08-29 | 2026年6月版 AIエージェントを本当に使いこなすコツ ― 調査・設計・コーディング別 実践ガイド | https://qiita.com/yun_bow/items/d35ddd7b41d9a9875f15 |
 | 2026-08-29 | ローカルLLM KV キャッシュ量子化ガイド 2026年版：llama.cpp / vLLM で KV Cache を Q4 / Q8 に落として VRAM と tok/sec はどう変わるか | https://mypcrig.com/blog/local-llm-kv-cache-quantization-guide-2026/ |
+| 2026-08-30 | Hooks are guarantees, skills are knowledge, subagents are other people | https://nick-liu.com/posts/claude-code-skills-hooks-subagents/ |
+| 2026-08-30 | ローカルLLMがエージェントになれる/なれない境界線は4段階あった ― 7モデル横断検証 | https://zenn.dev/komachi/articles/b3869383928117 |
+| 2026-08-30 | Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows | https://arxiv.org/abs/2605.27922 |
