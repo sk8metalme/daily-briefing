@@ -160,3 +160,6 @@
 | 2026-08-30 | Hooks are guarantees, skills are knowledge, subagents are other people | https://nick-liu.com/posts/claude-code-skills-hooks-subagents/ |
 | 2026-08-30 | ローカルLLMがエージェントになれる/なれない境界線は4段階あった ― 7モデル横断検証 | https://zenn.dev/komachi/articles/b3869383928117 |
 | 2026-08-30 | Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows | https://arxiv.org/abs/2605.27922 |
+| 2026-08-31 | Claude Code Hooks, Skills and Subagents: a Practical Setup | https://dev.paczesny.pl/blog/en/how-to-setup-claude-code-hooks-skills |
+| 2026-08-31 | ローカル LLM 雑感 (2026-08) | https://voluntas.ghost.io/local-llm-2026-08/ |
+| 2026-08-31 | Context Compaction Theory | https://arxiv.org/abs/2608.01326 |
