@@ -163,3 +163,6 @@
 | 2026-08-31 | Claude Code Hooks, Skills and Subagents: a Practical Setup | https://dev.paczesny.pl/blog/en/how-to-setup-claude-code-hooks-skills |
 | 2026-08-31 | ローカル LLM 雑感 (2026-08) | https://voluntas.ghost.io/local-llm-2026-08/ |
 | 2026-08-31 | Context Compaction Theory | https://arxiv.org/abs/2608.01326 |
+| 2026-09-01 | Practical Loop Engineering | https://addyosmani.com/blog/practical-loop-engineering/ |
+| 2026-09-01 | What Is Context Engineering? A Practical Guide from Building 50 Production AI Agents | https://htek.dev/articles/what-is-context-engineering-practical-guide-50-agents |
+| 2026-09-01 | Designing a Token-Efficient MCP Server: the OctoPerf Approach | https://blog.octoperf.com/designing-a-token-efficient-mcp-server-the-octoperf-approach/ |
