@@ -166,3 +166,6 @@
 | 2026-09-01 | Practical Loop Engineering | https://addyosmani.com/blog/practical-loop-engineering/ |
 | 2026-09-01 | What Is Context Engineering? A Practical Guide from Building 50 Production AI Agents | https://htek.dev/articles/what-is-context-engineering-practical-guide-50-agents |
 | 2026-09-01 | Designing a Token-Efficient MCP Server: the OctoPerf Approach | https://blog.octoperf.com/designing-a-token-efficient-mcp-server-the-octoperf-approach/ |
+| 2026-09-02 | Okta targets AI agent token costs with MCP scoping | https://michaelbriancotter.wordpress.com/2026/08/13/okta-targets-ai-agent-token-costs-with-mcp-scoping/ |
+| 2026-09-02 | Q4_K_M vs Q4_0 vs Q8_0: LLM Quantization Explained (2026) | https://www.promptquorum.com/local-llms/llm-quantization-explained |
+| 2026-09-02 | How I Reduced AI Coding Agent Token Waste by 70% | https://journal.hexmos.com/token-reduction-tools/ |
