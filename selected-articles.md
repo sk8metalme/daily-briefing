@@ -169,3 +169,6 @@
 | 2026-09-02 | Okta targets AI agent token costs with MCP scoping | https://michaelbriancotter.wordpress.com/2026/08/13/okta-targets-ai-agent-token-costs-with-mcp-scoping/ |
 | 2026-09-02 | Q4_K_M vs Q4_0 vs Q8_0: LLM Quantization Explained (2026) | https://www.promptquorum.com/local-llms/llm-quantization-explained |
 | 2026-09-02 | How I Reduced AI Coding Agent Token Waste by 70% | https://journal.hexmos.com/token-reduction-tools/ |
+| 2026-09-03 | Claude Codeで個人開発を1ヶ月やって、たどり着いた開発プロセスの話 | https://qiita.com/ebichan_88/items/eead0724e9b5eb0d0120 |
+| 2026-09-03 | Agent Memory Inside the Harness | https://www.mongodb.com/company/blog/technical/agent-memory-inside-harness |
+| 2026-09-03 | Claude Code Context Buffer: The 33K-45K Token Problem | https://claudefa.st/blog/guide/mechanics/context-buffer-management |
