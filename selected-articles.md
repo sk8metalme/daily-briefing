@@ -172,3 +172,6 @@
 | 2026-09-03 | Claude Codeで個人開発を1ヶ月やって、たどり着いた開発プロセスの話 | https://qiita.com/ebichan_88/items/eead0724e9b5eb0d0120 |
 | 2026-09-03 | Agent Memory Inside the Harness | https://www.mongodb.com/company/blog/technical/agent-memory-inside-harness |
 | 2026-09-03 | Claude Code Context Buffer: The 33K-45K Token Problem | https://claudefa.st/blog/guide/mechanics/context-buffer-management |
+| 2026-09-04 | Claude API のプロンプトキャッシュ(prompt caching)で入力コストを最大9割削減する実装手順 | https://qiita.com/yureki_lab/items/597241551c27c843295f |
+| 2026-09-04 | 自宅でローカルLLMを動かしてみた ローカルなら実現できる遊びとこだわり | https://gihyo.jp/article/2026/09/home-local-llm-guide |
+| 2026-09-04 | The Agentic Loop: A Practical Field Guide | https://dev.to/truongpx396/the-agentic-loop-a-practical-field-guide-mnc |
