@@ -175,3 +175,6 @@
 | 2026-09-04 | Claude API のプロンプトキャッシュ(prompt caching)で入力コストを最大9割削減する実装手順 | https://qiita.com/yureki_lab/items/597241551c27c843295f |
 | 2026-09-04 | 自宅でローカルLLMを動かしてみた ローカルなら実現できる遊びとこだわり | https://gihyo.jp/article/2026/09/home-local-llm-guide |
 | 2026-09-04 | The Agentic Loop: A Practical Field Guide | https://dev.to/truongpx396/the-agentic-loop-a-practical-field-guide-mnc |
+| 2026-09-05 | The Compaction Cliff in Long-Running AI Agent Memory | https://arxiv.org/abs/2608.22752 |
+| 2026-09-05 | 2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較 | https://zenn.dev/secure_auto_lab/articles/local-llm-5model-benchmark-2026 |
+| 2026-09-05 | Six AI Coding Agent Incidents in One Month: A Containment Checklist for Tech Leads | https://luonghongthuan.com/en/blog/ai-coding-agent-incidents-august-2026-checklist/ |
