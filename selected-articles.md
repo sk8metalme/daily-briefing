@@ -178,3 +178,6 @@
 | 2026-09-05 | The Compaction Cliff in Long-Running AI Agent Memory | https://arxiv.org/abs/2608.22752 |
 | 2026-09-05 | 2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較 | https://zenn.dev/secure_auto_lab/articles/local-llm-5model-benchmark-2026 |
 | 2026-09-05 | Six AI Coding Agent Incidents in One Month: A Containment Checklist for Tech Leads | https://luonghongthuan.com/en/blog/ai-coding-agent-incidents-august-2026-checklist/ |
+| 2026-09-06 | Stop giving your coding agent a million-token context window | https://workos.com/blog/coding-agent-context-window-compaction-settings |
+| 2026-09-06 | ローカルLLM編成が単独のフロンティアAIを超えた日 | https://zenn.dev/nrs/articles/b920540a64e1a1 |
+| 2026-09-06 | Context as an Environment: Programmatic Context Management for Long-Horizon Agents | https://arxiv.org/abs/2608.21690 |
