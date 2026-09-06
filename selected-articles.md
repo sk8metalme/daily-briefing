@@ -181,3 +181,6 @@
 | 2026-09-06 | Stop giving your coding agent a million-token context window | https://workos.com/blog/coding-agent-context-window-compaction-settings |
 | 2026-09-06 | ローカルLLM編成が単独のフロンティアAIを超えた日 | https://zenn.dev/nrs/articles/b920540a64e1a1 |
 | 2026-09-06 | Context as an Environment: Programmatic Context Management for Long-Horizon Agents | https://arxiv.org/abs/2608.21690 |
+| 2026-09-07 | How I Use Every Claude Code Feature | https://blog.sshh.io/p/how-i-use-every-claude-code-feature |
+| 2026-09-07 | RigorBench: Benchmarking Engineering Process Discipline in Autonomous AI Coding Agents | https://arxiv.org/abs/2606.22678 |
+| 2026-09-07 | Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents | https://arxiv.org/abs/2606.08151 |
