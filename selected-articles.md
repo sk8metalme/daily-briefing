@@ -184,3 +184,6 @@
 | 2026-09-07 | How I Use Every Claude Code Feature | https://blog.sshh.io/p/how-i-use-every-claude-code-feature |
 | 2026-09-07 | RigorBench: Benchmarking Engineering Process Discipline in Autonomous AI Coding Agents | https://arxiv.org/abs/2606.22678 |
 | 2026-09-07 | Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents | https://arxiv.org/abs/2606.08151 |
+| 2026-09-08 | Claude Code Workflows: Deterministic Multi-Agent Orchestration | https://alexop.dev/posts/claude-code-workflows-deterministic-orchestration/ |
+| 2026-09-08 | Codified Context: Infrastructure for AI Agents in a Complex Codebase | https://arxiv.org/abs/2602.20478 |
+| 2026-09-08 | ローカルLLMコーディングエージェントは重くて賢いモデルと軽くて新しいモデルを組み合わせるようになるんでは | https://nowokay.hatenablog.com/entry/2026/04/28/050922 |
