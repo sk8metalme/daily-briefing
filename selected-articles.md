@@ -187,3 +187,6 @@
 | 2026-09-08 | Claude Code Workflows: Deterministic Multi-Agent Orchestration | https://alexop.dev/posts/claude-code-workflows-deterministic-orchestration/ |
 | 2026-09-08 | Codified Context: Infrastructure for AI Agents in a Complex Codebase | https://arxiv.org/abs/2602.20478 |
 | 2026-09-08 | ローカルLLMコーディングエージェントは重くて賢いモデルと軽くて新しいモデルを組み合わせるようになるんでは | https://nowokay.hatenablog.com/entry/2026/04/28/050922 |
+| 2026-09-09 | Agent Skills Are Not Documents — They Are Onboarding for Agents | https://dev.to/weiwuji/agent-skills-are-not-documents-they-are-onboarding-for-agents-4k48 |
+| 2026-09-09 | Same Model, Different Harness: Different Coding-Agent Results | https://arxiv.org/abs/2608.26218 |
+| 2026-09-09 | LocalLLMの現状とRAGとの組み合わせで「何が変わり、何がまだ動かないか」— 2026年の中間報告 | https://zenn.dev/76hata/articles/localllm-rag-2026-assessment |
