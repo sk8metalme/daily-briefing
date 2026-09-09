@@ -190,3 +190,6 @@
 | 2026-09-09 | Agent Skills Are Not Documents — They Are Onboarding for Agents | https://dev.to/weiwuji/agent-skills-are-not-documents-they-are-onboarding-for-agents-4k48 |
 | 2026-09-09 | Same Model, Different Harness: Different Coding-Agent Results | https://arxiv.org/abs/2608.26218 |
 | 2026-09-09 | LocalLLMの現状とRAGとの組み合わせで「何が変わり、何がまだ動かないか」— 2026年の中間報告 | https://zenn.dev/76hata/articles/localllm-rag-2026-assessment |
+| 2026-09-10 | From 1 Bloated Context Window to 6 Scoped Subagents | https://www.decodingai.com/p/subagents-are-context-engineering |
+| 2026-09-10 | vLLM x AgentX: Optimizing for Real-World Agentic Serving | https://vllm.ai/blog/2026-09-08-vllm-agentx |
+| 2026-09-10 | Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents | https://arxiv.org/abs/2609.00006 |
