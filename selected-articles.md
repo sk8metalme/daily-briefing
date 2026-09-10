@@ -193,3 +193,6 @@
 | 2026-09-10 | From 1 Bloated Context Window to 6 Scoped Subagents | https://www.decodingai.com/p/subagents-are-context-engineering |
 | 2026-09-10 | vLLM x AgentX: Optimizing for Real-World Agentic Serving | https://vllm.ai/blog/2026-09-08-vllm-agentx |
 | 2026-09-10 | Harness Engineering: Anatomy, Architecture, and Evolution of Coding Agents | https://arxiv.org/abs/2609.00006 |
+| 2026-09-11 | A Practical Guide to Building MCP Servers in the Code-Mode Era | https://atalupadhyay.wordpress.com/2026/09/10/a-practical-guide-to-building-mcp-servers-in-the-code-mode-era/ |
+| 2026-09-11 | The Build-Verify Loop: Stop Your AI Agent From Claiming Victory Before the Tests Pass | https://regolo.ai/the-build-verify-loop-stop-your-ai-agent-from-claiming-victory-before-the-tests-pass/ |
+| 2026-09-11 | Claude Code Skills: Reusable Prompts and .NET Workflows | https://codewithmukesh.com/blog/skills-claude-code/ |
