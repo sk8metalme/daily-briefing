@@ -196,3 +196,6 @@
 | 2026-09-11 | A Practical Guide to Building MCP Servers in the Code-Mode Era | https://atalupadhyay.wordpress.com/2026/09/10/a-practical-guide-to-building-mcp-servers-in-the-code-mode-era/ |
 | 2026-09-11 | The Build-Verify Loop: Stop Your AI Agent From Claiming Victory Before the Tests Pass | https://regolo.ai/the-build-verify-loop-stop-your-ai-agent-from-claiming-victory-before-the-tests-pass/ |
 | 2026-09-11 | Claude Code Skills: Reusable Prompts and .NET Workflows | https://codewithmukesh.com/blog/skills-claude-code/ |
+| 2026-09-12 | Organizing Context in a Multi-Agent Harness | https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness |
+| 2026-09-12 | How Hermes and Claude Handle Context Compression in Real Production Agents (and What You Should Extract) | https://mem0.ai/blog/how-hermes-and-claude-handle-context-compression-in-real-production-agents-(and-what-you-should-extract) |
+| 2026-09-12 | Claude Code の hooks 実践 — Stop/PreToolUse/PreCompactで自動化と安全弁を仕込む | https://qiita.com/leven-E/items/e601c14e86b7621685ef |
