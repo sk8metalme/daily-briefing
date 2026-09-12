@@ -199,3 +199,6 @@
 | 2026-09-12 | Organizing Context in a Multi-Agent Harness | https://www.langchain.com/blog/organizing-context-in-a-multi-agent-harness |
 | 2026-09-12 | How Hermes and Claude Handle Context Compression in Real Production Agents (and What You Should Extract) | https://mem0.ai/blog/how-hermes-and-claude-handle-context-compression-in-real-production-agents-(and-what-you-should-extract) |
 | 2026-09-12 | Claude Code の hooks 実践 — Stop/PreToolUse/PreCompactで自動化と安全弁を仕込む | https://qiita.com/leven-E/items/e601c14e86b7621685ef |
+| 2026-09-13 | トークン数を減らすだけでは不十分——GitHub CopilotのAIコーディングにおけるコスト効率化 | https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/ |
+| 2026-09-13 | 外側のループを所有せよ——AIエージェント時代のエンジニアの責任 | https://www.oreilly.com/radar/own-the-outer-loop/ |
+| 2026-09-13 | ローカルLLMでコーディングエージェントを動かす——OpenCode・Codex CLI・LM Studio Bionicの選び方と設定手順 | https://qiita.com/ProgrammingForEver/items/7999bf628aea7e1d6ce8 |
