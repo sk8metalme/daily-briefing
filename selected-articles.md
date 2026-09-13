@@ -202,3 +202,6 @@
 | 2026-09-13 | トークン数を減らすだけでは不十分——GitHub CopilotのAIコーディングにおけるコスト効率化 | https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/ |
 | 2026-09-13 | 外側のループを所有せよ——AIエージェント時代のエンジニアの責任 | https://www.oreilly.com/radar/own-the-outer-loop/ |
 | 2026-09-13 | ローカルLLMでコーディングエージェントを動かす——OpenCode・Codex CLI・LM Studio Bionicの選び方と設定手順 | https://qiita.com/ProgrammingForEver/items/7999bf628aea7e1d6ce8 |
+| 2026-09-14 | How Foundational Models Became Superhuman in Bash | https://www.philschmid.de/superhuman-bash |
+| 2026-09-14 | Agentic Code Quality | https://addyosmani.com/blog/agentic-code-quality/ |
+| 2026-09-14 | show-me: a coding agent skill for compact visual representations | https://www.humanlayer.dev/blog/show-me-skill |
