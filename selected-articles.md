@@ -205,3 +205,6 @@
 | 2026-09-14 | How Foundational Models Became Superhuman in Bash | https://www.philschmid.de/superhuman-bash |
 | 2026-09-14 | Agentic Code Quality | https://addyosmani.com/blog/agentic-code-quality/ |
 | 2026-09-14 | show-me: a coding agent skill for compact visual representations | https://www.humanlayer.dev/blog/show-me-skill |
+| 2026-09-15 | Local LLM Quantization Benchmarks Reveal Silent Tool-Call Failures | https://mer.vin/news/local-llm-quantization-benchmarks-reveal-silent-tool-call-failures/ |
+| 2026-09-15 | Coding Agentのトークンを節約する技術 | https://techtekt.persol-career.co.jp/entry/tech/260826_01 |
+| 2026-09-15 | Claude Code毎日運用で分かった時短術7選【2026年9月版】 | https://qiita.com/sescore/items/b3ebef2a1f727e3eca28 |
