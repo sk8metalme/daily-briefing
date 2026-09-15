@@ -208,3 +208,6 @@
 | 2026-09-15 | Local LLM Quantization Benchmarks Reveal Silent Tool-Call Failures | https://mer.vin/news/local-llm-quantization-benchmarks-reveal-silent-tool-call-failures/ |
 | 2026-09-15 | Coding Agentのトークンを節約する技術 | https://techtekt.persol-career.co.jp/entry/tech/260826_01 |
 | 2026-09-15 | Claude Code毎日運用で分かった時短術7選【2026年9月版】 | https://qiita.com/sescore/items/b3ebef2a1f727e3eca28 |
+| 2026-09-16 | ハーネスエンジニアリングとは何か——"盛れば効く"のかを確かめる | https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E2%80%94%E2%80%94%22%E7%9B%9B%E3%82%8C%E3%81%B0%E5%8A%B9 |
+| 2026-09-16 | Mise en Place for Agentic Coding: Deliberate Preparation as Context Engineering Methodology | https://arxiv.org/abs/2605.05400 |
+| 2026-09-16 | LLM Tokens/Sec Benchmarks 2026: RTX 4090 vs 3090, 7B-70B Q4 (llama.cpp) | https://mustafa.net/llm-tokens-per-second-benchmarks/ |
