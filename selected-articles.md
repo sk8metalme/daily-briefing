@@ -211,3 +211,6 @@
 | 2026-09-16 | ハーネスエンジニアリングとは何か——"盛れば効く"のかを確かめる | https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E2%80%94%E2%80%94%22%E7%9B%9B%E3%82%8C%E3%81%B0%E5%8A%B9 |
 | 2026-09-16 | Mise en Place for Agentic Coding: Deliberate Preparation as Context Engineering Methodology | https://arxiv.org/abs/2605.05400 |
 | 2026-09-16 | LLM Tokens/Sec Benchmarks 2026: RTX 4090 vs 3090, 7B-70B Q4 (llama.cpp) | https://mustafa.net/llm-tokens-per-second-benchmarks/ |
+| 2026-09-17 | GPT-6 Astraがリリース、ARC-AGI-3が99.9パーセント。特化ハーネスとは何か調べた | https://zenn.dev/acntechjp/articles/a302d301eb9cec |
+| 2026-09-17 | Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems | https://arxiv.org/abs/2607.21503 |
+| 2026-09-17 | coding-agent-bench: Coding-task benchmark for local LLMs and agent harnesses | https://github.com/sipratt-p/coding-agent-bench |
