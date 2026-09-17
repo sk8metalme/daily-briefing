@@ -214,3 +214,6 @@
 | 2026-09-17 | GPT-6 Astraがリリース、ARC-AGI-3が99.9パーセント。特化ハーネスとは何か調べた | https://zenn.dev/acntechjp/articles/a302d301eb9cec |
 | 2026-09-17 | Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems | https://arxiv.org/abs/2607.21503 |
 | 2026-09-17 | coding-agent-bench: Coding-task benchmark for local LLMs and agent harnesses | https://github.com/sipratt-p/coding-agent-bench |
+| 2026-09-18 | 「Claude Code」を大規模なコードベースに導入するためのベストプラクティス ── ハーネス7層を構築順に理解する | https://qiita.com/nogataka/items/24db436c1123ab3d4cb2 |
+| 2026-09-18 | 3万スターの Claude Code スキルを入れたら、出力が43%短くなった | https://qiita.com/suwa_nobu/items/cec37ce5a6141bb3eefc |
+| 2026-09-18 | When Errors Become Narratives: A Longitudinal Taxonomy of Silent Failures in a Production LLM Agent Runtime | https://arxiv.org/abs/2606.14589 |
