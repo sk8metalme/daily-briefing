@@ -217,3 +217,6 @@
 | 2026-09-18 | 「Claude Code」を大規模なコードベースに導入するためのベストプラクティス ── ハーネス7層を構築順に理解する | https://qiita.com/nogataka/items/24db436c1123ab3d4cb2 |
 | 2026-09-18 | 3万スターの Claude Code スキルを入れたら、出力が43%短くなった | https://qiita.com/suwa_nobu/items/cec37ce5a6141bb3eefc |
 | 2026-09-18 | When Errors Become Narratives: A Longitudinal Taxonomy of Silent Failures in a Production LLM Agent Runtime | https://arxiv.org/abs/2606.14589 |
+| 2026-09-19 | Claude Code のカスタムサブエージェント(.claude/agents)を自作する実装手順 — 自動委譲されない・tools 制限・コンテキスト分離の3つのハマりどころ【2026】 | https://qiita.com/yureki_lab/items/cd5cc1fbbe6bcce17d66 |
+| 2026-09-19 | Best Open-Source Agent Harnesses for Local LLMs in 2026 | https://www.marktechpost.com/2026/09/18/best-open-source-agent-harnesses-for-local-llms-in-2026/ |
+| 2026-09-19 | savetokens: Token-saving techniques for Claude Code and Codex | https://savetokens.tips |
