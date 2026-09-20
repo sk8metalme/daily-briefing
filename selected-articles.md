@@ -223,3 +223,6 @@
 | 2026-09-20 | Memory as Infrastructure: Reliability Engineering for Persistent Agent Memory in Months-Long LLM-Assisted Development | https://arxiv.org/abs/2609.05510 |
 | 2026-09-20 | Claude Code Hooks vs Skills vs Subagents: Three Ways to Extend the Agent, and When Each Backfires | https://dev.to/kenimo49/claude-code-hooks-vs-skills-vs-subagents-three-ways-to-extend-the-agent-and-when-each-backfires-1728 |
 | 2026-09-20 | 9 Parallel AI Agents That Review My Code (Claude Code Setup) | https://hamy.xyz/blog/2026-02_code-reviews-claude-subagents |
+| 2026-09-21 | ハーネス設計入門 〜プロンプト、コンテキストの次〜 | https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi |
+| 2026-09-21 | Claude Code Session Compaction in 2026: How Context Summarization Works and What Your Agent Forgets | https://dev.to/jsmanifest/claude-code-session-compaction-in-2026-how-context-summarization-works-and-what-your-agent-forgets-am0 |
+| 2026-09-21 | I Benchmarked 10 MCP Servers — One of Them Burns 47K Tokens Just to Say Hello | https://dev.to/mcptokensaver/i-benchmarked-10-mcp-servers-one-of-them-burns-47k-tokens-just-to-say-hello-7he |
