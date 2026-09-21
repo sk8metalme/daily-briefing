@@ -229,3 +229,6 @@
 | 2026-09-21 | Notes on exploring the AI-Driven Development Life Cycle | https://www.micahwalter.com/posts/notes-on-exploring-ai-dlc |
 | 2026-09-21 | How to Use Jev: A practical guide to TypeSafe's System One model | https://dev.to/valyuai/how-to-use-jev-a-practical-guide-to-typesafes-system-one-model-g5e |
 | 2026-09-21 | Exploring Jev for AI-Driven QA with agent-device | https://www.callstack.com/blog/exploring-jev-for-mobile-qa-with-agent-device |
+| 2026-09-21 | Spec-Driven Development with spec-kit | https://matsen.fredhutch.org/general/2026/02/10/spec-kit-walkthrough.html |
+| 2026-09-21 | The AI-Native SDLC Playbook | https://claude.com/blog/the-ai-native-sdlc-playbook |
+| 2026-09-21 | AI Engineering Team Structure: Redesigning Roles for 2026 | https://nicktalwar.substack.com/p/when-engineers-manage-agents-and |
