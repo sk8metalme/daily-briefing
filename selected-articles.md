@@ -226,3 +226,6 @@
 | 2026-09-21 | ハーネス設計入門 〜プロンプト、コンテキストの次〜 | https://speakerdeck.com/kinopeee/hanesu-sekkei-nyuumon-kontekisuto-no-tsugi |
 | 2026-09-21 | Claude Code Session Compaction in 2026: How Context Summarization Works and What Your Agent Forgets | https://dev.to/jsmanifest/claude-code-session-compaction-in-2026-how-context-summarization-works-and-what-your-agent-forgets-am0 |
 | 2026-09-21 | I Benchmarked 10 MCP Servers — One of Them Burns 47K Tokens Just to Say Hello | https://dev.to/mcptokensaver/i-benchmarked-10-mcp-servers-one-of-them-burns-47k-tokens-just-to-say-hello-7he |
+| 2026-09-21 | Notes on exploring the AI-Driven Development Life Cycle | https://www.micahwalter.com/posts/notes-on-exploring-ai-dlc |
+| 2026-09-21 | How to Use Jev: A practical guide to TypeSafe's System One model | https://dev.to/valyuai/how-to-use-jev-a-practical-guide-to-typesafes-system-one-model-g5e |
+| 2026-09-21 | Exploring Jev for AI-Driven QA with agent-device | https://www.callstack.com/blog/exploring-jev-for-mobile-qa-with-agent-device |
