@@ -232,3 +232,6 @@
 | 2026-09-21 | Spec-Driven Development with spec-kit | https://matsen.fredhutch.org/general/2026/02/10/spec-kit-walkthrough.html |
 | 2026-09-21 | The AI-Native SDLC Playbook | https://claude.com/blog/the-ai-native-sdlc-playbook |
 | 2026-09-21 | AI Engineering Team Structure: Redesigning Roles for 2026 | https://nicktalwar.substack.com/p/when-engineers-manage-agents-and |
+| 2026-09-22 | AIネイティブな開発プロセスへの移行、はじめました | https://tech.smarthr.jp/entry/2026/06/04/094730 |
+| 2026-09-22 | Spec-driven AI Migration: How Nearly 2 Quarters of Work Was Completed in One Week | https://www.atlassian.com/blog/development/spec-driven-ai-migration |
+| 2026-09-22 | DORA 2026: The ROI of AI in Software Development Runs Through Code Review | https://kodus.io/en/dora-accelerate-state-of-devops/ |
