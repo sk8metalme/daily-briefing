@@ -8,7 +8,7 @@ Claude Code のクラウドroutine（cronスケジュールされたエージェ
 
 1. 対象トピックの新着記事・研究・実践レポートを世界中から調査
 2. 実業務で再現可能な「実践知」を重視して3件を選定（過去選定分と重複しない）
-3. 各記事を日本語で要約し、`briefings/YYYY/MM/YYYY-MM-DD.md` に保存
+3. 各記事を日本語で要約し、`briefings/YYYY/MM/DD.md` に保存
 4. `selected-articles.md`（重複防止インデックス）に選定記事を追記
 5. main ブランチに直接コミット & push
 
@@ -27,11 +27,14 @@ Claude Code のクラウドroutine（cronスケジュールされたエージェ
 
 ```
 briefings/
-  YYYY/
-    MM/
-      YYYY-MM-DD.md    # 日次ブリーフィング（3記事の日本語要約）
+  YYYY/          # 年（例: 2026）
+    MM/          # 月（2桁ゼロ埋め、例: 09）
+      DD.md      # 日（2桁ゼロ埋め、例: 22.md）— 日次ブリーフィング（3記事の日本語要約）
 selected-articles.md    # 選定済み記事インデックス（重複防止用）
 ```
+
+例: 2026年9月22日分は `briefings/2026/09/22.md`。
+日付はファイル冒頭の見出し（`# Daily Briefing YYYY-MM-DD`）にも記載する。
 
 ## ブリーフィングのフォーマット
 
