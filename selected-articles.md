@@ -235,3 +235,6 @@
 | 2026-09-22 | AIネイティブな開発プロセスへの移行、はじめました | https://tech.smarthr.jp/entry/2026/06/04/094730 |
 | 2026-09-22 | Spec-driven AI Migration: How Nearly 2 Quarters of Work Was Completed in One Week | https://www.atlassian.com/blog/development/spec-driven-ai-migration |
 | 2026-09-22 | DORA 2026: The ROI of AI in Software Development Runs Through Code Review | https://kodus.io/en/dora-accelerate-state-of-devops/ |
+| 2026-09-23 | Spec Driven Development: What Our Agents Ignored | https://heym.run/blog/spec-driven-development |
+| 2026-09-23 | Inside AI-pilled engineering teams: Five lessons for scaling without losing the plot | https://www.bvp.com/atlas/inside-ai-pilled-engineering-teams-five-lessons-for-scaling-without-losing-the-plot |
+| 2026-09-23 | Building a Harness with Jev | https://www.langchain.com/blog/building-a-harness-with-jev |
