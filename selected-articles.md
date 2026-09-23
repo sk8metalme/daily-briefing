@@ -238,3 +238,6 @@
 | 2026-09-23 | Spec Driven Development: What Our Agents Ignored | https://heym.run/blog/spec-driven-development |
 | 2026-09-23 | Inside AI-pilled engineering teams: Five lessons for scaling without losing the plot | https://www.bvp.com/atlas/inside-ai-pilled-engineering-teams-five-lessons-for-scaling-without-losing-the-plot |
 | 2026-09-23 | Building a Harness with Jev | https://www.langchain.com/blog/building-a-harness-with-jev |
+| 2026-09-24 | AI-DLCをチーム開発に適用しようとしている話 | https://www.wantedly.com/companies/wantedly/post_articles/1089483 |
+| 2026-09-24 | The AI Code Review Bottleneck, By the 2026 Numbers | https://www.flowverify.co/blog/ai-code-review-bottleneck-2026-data |
+| 2026-09-24 | Jev's Auditable Decision Primitive at Harness | https://www.harness.io/blog/jev-decision-primitive-agent-governance |
