@@ -241,3 +241,6 @@
 | 2026-09-24 | AI-DLCをチーム開発に適用しようとしている話 | https://www.wantedly.com/companies/wantedly/post_articles/1089483 |
 | 2026-09-24 | The AI Code Review Bottleneck, By the 2026 Numbers | https://www.flowverify.co/blog/ai-code-review-bottleneck-2026-data |
 | 2026-09-24 | Jev's Auditable Decision Primitive at Harness | https://www.harness.io/blog/jev-decision-primitive-agent-governance |
+| 2026-09-25 | How to Make a Repository AI-Ready | https://dev.to/aws-builders/how-to-make-a-repository-ai-ready-3j62 |
+| 2026-09-25 | CTO Circle: Lessons on Building AI-Native Engineering Teams | https://www.snowflake.com/en/blog/cto-circle-ai-native-engineering/ |
+| 2026-09-25 | How to Build a Fast Decision Layer for AI Agents with TypeSafe Jev | https://dev.to/coderbuffer/how-to-build-a-fast-decision-layer-for-ai-agents-with-typesafe-jev-1ggj |
