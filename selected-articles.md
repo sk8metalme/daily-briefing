@@ -244,3 +244,6 @@
 | 2026-09-25 | How to Make a Repository AI-Ready | https://dev.to/aws-builders/how-to-make-a-repository-ai-ready-3j62 |
 | 2026-09-25 | CTO Circle: Lessons on Building AI-Native Engineering Teams | https://www.snowflake.com/en/blog/cto-circle-ai-native-engineering/ |
 | 2026-09-25 | How to Build a Fast Decision Layer for AI Agents with TypeSafe Jev | https://dev.to/coderbuffer/how-to-build-a-fast-decision-layer-for-ai-agents-with-typesafe-jev-1ggj |
+| 2026-09-26 | AI前提のプロダクト開発組織を目指して、minneの2026年の現在地 | https://tech.pepabo.com/2026/09/02/minne-ai-native-org-2026/ |
+| 2026-09-26 | How to Write a Good Spec for AI Agents | https://addyosmani.com/blog/good-spec/ |
+| 2026-09-26 | Top Use Cases of Jev: Fast AI Decisions for Content Moderation, Routing, Scoring & Agent Guardrails | https://www.cloudraft.io/blog/top-use-cases-of-jev-typesafe-ai-model |
