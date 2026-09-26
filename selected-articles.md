@@ -247,3 +247,6 @@
 | 2026-09-26 | AI前提のプロダクト開発組織を目指して、minneの2026年の現在地 | https://tech.pepabo.com/2026/09/02/minne-ai-native-org-2026/ |
 | 2026-09-26 | How to Write a Good Spec for AI Agents | https://addyosmani.com/blog/good-spec/ |
 | 2026-09-26 | Top Use Cases of Jev: Fast AI Decisions for Content Moderation, Routing, Scoring & Agent Guardrails | https://www.cloudraft.io/blog/top-use-cases-of-jev-typesafe-ai-model |
+| 2026-09-27 | Introducing Consort: A Spec-First Agent Framework for Enforced, Test-Driven Development on Live Database Branches | https://arxiv.org/abs/2609.09671 |
+| 2026-09-27 | How auto-approving low-risk PRs with AI cut our lead time by 74% | https://ona.com/stories/auto-approving-low-risk-prs |
+| 2026-09-27 | jev-harness: a research-stage proposal-review contract for Jev (LLM proposes, Jev reviews, code decides) | https://github.com/TypeSafeAI/jev-harness |
