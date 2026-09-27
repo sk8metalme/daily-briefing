@@ -250,3 +250,6 @@
 | 2026-09-27 | Introducing Consort: A Spec-First Agent Framework for Enforced, Test-Driven Development on Live Database Branches | https://arxiv.org/abs/2609.09671 |
 | 2026-09-27 | How auto-approving low-risk PRs with AI cut our lead time by 74% | https://ona.com/stories/auto-approving-low-risk-prs |
 | 2026-09-27 | jev-harness: a research-stage proposal-review contract for Jev (LLM proposes, Jev reviews, code decides) | https://github.com/TypeSafeAI/jev-harness |
+| 2026-09-28 | Baby steps to an AI-ready codebase | https://ainativesoftware.engineering/baby-steps |
+| 2026-09-28 | AI-Native Leaders: The Organizational Playbook for Engineering Transformation at Scale | https://blog.bytebytego.com/p/ai-native-leaders-the-organizational |
+| 2026-09-28 | Guardrails for LLMs (TypeSafe AI cookbook) | https://docs.typesafe.ai/cookbooks/llm_guardrails |
