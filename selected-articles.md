@@ -253,3 +253,6 @@
 | 2026-09-28 | Baby steps to an AI-ready codebase | https://ainativesoftware.engineering/baby-steps |
 | 2026-09-28 | AI-Native Leaders: The Organizational Playbook for Engineering Transformation at Scale | https://blog.bytebytego.com/p/ai-native-leaders-the-organizational |
 | 2026-09-28 | Guardrails for LLMs (TypeSafe AI cookbook) | https://docs.typesafe.ai/cookbooks/llm_guardrails |
+| 2026-09-29 | Loop Engineering: Building Blocks, Adoption, and Impact | https://arxiv.org/abs/2608.21884 |
+| 2026-09-29 | Going AI-Native: How We Handed Our Backlog to Agents | https://engineering.merciyanis.com/blog/going-ai-native-how-we-handed-our-backlog-to-agents |
+| 2026-09-29 | Jev and the Emergence of System One Decision Models: Architecture, Evaluation, and Ecosystem Integration | https://arxiviq.substack.com/p/jev-and-the-emergence-of-system-one |
