@@ -256,3 +256,6 @@
 | 2026-09-29 | Loop Engineering: Building Blocks, Adoption, and Impact | https://arxiv.org/abs/2608.21884 |
 | 2026-09-29 | Going AI-Native: How We Handed Our Backlog to Agents | https://engineering.merciyanis.com/blog/going-ai-native-how-we-handed-our-backlog-to-agents |
 | 2026-09-29 | Jev and the Emergence of System One Decision Models: Architecture, Evaluation, and Ecosystem Integration | https://arxiviq.substack.com/p/jev-and-the-emergence-of-system-one |
+| 2026-09-30 | Agent Readiness - Preparing a Repository for AI Agents | https://infragap.com/agent-readiness/ |
+| 2026-09-30 | AI Agents for Frontend Development: 50+ Production Tickets | https://adjoe.io/company/engineer-blog/ai-agents-frontend-development-workflows-lessons-learned/ |
+| 2026-09-30 | How System One Models Like Jev Change Enterprise AI Architecture | https://www.kai-waehner.de/blog/2026/09/28/how-system-one-models-like-jev-change-enterprise-ai-architecture/ |
