@@ -259,3 +259,6 @@
 | 2026-09-30 | Agent Readiness - Preparing a Repository for AI Agents | https://infragap.com/agent-readiness/ |
 | 2026-09-30 | AI Agents for Frontend Development: 50+ Production Tickets | https://adjoe.io/company/engineer-blog/ai-agents-frontend-development-workflows-lessons-learned/ |
 | 2026-09-30 | How System One Models Like Jev Change Enterprise AI Architecture | https://www.kai-waehner.de/blog/2026/09/28/how-system-one-models-like-jev-change-enterprise-ai-architecture/ |
+| 2026-10-01 | AI Is Accelerating Code Generation. Why Isn't Change Lead Time Improving? | https://larridin.com/blog/improve-change-lead-time-ai-code |
+| 2026-10-01 | How To Build An AI Native Engineering Org: What We Actually Did | https://montecarlo.ai/blog/how-to-build-an-ai-native-engineering-org-what-we-actually-did/ |
+| 2026-10-01 | How to Use TypeSafe AI Jev: Complete Developer Guide (2026) | https://aiagentskit.com/blog/how-to-use-typesafe-ai-jev/ |
