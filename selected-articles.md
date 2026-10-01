@@ -262,3 +262,6 @@
 | 2026-10-01 | AI Is Accelerating Code Generation. Why Isn't Change Lead Time Improving? | https://larridin.com/blog/improve-change-lead-time-ai-code |
 | 2026-10-01 | How To Build An AI Native Engineering Org: What We Actually Did | https://montecarlo.ai/blog/how-to-build-an-ai-native-engineering-org-what-we-actually-did/ |
 | 2026-10-01 | How to Use TypeSafe AI Jev: Complete Developer Guide (2026) | https://aiagentskit.com/blog/how-to-use-typesafe-ai-jev/ |
+| 2026-10-02 | AI-DLC v2: What Changed in AWS's AI-DLC Workflows 2.0 | https://felipefontoura.com/articles/ai-dlc-v2/ |
+| 2026-10-02 | AI agents open pull requests faster than we review them. A setup that keeps the queue moving | https://dev.to/prokopsimek/ai-agents-open-pull-requests-faster-than-we-review-them-a-setup-that-keeps-the-queue-moving-3427 |
+| 2026-10-02 | Using Jev in Production | https://hackernoon.com/using-jev-in-production |
