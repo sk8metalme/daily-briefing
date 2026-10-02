@@ -265,3 +265,6 @@
 | 2026-10-02 | AI-DLC v2: What Changed in AWS's AI-DLC Workflows 2.0 | https://felipefontoura.com/articles/ai-dlc-v2/ |
 | 2026-10-02 | AI agents open pull requests faster than we review them. A setup that keeps the queue moving | https://dev.to/prokopsimek/ai-agents-open-pull-requests-faster-than-we-review-them-a-setup-that-keeps-the-queue-moving-3427 |
 | 2026-10-02 | Using Jev in Production | https://hackernoon.com/using-jev-in-production |
+| 2026-10-03 | The State Of AI Harness Engineering 2026 | https://marmelab.com/blog/2026/09/24/the-state-of-ai-harness-engineering-2026.html |
+| 2026-10-03 | CI/CD for AI coding agents (The CI bottleneck for AI-written code) | https://specstory.com/learning/ci-cd/ci-for-coding-agents |
+| 2026-10-03 | How to Build More Reliable AI Agents with Jev AI: Routing, Guardrails, and Human Review | https://huggingface.co/blog/sora-2/how-to-build-more-reliable-ai-agents-with-jev-ai-r |
