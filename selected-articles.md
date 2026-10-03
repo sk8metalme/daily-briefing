@@ -265,3 +265,6 @@
 | 2026-10-02 | AI-DLC v2: What Changed in AWS's AI-DLC Workflows 2.0 | https://felipefontoura.com/articles/ai-dlc-v2/ |
 | 2026-10-02 | AI agents open pull requests faster than we review them. A setup that keeps the queue moving | https://dev.to/prokopsimek/ai-agents-open-pull-requests-faster-than-we-review-them-a-setup-that-keeps-the-queue-moving-3427 |
 | 2026-10-02 | Using Jev in Production | https://hackernoon.com/using-jev-in-production |
+| 2026-10-04 | Spec-driven development: The Good Parts - and what we learned after three months | https://asana.com/inside-asana/spec-driven-development |
+| 2026-10-04 | Quantifying AI adoption: From initial challenges to doubling speed | https://www.thoughtworks.com/en-us/insights/blog/machine-learning-and-ai/quantifying-ai-adoption-from-initial-challenges-to-doubling-speed |
+| 2026-10-04 | What Is Jev? A DevOps Guide to TypeSafe's AI Decision Models | https://kodekloud.com/blog/what-is-jev-and-how-devops-teams-can-use-typesafes-ai-model/ |
