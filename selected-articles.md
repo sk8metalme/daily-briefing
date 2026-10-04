@@ -268,3 +268,6 @@
 | 2026-10-04 | Spec-driven development: The Good Parts - and what we learned after three months | https://asana.com/inside-asana/spec-driven-development |
 | 2026-10-04 | Quantifying AI adoption: From initial challenges to doubling speed | https://www.thoughtworks.com/en-us/insights/blog/machine-learning-and-ai/quantifying-ai-adoption-from-initial-challenges-to-doubling-speed |
 | 2026-10-04 | What Is Jev? A DevOps Guide to TypeSafe's AI Decision Models | https://kodekloud.com/blog/what-is-jev-and-how-devops-teams-can-use-typesafes-ai-model/ |
+| 2026-10-05 | Jev for Coding Agents: System One Decisions Explained | https://supercode.sh/en/blog/guides/jev-for-coding-agents |
+| 2026-10-05 | Spec-Driven Development for AI Agents: Governing Specs | https://www.truefoundry.com/blog/spec-driven-development-ai-agents |
+| 2026-10-05 | A Survey of Development Workflows in the Coding Agent Era | https://nyosegawa.com/en/posts/coding-agent-workflow-2026/ |
