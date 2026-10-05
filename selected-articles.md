@@ -268,3 +268,6 @@
 | 2026-10-04 | Spec-driven development: The Good Parts - and what we learned after three months | https://asana.com/inside-asana/spec-driven-development |
 | 2026-10-04 | Quantifying AI adoption: From initial challenges to doubling speed | https://www.thoughtworks.com/en-us/insights/blog/machine-learning-and-ai/quantifying-ai-adoption-from-initial-challenges-to-doubling-speed |
 | 2026-10-04 | What Is Jev? A DevOps Guide to TypeSafe's AI Decision Models | https://kodekloud.com/blog/what-is-jev-and-how-devops-teams-can-use-typesafes-ai-model/ |
+| 2026-10-06 | AI-DLC in Practice: Running AWS's AI-Driven Lifecycle | https://orchestrator.dev/blog/2026-10-03-ai-dlc-in-practice/ |
+| 2026-10-06 | Jev AI Guardrails: Tool Calls, Prompt Injection, and Review | https://jev-ai-guide.com/agent/jev-ai-guardrails/ |
+| 2026-10-06 | Beyond AGENTS.md: Turning AI Pair Programming into Workflows | https://www.stackbuilders.com/insights/beyond-agentsmd-turning-ai-pair-programming-into-workflows/ |
