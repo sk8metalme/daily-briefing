@@ -271,3 +271,6 @@
 | 2026-10-06 | AI-DLC in Practice: Running AWS's AI-Driven Lifecycle | https://orchestrator.dev/blog/2026-10-03-ai-dlc-in-practice/ |
 | 2026-10-06 | Jev AI Guardrails: Tool Calls, Prompt Injection, and Review | https://jev-ai-guide.com/agent/jev-ai-guardrails/ |
 | 2026-10-06 | Beyond AGENTS.md: Turning AI Pair Programming into Workflows | https://www.stackbuilders.com/insights/beyond-agentsmd-turning-ai-pair-programming-into-workflows/ |
+| 2026-10-07 | Your AI Agents Aren't the Bottleneck. Your Repository Is. | https://stepto.net/blog/agent-ready-codebase-repository-readiness-2026 |
+| 2026-10-07 | Jev AI TypeSafe AI: A Practical Guide to Typed Decisions in Production | https://huggingface.co/blog/sora-2/jev-ai-typesafe-ai-a-practical-guide-to-typed-deci |
+| 2026-10-07 | Platform Engineering in 2026: Building the Internal Developer Platform Your AI Agents Actually Need | https://dev.to/eva_clari_289d85ecc68da48/platform-engineering-in-2026-building-the-internal-developer-platform-your-ai-agents-actually-need-57cm |
