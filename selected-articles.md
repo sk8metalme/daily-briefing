@@ -274,3 +274,6 @@
 | 2026-10-07 | Your AI Agents Aren't the Bottleneck. Your Repository Is. | https://stepto.net/blog/agent-ready-codebase-repository-readiness-2026 |
 | 2026-10-07 | Jev AI TypeSafe AI: A Practical Guide to Typed Decisions in Production | https://huggingface.co/blog/sora-2/jev-ai-typesafe-ai-a-practical-guide-to-typed-deci |
 | 2026-10-07 | Platform Engineering in 2026: Building the Internal Developer Platform Your AI Agents Actually Need | https://dev.to/eva_clari_289d85ecc68da48/platform-engineering-in-2026-building-the-internal-developer-platform-your-ai-agents-actually-need-57cm |
+| 2026-10-08 | A Few Pages of Markdown: Committed AI Configuration and Lower Quality Cost after Coding-Agent Adoption | https://arxiv.org/abs/2608.25241 |
+| 2026-10-08 | Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork | https://arxiv.org/abs/2609.00252 |
+| 2026-10-08 | Jenkins and AI Agents: The Trusted Engine for Faster Software Delivery | https://www.jenkins.io/blog/2026/10/01/jenkins_in_age_of_sdlc/ |
