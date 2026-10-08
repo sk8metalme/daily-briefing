@@ -277,3 +277,6 @@
 | 2026-10-08 | A Few Pages of Markdown: Committed AI Configuration and Lower Quality Cost after Coding-Agent Adoption | https://arxiv.org/abs/2608.25241 |
 | 2026-10-08 | Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork | https://arxiv.org/abs/2609.00252 |
 | 2026-10-08 | Jenkins and AI Agents: The Trusted Engine for Faster Software Delivery | https://www.jenkins.io/blog/2026/10/01/jenkins_in_age_of_sdlc/ |
+| 2026-10-09 | The AI SDLC transformation playbook | https://www.atlassian.com/blog/ai-at-work/ai-sdlc-transformation-playbook |
+| 2026-10-09 | The State Of AI Harness Engineering 2026 | https://marmelab.com/blog/2026/09/24/the-state-of-ai-harness-engineering-2026.html |
+| 2026-10-09 | A deep dive into Jev, TypeSafe's System One model | https://flaviocopes.com/jev/ |
