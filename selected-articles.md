@@ -280,3 +280,6 @@
 | 2026-10-09 | The AI SDLC transformation playbook | https://www.atlassian.com/blog/ai-at-work/ai-sdlc-transformation-playbook |
 | 2026-10-09 | The State Of AI Harness Engineering 2026 | https://marmelab.com/blog/2026/09/24/the-state-of-ai-harness-engineering-2026.html |
 | 2026-10-09 | A deep dive into Jev, TypeSafe's System One model | https://flaviocopes.com/jev/ |
+| 2026-10-10 | The MLOps Adventure Continues: An AGENTS.md Ready Stack for AI/ML | https://mlops.community/blog/the-mlops-adventure-continues-an-agents-md-ready-stack-for-ai-ml |
+| 2026-10-10 | Agent-Operated CI/CD: The Architecture Making AI Coding Agents Actually Work | https://alexlavaee.me/blog/agent-operated-cicd-pipelines/ |
+| 2026-10-10 | How Jev works: calibrated decision models | https://victordibia.com/explainers/jev/ |
