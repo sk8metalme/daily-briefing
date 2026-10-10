@@ -283,3 +283,6 @@
 | 2026-10-10 | The MLOps Adventure Continues: An AGENTS.md Ready Stack for AI/ML | https://mlops.community/blog/the-mlops-adventure-continues-an-agents-md-ready-stack-for-ai-ml |
 | 2026-10-10 | Agent-Operated CI/CD: The Architecture Making AI Coding Agents Actually Work | https://alexlavaee.me/blog/agent-operated-cicd-pipelines/ |
 | 2026-10-10 | How Jev works: calibrated decision models | https://victordibia.com/explainers/jev/ |
+| 2026-10-11 | Building an AI-Native Engineering Team | https://learn.chatgpt.com/guides/build-ai-native-engineering-team |
+| 2026-10-11 | Context engineering for IDEs: Agents.md & agent skills | https://blog.logrocket.com/context-engineering-for-ides-agents-md-agent-skills/ |
+| 2026-10-11 | Jev Tutorial: How to Build a Typed AI Ticket Router | https://www.datacamp.com/tutorial/jev-api-tutorial |
