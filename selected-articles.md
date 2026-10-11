@@ -288,3 +288,6 @@
 | 2026-10-11 | Building an AI-Native Engineering Team | https://learn.chatgpt.com/guides/build-ai-native-engineering-team |
 | 2026-10-11 | Context engineering for IDEs: Agents.md & agent skills | https://blog.logrocket.com/context-engineering-for-ides-agents-md-agent-skills/ |
 | 2026-10-11 | Jev Tutorial: How to Build a Typed AI Ticket Router | https://www.datacamp.com/tutorial/jev-api-tutorial |
+| 2026-10-12 | Codebase Readiness for AI-Native Development | https://framework.ai-native-transformation.com/codebase-readiness |
+| 2026-10-12 | Stop being the code review bottleneck | https://newsletter.posthog.com/p/code-review-tips |
+| 2026-10-12 | Jev: A Decision Model for AI | https://takeshell.com/en/2026/09/25/108_jev_system_one_model_analysis-en/ |
