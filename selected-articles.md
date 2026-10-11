@@ -98,11 +98,11 @@
 | 2026-08-09 | Codex CLI Multi-Agent Orchestration v2: Complete Guide | https://codex.danielvaughan.com/2026/04/11/codex-cli-multi-agent-orchestration-v2-complete-guide/ |
 | 2026-08-09 | Local LLM vs Claude for Coding: $500 GPU Tested | https://www.kunalganglani.com/blog/local-llm-vs-claude-coding-benchmark |
 | 2026-08-10 | Instruction Adherence in Coding Agent Configuration Files: A Factorial Study of Four File-Structure Variables | https://arxiv.org/abs/2605.10039 |
+| 2026-08-10 | Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories | https://arxiv.org/abs/2607.27250 |
+| 2026-08-10 | Building your own PR reviewer with coding agents | https://www.huuhka.net/building-your-own-pr-reviewer-with-coding-agents/ |
 | 2026-08-11 | The Code Agent Orchestra – what makes multi-agent coding work | https://addyosmani.com/blog/code-agent-orchestra/ |
 | 2026-08-11 | My Claude Code Setup After 4 Months of Daily Use (2026) | https://okhlopkov.com/claude-code-setup-mcp-hooks-skills-2026/ |
 | 2026-08-11 | Keep Agentic AI Simple: A Practical Workflow for Software Development | https://timdeschryver.dev/blog/keep-agentic-ai-simple-a-practical-workflow-for-software-development |
-| 2026-08-10 | Do Context Files Help Coding Agents? A Two-Agent Ablation Study on Real Repositories | https://arxiv.org/abs/2607.27250 |
-| 2026-08-10 | Building your own PR reviewer with coding agents | https://www.huuhka.net/building-your-own-pr-reviewer-with-coding-agents/ |
 | 2026-08-12 | Coding Agents Don't Need Bigger Context Windows — They Need a Context Compiler | https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/ |
 | 2026-08-12 | The Context Window Gap: Why Codex CLI Caps GPT-5.6's Million-Token Window at 272K | https://codex.danielvaughan.com/2026/07/20/context-window-gap-codex-cli-gpt56-advertised-vs-effective-budget-compaction-strategy/ |
 | 2026-08-12 | Loop Engineering for AI Agents: Implementation Beyond Theory | https://pub.towardsai.net/loop-engineering-for-ai-agents-implementation-beyond-theory-f92cd3a79f19 |
@@ -145,7 +145,6 @@
 | 2026-08-25 | Building an internal agent: Context window compaction | https://lethain.com/agents-context-compaction/ |
 | 2026-08-25 | Skills vs Hooks vs Prompts: Claude Code Decision Guide (2026) | https://explainx.ai/blog/skills-vs-hooks-vs-prompts-when-to-use-each-2026 |
 | 2026-08-25 | Claude Code Token Optimization: Full System Guide (2026) | https://buildtolaunch.substack.com/p/claude-code-token-optimization |
-| 2026-08-26 | Harness engineering for coding agent users | https://martinfowler.com/articles/harness-engineering.html |
 | 2026-08-26 | GitHub MCP Token Cost: A 2026 Autopsy and 4 Fixes | https://getunblocked.com/blog/github-mcp-token-cost/ |
 | 2026-08-26 | Spec-Driven Development in 2026: What It Is, the Tooling, and How Teams Actually Use It | https://dev.to/krlz/spec-driven-development-in-2026-what-it-is-the-tooling-and-how-teams-actually-use-it-2fk2 |
 | 2026-08-27 | How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep | https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep |
@@ -174,7 +173,6 @@
 | 2026-09-03 | Claude Code Context Buffer: The 33K-45K Token Problem | https://claudefa.st/blog/guide/mechanics/context-buffer-management |
 | 2026-09-04 | Claude API のプロンプトキャッシュ(prompt caching)で入力コストを最大9割削減する実装手順 | https://qiita.com/yureki_lab/items/597241551c27c843295f |
 | 2026-09-04 | 自宅でローカルLLMを動かしてみた ローカルなら実現できる遊びとこだわり | https://gihyo.jp/article/2026/09/home-local-llm-guide |
-| 2026-09-04 | The Agentic Loop: A Practical Field Guide | https://dev.to/truongpx396/the-agentic-loop-a-practical-field-guide-mnc |
 | 2026-09-05 | The Compaction Cliff in Long-Running AI Agent Memory | https://arxiv.org/abs/2608.22752 |
 | 2026-09-05 | 2026年8月公開のQwen3.8-27BをRTX 5090で実測|ローカルLLM 5モデル徹底比較 | https://zenn.dev/secure_auto_lab/articles/local-llm-5model-benchmark-2026 |
 | 2026-09-05 | Six AI Coding Agent Incidents in One Month: A Containment Checklist for Tech Leads | https://luonghongthuan.com/en/blog/ai-coding-agent-incidents-august-2026-checklist/ |
@@ -265,6 +263,8 @@
 | 2026-10-02 | AI-DLC v2: What Changed in AWS's AI-DLC Workflows 2.0 | https://felipefontoura.com/articles/ai-dlc-v2/ |
 | 2026-10-02 | AI agents open pull requests faster than we review them. A setup that keeps the queue moving | https://dev.to/prokopsimek/ai-agents-open-pull-requests-faster-than-we-review-them-a-setup-that-keeps-the-queue-moving-3427 |
 | 2026-10-02 | Using Jev in Production | https://hackernoon.com/using-jev-in-production |
+| 2026-10-03 | CI/CD for AI coding agents (The CI bottleneck for AI-written code) | https://specstory.com/learning/ci-cd/ci-for-coding-agents |
+| 2026-10-03 | How to Build More Reliable AI Agents with Jev AI: Routing, Guardrails, and Human Review | https://huggingface.co/blog/sora-2/how-to-build-more-reliable-ai-agents-with-jev-ai-r |
 | 2026-10-04 | Spec-driven development: The Good Parts - and what we learned after three months | https://asana.com/inside-asana/spec-driven-development |
 | 2026-10-04 | Quantifying AI adoption: From initial challenges to doubling speed | https://www.thoughtworks.com/en-us/insights/blog/machine-learning-and-ai/quantifying-ai-adoption-from-initial-challenges-to-doubling-speed |
 | 2026-10-04 | What Is Jev? A DevOps Guide to TypeSafe's AI Decision Models | https://kodekloud.com/blog/what-is-jev-and-how-devops-teams-can-use-typesafes-ai-model/ |
