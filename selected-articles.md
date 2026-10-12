@@ -291,3 +291,6 @@
 | 2026-10-12 | Codebase Readiness for AI-Native Development | https://framework.ai-native-transformation.com/codebase-readiness |
 | 2026-10-12 | Stop being the code review bottleneck | https://newsletter.posthog.com/p/code-review-tips |
 | 2026-10-12 | Jev: A Decision Model for AI | https://takeshell.com/en/2026/09/25/108_jev_system_one_model_analysis-en/ |
+| 2026-10-13 | AGENTS.md Best Practices: Template, Examples, Guide | https://www.betterclaw.io/blog/agents-md-best-practices |
+| 2026-10-13 | AI Made Coding Faster, and Our Delivery Pipeline Had to Catch Up | https://dev.to/dnikolayev/ai-made-coding-faster-our-delivery-pipeline-had-to-catch-up-i81 |
+| 2026-10-13 | TypeSafe (Jev) — Pydantic AI Models | https://pydantic.dev/docs/ai/models/typesafe/ |
