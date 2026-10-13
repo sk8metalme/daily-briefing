@@ -294,3 +294,6 @@
 | 2026-10-13 | AGENTS.md Best Practices: Template, Examples, Guide | https://www.betterclaw.io/blog/agents-md-best-practices |
 | 2026-10-13 | AI Made Coding Faster, and Our Delivery Pipeline Had to Catch Up | https://dev.to/dnikolayev/ai-made-coding-faster-our-delivery-pipeline-had-to-catch-up-i81 |
 | 2026-10-13 | TypeSafe (Jev) — Pydantic AI Models | https://pydantic.dev/docs/ai/models/typesafe/ |
+| 2026-10-14 | Spec-Driven Development with GitHub Spec Kit: A Practical Guide | https://vinitshahdeo.substack.com/p/spec-driven-development-github-spec-kit |
+| 2026-10-14 | What Metrics Actually Prove AI Coding Agents Are Working? | https://www.warp.dev/articles/metrics-that-prove-ai-coding-agents-are-working |
+| 2026-10-14 | Make Jev Work for You | https://conikeec.substack.com/p/make-jev-work-for-you |
