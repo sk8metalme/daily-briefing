@@ -297,3 +297,6 @@
 | 2026-10-14 | Spec-Driven Development with GitHub Spec Kit: A Practical Guide | https://vinitshahdeo.substack.com/p/spec-driven-development-github-spec-kit |
 | 2026-10-14 | What Metrics Actually Prove AI Coding Agents Are Working? | https://www.warp.dev/articles/metrics-that-prove-ai-coding-agents-are-working |
 | 2026-10-14 | Make Jev Work for You | https://conikeec.substack.com/p/make-jev-work-for-you |
+| 2026-10-15 | Using TypeSafe's Jev for evals | https://langfuse.com/blog/2026-09-18-using-typesafes-jev-for-evals |
+| 2026-10-15 | Implementing the Anthropic AI-Native SDLC Playbook: What do you need to get there? | https://www.port.io/blog/anthropic-ai-native-sdlc-playbook |
+| 2026-10-15 | How to design agentic workflows that actually ship | https://www.coderabbit.ai/guides/how-to-design-agentic-workflows |
