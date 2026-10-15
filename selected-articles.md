@@ -300,3 +300,6 @@
 | 2026-10-15 | Using TypeSafe's Jev for evals | https://langfuse.com/blog/2026-09-18-using-typesafes-jev-for-evals |
 | 2026-10-15 | Implementing the Anthropic AI-Native SDLC Playbook: What do you need to get there? | https://www.port.io/blog/anthropic-ai-native-sdlc-playbook |
 | 2026-10-15 | How to design agentic workflows that actually ship | https://www.coderabbit.ai/guides/how-to-design-agentic-workflows |
+| 2026-10-16 | What an AI-Native Engineering Operating Model Actually Looks Like | https://yuvalyeret.com/blog/operating-system-for-ai-native-teams/ |
+| 2026-10-16 | How ConnectiveRx Accelerated Innovation with AI-DLC | https://aws.amazon.com/blogs/publicsector/how-connectiverx-accelerated-innovation-with-ai-dlc/ |
+| 2026-10-16 | What Is Jev? TypeSafe's Decision Model Explained for Developers | https://openrouter.ai/blog/insights/what-is-jev/ |
