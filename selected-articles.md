@@ -303,3 +303,6 @@
 | 2026-10-16 | What an AI-Native Engineering Operating Model Actually Looks Like | https://yuvalyeret.com/blog/operating-system-for-ai-native-teams/ |
 | 2026-10-16 | How ConnectiveRx Accelerated Innovation with AI-DLC | https://aws.amazon.com/blogs/publicsector/how-connectiverx-accelerated-innovation-with-ai-dlc/ |
 | 2026-10-16 | What Is Jev? TypeSafe's Decision Model Explained for Developers | https://openrouter.ai/blog/insights/what-is-jev/ |
+| 2026-10-17 | How to Make a Repository AI-Ready | https://dev.to/aws-builders/how-to-make-a-repository-ai-ready-3j62 |
+| 2026-10-17 | Jev × Claude Code: Four Real Integration Paths and a 25-Line Minimal Build | https://redreamality.com/blog/jev-claude-code-10x-and-25-lines/ |
+| 2026-10-17 | Your AI Agents Ship Code Faster Than You Can Review It. Here's the Workflow That Fixes That | https://dev.to/speccoding/your-ai-agents-ship-code-faster-than-you-can-review-it-heres-the-workflow-that-fixes-that-4ied |
