@@ -306,3 +306,6 @@
 | 2026-10-17 | How to Make a Repository AI-Ready | https://dev.to/aws-builders/how-to-make-a-repository-ai-ready-3j62 |
 | 2026-10-17 | Jev × Claude Code: Four Real Integration Paths and a 25-Line Minimal Build | https://redreamality.com/blog/jev-claude-code-10x-and-25-lines/ |
 | 2026-10-17 | Your AI Agents Ship Code Faster Than You Can Review It. Here's the Workflow That Fixes That | https://dev.to/speccoding/your-ai-agents-ship-code-faster-than-you-can-review-it-heres-the-workflow-that-fixes-that-4ied |
+| 2026-10-18 | Agentic Continuous Delivery (ACD) | https://beyond.minimumcd.org/docs/agentic-cd/ |
+| 2026-10-18 | AI-DLC Continues to Evolve — The Self-Correcting Development Methodology "2.0" and the Current State of Spec-Driven Development Scrums | https://note.com/pompom_purin_ai/n/n06f4938a7063 |
+| 2026-10-18 | Jev: AI Built to Decide, Not to Write | https://arceapps.com/blog/jev-system-one-models/ |
