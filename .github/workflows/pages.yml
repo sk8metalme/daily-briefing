@@ -8,12 +8,18 @@ on:
       - "selected-articles.md"
       - "site/**"
       - ".github/workflows/pages.yml"
+  pull_request:
+    paths:
+      - "briefings/**"
+      - "selected-articles.md"
+      - "site/**"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 # 日次ブリーフィングの push は1日に複数回走ることがあるため、
 # 進行中のデプロイはキャンセルせず順番に流す。
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 permissions:
@@ -37,14 +43,28 @@ jobs:
       - name: Build site
         run: python site/build.py
 
+      - name: Verify output
+        run: |
+          set -eu
+          for f in index.html archive.html articles.html about.html search-index.json; do
+            test -s "_site/$f" || { echo "missing or empty: _site/$f" >&2; exit 1; }
+          done
+          pages=$(find _site/briefings -name '*.html' | wc -l)
+          echo "briefing pages: $pages"
+          test "$pages" -gt 0 || { echo "no briefing pages were generated" >&2; exit 1; }
+
+      # Pages へのアップロードは main のみ。PR ではビルドが通ることだけを確認する。
       - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
 
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
           path: _site
 
   deploy:
     needs: build
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
