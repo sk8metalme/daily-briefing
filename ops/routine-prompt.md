@@ -10,6 +10,30 @@
 この routine は HTTP API 経由で作成されているため、**エージェントからは編集できない**
 （所有者が上記の編集画面から変更する必要がある）。そのため正本をここに置いて版管理する。
 
+`update_trigger` で書き換えようとすると以下で拒否される。2026-10-18 に実地で確認済み。
+
+```
+update_trigger: this routine was created via "http_api", not by an agent.
+Agents can only update routines they created (via create_trigger).
+```
+
+## 適用状況
+
+**このファイルを更新しただけでは routine の挙動は変わらない。** 編集画面での貼り替えが必要。
+ドリフトを検出できるよう、ここに適用状態を記録する。
+
+| 正本の版 | 編集画面へ適用 |
+|---|---|
+| 2026-10-18（図解の形式選択 / 戦略分析 / 太字の注意） | **未適用** |
+| 2026-10-11（main 直接 push の明示的許可 / 手順8） | **未適用** |
+| 2026-09-22 以前 | 適用済み（routine の `updated_at` が 2026-09-22） |
+
+2026-10-11 の更新は正本にだけ入って編集画面へ適用されておらず、約1週間気づかれなかった。
+main 直接コミットが維持できていたのは `CLAUDE.md` が効いていたためで、
+プロンプト側の二重化は実際には機能していなかった。
+
+**貼り替えたらこの表を「適用済み」に更新すること。**
+
 ## 変更履歴
 
 - 2026-10-18: `図解` を Mermaid 固定から「意図に応じて Mermaid / インライン SVG を選ぶ」方式に変更し、
@@ -166,6 +190,7 @@ GitHub 上で太字にならず `**` がそのまま表示される。括弧を�
 
 ### 6. インデックスの更新
 `selected-articles.md` の表の末尾に、選定した3件を `| YYYY-MM-DD | タイトル | URL |` 形式で追記する。
+タイトルに `|` が含まれる場合は `\|` にエスケープする（表のセルがずれて URL 列が壊れるため）。
 
 ### 7. コミット & push（main 直接）
 変更（ブリーフィングファイル + selected-articles.md）を **main ブランチに直接**コミットして push する。PR は作らない。
@@ -188,13 +213,15 @@ push 後に以下を確認する。
 ```bash
 git log --oneline -1 origin/main        # 当日のコミットが main の先頭にあること
 ls briefings/YYYY/MM/                   # 当月に欠番がないこと
+python3 site/build.py                   # サイトが生成でき、当日分が出力されること
 ```
 
 `main` への push で GitHub Pages のビルド（`.github/workflows/pages.yml`）が自動的に走り、
 https://sk8metalme.github.io/daily-briefing/ に反映される。routine 側での操作は不要。
 SVG 図版を作った場合は `git add briefings/YYYY/MM/figures/` も忘れないこと。
 
-`main` に push できなかった場合、または当月に欠番がある場合は、**その事実を通知に必ず含める**（成果物だけ報告して終わらせない）。push が成功し欠番もなければ、通知は不要。
+`main` に push できなかった場合、当月に欠番がある場合、`site/build.py` が WARNING を出した場合は、
+**その事実を通知に必ず含める**（成果物だけ報告して終わらせない）。すべて問題なければ通知は不要。
 
 ## 品質基準
 - 全文日本語（技術用語・固有名詞は原文のままで可）
