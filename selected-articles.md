@@ -309,3 +309,6 @@
 | 2026-10-18 | Agentic Continuous Delivery (ACD) | https://beyond.minimumcd.org/docs/agentic-cd/ |
 | 2026-10-18 | AI-DLC Continues to Evolve — The Self-Correcting Development Methodology "2.0" and the Current State of Spec-Driven Development Scrums | https://note.com/pompom_purin_ai/n/n06f4938a7063 |
 | 2026-10-18 | Jev: AI Built to Decide, Not to Write | https://arceapps.com/blog/jev-system-one-models/ |
+| 2026-10-19 | Before the agents start: How engineering teams agree on what to build, then run more of it at once | https://tryhamster.com/guides/before-the-agents |
+| 2026-10-19 | Code review is your last line of defense against agent pull requests | https://dev.to/dekita/code-review-is-your-last-line-of-defense-against-agent-pull-requests-54j5 |
+| 2026-10-19 | What Is Jev? TypeSafe's Decision Model, Tested Against LLMs | https://aimlapi.com/blog/what-is-jev |
