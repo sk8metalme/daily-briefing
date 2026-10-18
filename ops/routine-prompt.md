@@ -2,13 +2,16 @@
 
 この日次ブリーフィングは Claude Code のクラウド routine が無人で実行する。
 
-- Routine ID: `trig_01FSoRL5Bvgvf7sctYgMjCW1`
 - 名前: `daily-tech-briefing`
 - スケジュール: `30 21 * * *` UTC（= 06:30 JST）
-- 編集画面: https://claude.ai/code/routines/trig_01FSoRL5Bvgvf7sctYgMjCW1
+- 編集画面: https://claude.ai/code/routines から `daily-tech-briefing` を開く
+
+本リポジトリは public のため、routine ID と編集画面の直 URL はここに記載しない。
+ID 自体は認証情報ではない（認可はアカウントで判定される）が、載せる利点もないため省く。
+ID が必要な場合は routines 一覧、または `list_triggers` / `get_trigger` で取得する。
 
 この routine は HTTP API 経由で作成されているため、**エージェントからは編集できない**
-（所有者が上記の編集画面から変更する必要がある）。そのため正本をここに置いて版管理する。
+（所有者が編集画面から変更する必要がある）。そのため正本をここに置いて版管理する。
 
 `update_trigger` で書き換えようとすると以下で拒否される。2026-10-18 に実地で確認済み。
 
