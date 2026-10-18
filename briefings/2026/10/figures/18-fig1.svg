@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452" role="img"
+     aria-labelledby="acd-q-title acd-q-desc">
+  <title id="acd-q-title">CD 成熟度とエージェント投入度の四象限</title>
+  <desc id="acd-q-desc">継続的デリバリーが成立していない状態でエージェントを投入すると既存の問題が増幅される。推奨される順序は CD を先に成立させてからエージェントを投入すること。</desc>
+
+  <rect x="0" y="0" width="720" height="452" fill="var(--fig-paper, #ffffff)"/>
+
+  <defs>
+    <marker id="acd-q-arrow" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 z" fill="var(--fig-accent, #bf4520)"/>
+    </marker>
+    <marker id="acd-q-arrow-muted" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 z" fill="var(--fig-soft, #9b9fae)"/>
+    </marker>
+  </defs>
+
+  <!-- 軸ラベル -->
+  <text x="140" y="28" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-soft, #9b9fae)">エージェント投入度 ↑</text>
+  <text x="660" y="416" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-soft, #9b9fae)">CD 成熟度 →</text>
+
+  <!-- 象限の面 -->
+  <rect x="140" y="48" width="260" height="168" rx="6"
+        fill="var(--fig-paper, #ffffff)" stroke="var(--fig-soft, #9b9fae)"
+        stroke-width="1" stroke-dasharray="5,4"/>
+  <rect x="400" y="48" width="260" height="168" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <rect x="140" y="216" width="260" height="168" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <rect x="400" y="216" width="260" height="168" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+
+  <!-- 経路（面より先、ラベルより後に描く） -->
+  <path d="M 270 300 H 530 V 160" fill="none" stroke="var(--fig-accent, #bf4520)"
+        stroke-width="2" marker-end="url(#acd-q-arrow)"/>
+  <path d="M 244 300 V 160" fill="none" stroke="var(--fig-soft, #9b9fae)"
+        stroke-width="1.5" stroke-dasharray="5,4" marker-end="url(#acd-q-arrow-muted)"/>
+
+  <!-- 象限ラベル（左上: 問題の増幅） -->
+  <rect x="268" y="96" width="120" height="44" rx="2" fill="var(--fig-paper, #ffffff)"/>
+  <text x="384" y="112" text-anchor="end" font-size="14" font-weight="600"
+        font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">問題の増幅</text>
+  <text x="384" y="130" text-anchor="end" font-size="11"
+        font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">既存の欠陥が速度で拡大</text>
+
+  <!-- 右上: ACD -->
+  <text x="424" y="86" font-size="14" font-weight="600"
+        font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-accent, #bf4520)">ACD が成立</text>
+  <text x="424" y="106" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">単一の品質基準 / 権限分離</text>
+  <text x="424" y="124" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">赤の間は健全性回復のみ</text>
+
+  <!-- 左下: 現状維持 -->
+  <text x="164" y="260" font-size="14" font-weight="600"
+        font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">手作業のデリバリー</text>
+  <text x="164" y="280" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">出発点</text>
+
+  <!-- 右下: CD だけ -->
+  <text x="636" y="260" text-anchor="end" font-size="14" font-weight="600"
+        font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">CD は成立 速度は人間律速</text>
+  <text x="636" y="280" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">8つの前提条件が機能している</text>
+
+  <!-- 経路ラベル（線の上に不透明マスクを敷く） -->
+  <rect x="332" y="288" width="136" height="20" rx="2" fill="var(--fig-paper-2, #ecebe8)"/>
+  <text x="400" y="303" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace"
+        fill="var(--fig-accent, #bf4520)">まず CD を成立させる</text>
+
+  <rect x="150" y="180" width="92" height="20" rx="2" fill="var(--fig-paper, #ffffff)"/>
+  <text x="238" y="195" text-anchor="end" font-size="11"
+        font-family="'Geist Mono', monospace"
+        fill="var(--fig-soft, #9b9fae)">順序の誤り</text>
+
+  <!-- 凡例 -->
+  <line x1="140" y1="436" x2="176" y2="436" stroke="var(--fig-accent, #bf4520)" stroke-width="2"/>
+  <text x="184" y="440" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">推奨する順序</text>
+  <line x1="304" y1="436" x2="340" y2="436" stroke="var(--fig-soft, #9b9fae)"
+        stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="348" y="440" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">ガイドが警告する順序</text>
+</svg>
