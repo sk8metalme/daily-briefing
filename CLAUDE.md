@@ -4,9 +4,33 @@
 
 ## このリポジトリの性質
 
-日次ブリーフィングの**自動蓄積ログ**。コードを持たず、生成物は追記のみの Markdown
-（`briefings/YYYY/MM/DD.md` と重複防止インデックス `selected-articles.md`）。
-ビルド・テスト・リンタは存在しない。
+日次ブリーフィングの**自動蓄積ログ**。生成物は追記のみの Markdown
+（`briefings/YYYY/MM/DD.md` と重複防止インデックス `selected-articles.md`）と、
+任意の SVG 図版（`briefings/YYYY/MM/figures/DD-figN.svg`）。
+
+配信用に `site/build.py`（Python + `markdown` のみ）の静的サイトジェネレータがあり、
+`main` への push で GitHub Actions が https://sk8metalme.github.io/daily-briefing/ へデプロイする。
+**ブリーフィング本体には front matter を要求しない**（素の Markdown のまま）ため、
+サイトを足したことで日次の書き込み規約は変わっていない。
+
+```bash
+pip install -r site/requirements.txt
+python3 site/build.py        # => _site/
+```
+
+テスト・リンタは存在しない。サイトを変更したら `python3 site/build.py` が通ること、
+および記事抽出件数が減っていないことを確認する。
+
+## ブリーフィング執筆の規約
+
+セッション開始時に自動で読み込まれるスキルに詳細がある。
+
+- `.claude/skills/briefing-figures/SKILL.md` — 図解。Mermaid と インライン SVG の使い分け、
+  SVG の配色・複雑さ予算・配置規約
+- `.claude/skills/strategic-analysis/SKILL.md` — 戦略分析。記事の型からビジネスフレームワークを
+  選ぶ対応表と出力テンプレート
+
+routine プロンプトの正本は `ops/routine-prompt.md`。書式を変えたときは両方を揃えること。
 
 ## ブランチ運用: main 直接コミットが正規
 
@@ -36,8 +60,13 @@ git push origin main          # reject されたら pull --rebase して再 push
 
 ### 例外
 
-スキーマやディレクトリ構成の変更、スクリプト追加など**ブリーフィング以外の構造的変更**は
-ブランチ + PR を使ってよい。日次ブリーフィングの追記だけが main 直接の対象。
+スキーマやディレクトリ構成の変更、スクリプト追加、`site/` 配下の変更など
+**ブリーフィング以外の構造的変更**はブランチ + PR を使ってよい。
+日次ブリーフィングの追記だけが main 直接の対象。
+
+PR が main に滞留すると `selected-articles.md` の最新状態が読めなくなるため、
+構造変更の PR を開けたままにしない。長く開ける場合でも `selected-articles.md` には触れないこと
+（日次の追記と確実に衝突する）。
 
 ## 作業後の検証
 
@@ -56,6 +85,9 @@ tail -3 selected-articles.md
 
 # 4. 欠番がないか（ある場合は過去の実行が main に届いていない）
 ls briefings/YYYY/MM/
+
+# 5. サイトが生成でき、当日分が出力されるか（site/ を変更した場合は必須）
+python3 site/build.py && ls _site/briefings/YYYY/MM/DD.html
 ```
 
 ## Markdown の注意点
@@ -75,3 +107,13 @@ ls briefings/YYYY/MM/
 
 Mermaid 図はノードラベルに括弧・コロン等を直接書かず `"ダブルクォート"` で囲む。
 書いたあとフェンスの平衡と構文を見直す。
+
+**日本語の太字**: `**強調**` の直前・直後が約物（`）` `」` `】` など）だと、CommonMark の
+flanking 規則により GitHub 上で太字にならず `**` がそのまま残る。括弧を太字の外へ出すか、
+直後に半角スペースを入れる。
+
+- 誤: `**ACD の制約（MinimumCD への拡張）**は8項目`
+- 正: `**ACD の制約**（MinimumCD への拡張）は8項目`
+
+サイト側（`site/build.py`）は日本語向けに `**` を常に強調として解釈するため表示上は救われるが、
+GitHub 上では崩れたままになる。書く時点で避けること。
