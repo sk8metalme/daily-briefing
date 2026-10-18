@@ -222,10 +222,13 @@ def parse_article_index() -> list[dict[str, str]]:
     for line in INDEX_MD.read_text(encoding="utf-8").splitlines():
         if not line.startswith("|"):
             continue
+        # タイトルに素の "|" が混ざっている行があるため、
+        # 先頭を日付・末尾を URL とし、間をすべてタイトルとして復元する
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
         if len(cells) < 3 or not re.match(r"^\d{4}-\d{2}-\d{2}$", cells[0]):
             continue
-        rows.append({"date": cells[0], "title": cells[1], "url": cells[2]})
+        title = "|".join(cells[1:-1]).replace("\\|", "|").strip()
+        rows.append({"date": cells[0], "title": title, "url": cells[-1]})
     return rows
 
 
@@ -701,6 +704,21 @@ def main() -> None:
     empty = [b.iso for b in briefings if not b.articles]
     if empty:
         print("WARNING: 記事を抽出できなかった日: " + ", ".join(empty))
+    malformed = [r["date"] for r in rows if not r["url"].startswith("http")]
+    if malformed:
+        print("WARNING: selected-articles.md の URL 列が壊れている行: " + ", ".join(malformed))
+    indexed = {r["url"].rstrip("/") for r in rows}
+    unindexed = [
+        f"{b.iso}#{a.number}"
+        for b in briefings
+        for a in b.articles
+        if a.url.rstrip("/") not in indexed
+    ]
+    if unindexed:
+        print(
+            "WARNING: selected-articles.md に載っていない記事（重複選定の恐れ）: "
+            + ", ".join(unindexed)
+        )
     print(f"latest: {latest.iso}")
 
 
