@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img"
+     aria-labelledby="swarm-title swarm-desc">
+  <title id="swarm-title">Leader / Worker エージェントの2層構造</title>
+  <desc id="swarm-desc">エンジニアの入口から Worker 層が実行し、Leader 層が共有能力と統制を提供する。下層に既存のシステム・オブ・レコードがある</desc>
+
+  <rect x="0" y="0" width="720" height="400" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 入口 -->
+  <rect x="40" y="24" width="640" height="44" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="360" y="51" text-anchor="middle" font-size="13"
+        font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">入口: IDE / CLI / GitHub・Jira トリガー</text>
+
+  <!-- Leader 層（アクセント1） -->
+  <rect x="40" y="88" width="640" height="104" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="56" y="112" font-size="14" font-weight="600"
+        font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">Leader エージェント（デジタル PL）</text>
+  <text x="56" y="140" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">共有プロンプト・ワークフロー集 ／ 共通ツールゲートウェイ ／ 長期記憶</text>
+  <text x="56" y="164" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">全体オブザーバビリティ ／ オーケストレーション（いつ誰が動くか）</text>
+  <text x="664" y="112" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">統制・一貫性</text>
+
+  <!-- Worker 層 -->
+  <rect x="40" y="212" width="640" height="88" rx="6"
+        fill="var(--fig-paper, #ffffff)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="56" y="236" font-size="14" font-weight="600"
+        font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">Worker エージェント（デジタル IC、単体 or スウォーム）</text>
+  <text x="56" y="264" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">意図→計画 ／ 文脈収集 ／ 実行（ツール・コーディングエージェント）／ 検証 ／ 報告</text>
+  <text x="56" y="286" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">A2A で相互通信、非対応エージェントは MCP ラッパー経由</text>
+  <text x="664" y="236" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">自律・実行</text>
+
+  <!-- 既存システム -->
+  <rect x="40" y="320" width="640" height="44" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="360" y="347" text-anchor="middle" font-size="13"
+        font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">システム・オブ・レコード: リポジトリ / Issue トラッカー / ログ</text>
+</svg>

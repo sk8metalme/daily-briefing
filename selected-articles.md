@@ -312,3 +312,6 @@
 | 2026-10-19 | Before the agents start: How engineering teams agree on what to build, then run more of it at once | https://tryhamster.com/guides/before-the-agents |
 | 2026-10-19 | Code review is your last line of defense against agent pull requests | https://dev.to/dekita/code-review-is-your-last-line-of-defense-against-agent-pull-requests-54j5 |
 | 2026-10-19 | What Is Jev? TypeSafe's Decision Model, Tested Against LLMs | https://aimlapi.com/blog/what-is-jev |
+| 2026-10-20 | From Prompt to Product: Spec-Driven Development with Agent Workflows | https://www.otto.de/jobs/en/blogs/techblog/spec-driven-development-agent-workflows/ |
+| 2026-10-20 | Agentic Engineering: How Swarms of AI Agents Are Redefining Software Engineering | https://www.langchain.com/blog/agentic-engineering-redefining-software-engineering |
+| 2026-10-20 | How to Use Jev for LLM Routing with ZenMux: A Developer Guide | https://zenmux.ai/blog/how-to-use-jev-for-llm-routing-with-zenmux-a-developer-guide |
