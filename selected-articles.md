@@ -315,3 +315,6 @@
 | 2026-10-20 | From Prompt to Product: Spec-Driven Development with Agent Workflows | https://www.otto.de/jobs/en/blogs/techblog/spec-driven-development-agent-workflows/ |
 | 2026-10-20 | Agentic Engineering: How Swarms of AI Agents Are Redefining Software Engineering | https://www.langchain.com/blog/agentic-engineering-redefining-software-engineering |
 | 2026-10-20 | How to Use Jev for LLM Routing with ZenMux: A Developer Guide | https://zenmux.ai/blog/how-to-use-jev-for-llm-routing-with-zenmux-a-developer-guide |
+| 2026-10-21 | 10 controls and delivery patterns for AI-DLC in practice | https://dius.com.au/controls-and-delivery-patterns-for-ai-dlc-practice/ |
+| 2026-10-21 | The Merge Queue Is the New Bottleneck | https://tianpan.co/blog/2026/07/02/the-merge-queue-is-the-new-bottleneck |
+| 2026-10-21 | TypeSafe Jev Guide: How it works and 6 best practical use cases | https://composio.dev/content/typesafe-jev-guide-and-best-practical-usecases |

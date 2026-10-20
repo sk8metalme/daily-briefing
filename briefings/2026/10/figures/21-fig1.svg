@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 368" role="img"
+     aria-labelledby="mq-title mq-desc">
+  <title id="mq-title">チェックを3段に振り分ける: pre-queue / in-queue / post-merge</title>
+  <desc id="mq-desc">直列で待たされる in-queue を細くし、速いチェックは push ごとの pre-queue へ、重いスイートは main に対する post-merge へ逃がす。in-queue が直列区間でありスループットの制約になる</desc>
+
+  <rect x="0" y="0" width="720" height="368" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 時間軸 -->
+  <path d="M 40 64 H 680" fill="none" stroke="var(--fig-muted, #6b6f80)"
+        stroke-width="1" marker-end="url(#mq-arrow)"/>
+  <text x="40" y="52" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">push</text>
+  <text x="260" y="52" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">承認 → キュー投入</text>
+  <text x="488" y="52" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">main にマージ後</text>
+
+  <!-- pre-queue -->
+  <rect x="40" y="88" width="200" height="176" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="56" y="116" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">pre-queue</text>
+  <text x="56" y="136" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">push ごと・並列・数分</text>
+  <text x="56" y="168" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">lint / typecheck</text>
+  <text x="56" y="188" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">build</text>
+  <text x="56" y="208" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">影響範囲の unit test</text>
+  <text x="56" y="244" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">エージェントが何度でも回す</text>
+
+  <!-- in-queue（制約） -->
+  <rect x="260" y="88" width="208" height="176" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1.5"/>
+  <text x="276" y="116" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">in-queue（直列）</text>
+  <text x="276" y="136" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-accent, #bf4520)">ここが制約: 30分CI ≒ 2件/時</text>
+  <text x="276" y="168" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">変更間の相互作用を見る</text>
+  <text x="276" y="188" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">安定した統合テストのみ</text>
+  <text x="276" y="208" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">flaky は隔離して非ブロック</text>
+  <text x="276" y="244" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">再投入は2回まで → 人へ</text>
+
+  <!-- post-merge -->
+  <rect x="488" y="88" width="192" height="176" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="504" y="116" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">post-merge</text>
+  <text x="504" y="136" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">main に対し定期/連続</text>
+  <text x="504" y="168" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">E2E スイート</text>
+  <text x="504" y="188" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">性能ベンチ</text>
+  <text x="504" y="208" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">大きな matrix build</text>
+  <text x="504" y="244" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">即 revert / flag で止血</text>
+
+  <!-- 凡例 -->
+  <rect x="40" y="300" width="16" height="12" rx="2"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="64" y="311" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">直列区間（スループットを決める）</text>
+  <rect x="300" y="300" width="16" height="12" rx="2"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="324" y="311" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">並列化できる区間（ここへ逃がす）</text>
+  <text x="40" y="344" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">出典: Tian Pan "The Merge Queue Is the New Bottleneck"（2026-07-02）</text>
+
+  <defs>
+    <marker id="mq-arrow" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 z" fill="var(--fig-muted, #6b6f80)"/>
+    </marker>
+  </defs>
+</svg>
