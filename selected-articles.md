@@ -318,3 +318,6 @@
 | 2026-10-21 | 10 controls and delivery patterns for AI-DLC in practice | https://dius.com.au/controls-and-delivery-patterns-for-ai-dlc-practice/ |
 | 2026-10-21 | The Merge Queue Is the New Bottleneck | https://tianpan.co/blog/2026/07/02/the-merge-queue-is-the-new-bottleneck |
 | 2026-10-21 | TypeSafe Jev Guide: How it works and 6 best practical use cases | https://composio.dev/content/typesafe-jev-guide-and-best-practical-usecases |
+| 2026-10-22 | Coding Agents Produce More Code, Not More Software (2026) | https://redreamality.com/blog/coding-agent-more-code-not-more-software-2026/ |
+| 2026-10-22 | Agentic Engineering Maturity Model: 5-Level Self-Assessment | https://www.augmentcode.com/guides/agentic-engineering-maturity-model |
+| 2026-10-22 | Is Jev's confidence score trustworthy? RLCD calibration explained | https://prefactor.tech/blog/jev-calibrated-confidence-is-not-correctness |

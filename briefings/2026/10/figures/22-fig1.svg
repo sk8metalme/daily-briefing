@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 372" role="img"
+     aria-labelledby="aem-title aem-desc">
+  <title id="aem-title">エージェンティック・エンジニアリング成熟度の5段階</title>
+  <desc id="aem-desc">Ad-Hoc から Autonomous までの5段階を階段状に並べ、最も価値の大きい Level 2 から 3 への移行を強調する</desc>
+
+  <rect x="0" y="0" width="720" height="372" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 段階バー（階段状） -->
+  <rect x="24" y="232" width="124" height="64" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="86" y="256" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L1 Ad-Hoc</text>
+  <text x="86" y="276" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">個人の実験</text>
+
+  <rect x="160" y="196" width="124" height="100" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="222" y="220" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L2 Standardized</text>
+  <text x="222" y="240" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">AGENTS.md を共有</text>
+
+  <rect x="296" y="160" width="124" height="136" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="358" y="184" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L3 Orchestrated</text>
+  <text x="358" y="204" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">CI/CD 統合</text>
+  <text x="358" y="220" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">サービスアカウント</text>
+
+  <rect x="432" y="124" width="124" height="172" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="494" y="148" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L4 Systematic</text>
+  <text x="494" y="168" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">共有メモリ</text>
+
+  <rect x="568" y="88" width="128" height="208" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="632" y="112" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L5 Autonomous</text>
+  <text x="632" y="132" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">on the loop</text>
+
+  <!-- 注釈: 最大価値の移行 -->
+  <path d="M 222 180 V 144 H 296" fill="none" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="24" y="40" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">財務効果が最大なのは L2 → L3（MIT CISR）</text>
+  <text x="24" y="60" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">文書の追加ではなくプロセスの変更が要る段差</text>
+  <text x="228" y="140" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-accent, #bf4520)">最大の段差</text>
+
+  <!-- 下端の軸 -->
+  <path d="M 24 308 H 696" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="24" y="332" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">統制: なし → 非公式 → 文書化 → 責任者指名 → 段階的自動承認</text>
+  <text x="24" y="352" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">計測: なし → 場当たり → DORA を速度/安定性に分割 → 監査証跡 → リスク考慮のマージ方針</text>
+</svg>
