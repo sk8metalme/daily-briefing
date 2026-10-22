@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img"
+     aria-labelledby="jgw-title jgw-desc">
+  <title id="jgw-title">Jev ガードレールの2つの配置</title>
+  <desc id="jgw-desc">エージェント内フックは自分の経路だけを守り、DB 手前のワイヤ層はクレデンシャルに結び付いてすべてのクライアントを捕捉する</desc>
+
+  <rect x="0" y="0" width="720" height="420" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 矢印（ノードより先に描く） -->
+  <path d="M 128 112 V 160" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1" marker-end="url(#jgw-arrow)"/>
+  <path d="M 128 216 V 260" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1" marker-end="url(#jgw-arrow)"/>
+  <path d="M 360 112 V 260" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1" marker-end="url(#jgw-arrow)"/>
+  <path d="M 592 112 V 260" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1" marker-end="url(#jgw-arrow)"/>
+  <path d="M 360 316 V 348" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1" marker-end="url(#jgw-arrow)"/>
+
+  <!-- 迂回ラベル -->
+  <rect x="300" y="176" width="120" height="20" fill="var(--fig-paper, #ffffff)"/>
+  <text x="360" y="190" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">フックを迂回</text>
+  <rect x="532" y="176" width="120" height="20" fill="var(--fig-paper, #ffffff)"/>
+  <text x="592" y="190" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">フックを迂回</text>
+
+  <!-- クライアント層 -->
+  <rect x="48" y="56" width="160" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="128" y="80" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">エージェント A</text>
+  <text x="128" y="98" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">プラグイン導入済み</text>
+
+  <rect x="280" y="56" width="160" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="360" y="80" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">別エージェント・cron</text>
+  <text x="360" y="98" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">同じ認証情報</text>
+
+  <rect x="512" y="56" width="160" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="592" y="80" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">人間の psql</text>
+  <text x="592" y="98" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">ハーネスなし</text>
+
+  <!-- エージェント内フック（A の経路だけ） -->
+  <rect x="48" y="160" width="160" height="56" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="128" y="184" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">エージェント内フック</text>
+  <text x="128" y="202" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">意図と一緒に判定</text>
+
+  <!-- ワイヤ層（全幅） -->
+  <rect x="48" y="260" width="624" height="56" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="360" y="284" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">ワイヤ層（DB 手前のサイドカー）</text>
+  <text x="360" y="302" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">認証情報に結び付く・マスキング・改ざん不能ログ</text>
+
+  <!-- DB -->
+  <rect x="280" y="348" width="160" height="40" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="360" y="372" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">本番データベース</text>
+
+  <text x="24" y="32" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">どこで判定を「強制」するか</text>
+
+  <defs>
+    <marker id="jgw-arrow" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 z" fill="var(--fig-muted, #6b6f80)"/>
+    </marker>
+  </defs>
+</svg>

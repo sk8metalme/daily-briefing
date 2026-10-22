@@ -321,3 +321,6 @@
 | 2026-10-22 | Coding Agents Produce More Code, Not More Software (2026) | https://redreamality.com/blog/coding-agent-more-code-not-more-software-2026/ |
 | 2026-10-22 | Agentic Engineering Maturity Model: 5-Level Self-Assessment | https://www.augmentcode.com/guides/agentic-engineering-maturity-model |
 | 2026-10-22 | Is Jev's confidence score trustworthy? RLCD calibration explained | https://prefactor.tech/blog/jev-calibrated-confidence-is-not-correctness |
+| 2026-10-23 | Building AI-Ready Engineering Organizations: A Practical Guide | https://www.ai-infra-link.com/building-ai-ready-engineering-organizations-a-practical-guide/ |
+| 2026-10-23 | Faster Code, Same Release Date: What Gives? | https://liviutudor.com/2026/10/20/faster-code-same-release-date-what-gives/ |
+| 2026-10-23 | Should your Jev guardrail live in the agent or on the wire? | https://hoop.dev/blog/should-your-jev-guardrail-live-in-the-agent-or-on-the-wire/ |
