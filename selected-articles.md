@@ -324,3 +324,6 @@
 | 2026-10-23 | Building AI-Ready Engineering Organizations: A Practical Guide | https://www.ai-infra-link.com/building-ai-ready-engineering-organizations-a-practical-guide/ |
 | 2026-10-23 | Faster Code, Same Release Date: What Gives? | https://liviutudor.com/2026/10/20/faster-code-same-release-date-what-gives/ |
 | 2026-10-23 | Should your Jev guardrail live in the agent or on the wire? | https://hoop.dev/blog/should-your-jev-guardrail-live-in-the-agent-or-on-the-wire/ |
+| 2026-10-24 | More Code, Fewer Deployments: Why Progressive Delivery Is the Missing Half of Your AI Coding Strategy | https://stepto.net/blog/progressive-delivery-feature-flags-ai-generated-code-release-safety-2026 |
+| 2026-10-24 | The AI-Native Team | https://hoolahoop.io/articles/cto-coaching/ai-native-team-topology/ |
+| 2026-10-24 | jev-judge: Jev pre-tool gate plugin for Hermes Agent | https://hermes-agent.nousresearch.com/docs/plugins/jev-judge |

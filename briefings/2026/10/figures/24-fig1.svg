@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img"
+     aria-labelledby="ant-title ant-desc">
+  <title id="ant-title">従来型チームと AI ネイティブチームの構成比較</title>
+  <desc id="ant-desc">2024年型の8〜12人チームは中堅・ジュニア・QAが大半を占め、品質ゲートはコードレビュー。2026年型の3〜5人チームはシニア中心で AI Reliability Engineer が加わり、品質ゲートはエージェント出力の検証に移る</desc>
+
+  <rect x="0" y="0" width="720" height="400" fill="var(--fig-paper, #ffffff)"/>
+
+  <text x="40" y="36" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">従来型（2024）8〜12人</text>
+  <text x="40" y="196" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">AI ネイティブ（2026）3〜5人 + エージェント群</text>
+
+  <!-- 従来型: 横幅は人数の上限値に比例 -->
+  <rect x="40" y="52" width="48" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="64" y="84" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">EM</text>
+  <rect x="92" y="52" width="92" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="138" y="84" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">TL 1〜2</text>
+  <rect x="188" y="52" width="236" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="306" y="84" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">中堅エンジニア 4〜6</text>
+  <rect x="428" y="52" width="140" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="498" y="84" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">ジュニア 2〜3</text>
+  <rect x="572" y="52" width="48" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="596" y="84" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">QA</text>
+  <text x="40" y="136" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">品質ゲート: コードレビュー / 計画: 人数ベース / 指標: ストーリーポイント</text>
+
+  <!-- AI ネイティブ: 同じ縮尺 -->
+  <rect x="40" y="212" width="92" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="86" y="236" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">TL /</text>
+  <text x="86" y="252" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">アーキテクト</text>
+  <rect x="136" y="212" width="140" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="206" y="244" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">シニア 2〜3</text>
+  <rect x="280" y="212" width="92" height="56" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="326" y="236" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">AI Reliability</text>
+  <text x="326" y="252" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">Engineer</text>
+  <rect x="384" y="212" width="296" height="56" rx="6" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="532" y="244" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">管理されたエージェント群（人数外）</text>
+  <text x="40" y="296" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-accent, #bf4520)">品質ゲート: エージェント出力の検証</text>
+  <text x="40" y="316" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">計画: 仕様駆動 / 指標: MTTV・AI-CFR・Interaction Churn</text>
+
+  <!-- 凡例 -->
+  <line x1="40" y1="352" x2="680" y2="352" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <rect x="40" y="368" width="16" height="12" rx="2" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="64" y="379" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">人（横幅 ≒ 人数）</text>
+  <rect x="200" y="368" width="16" height="12" rx="2" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="224" y="379" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">新設ロール</text>
+  <rect x="320" y="368" width="16" height="12" rx="2" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="344" y="379" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">エージェント</text>
+</svg>
