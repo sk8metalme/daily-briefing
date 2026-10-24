@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img"
+     aria-labelledby="jtp-title jtp-desc">
+  <title id="jtp-title">Jev の確率出力に対する3段階の閾値ポリシー</title>
+  <desc id="jtp-desc">0から1の確率軸を、低信号は偽とみなし停止・却下、中間は保留して文脈追加・再試行・レビュー、高信号は真とみなし行動する、の3帯に分ける。記事の例では人間レビュー送りの閾値が0.8、低リスクの社内実験の出発点が0.65。下限は記事に値がなく、ラベル付きデータで較正して決める</desc>
+
+  <rect x="0" y="0" width="720" height="320" fill="var(--fig-paper, #ffffff)"/>
+
+  <text x="40" y="36" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">Noul の確率（1 = 命題が真）と、アプリ側が取る行動</text>
+
+  <!-- 帯: 横位置が確率に比例（x=40 が 0、x=680 が 1） -->
+  <rect x="40" y="64" width="192" height="96" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="136" y="104" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">低信号</text>
+  <text x="136" y="128" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">偽とみなす（停止・却下）</text>
+
+  <rect x="236" y="64" width="276" height="96" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="374" y="104" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">中間信号</text>
+  <text x="374" y="128" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">保留: 文脈追加・再試行・レビュー</text>
+
+  <rect x="516" y="64" width="164" height="96" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="598" y="104" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">高信号</text>
+  <text x="598" y="128" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">真とみなし行動</text>
+
+  <!-- 軸 -->
+  <path d="M 40 196 H 680" fill="none" stroke="var(--fig-ink, #2d3142)" stroke-width="1"/>
+  <path d="M 40 188 V 204" fill="none" stroke="var(--fig-ink, #2d3142)" stroke-width="1"/>
+  <path d="M 680 188 V 204" fill="none" stroke="var(--fig-ink, #2d3142)" stroke-width="1"/>
+  <text x="40" y="224" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-ink, #2d3142)">0.0</text>
+  <text x="680" y="224" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-ink, #2d3142)">1.0</text>
+
+  <!-- 下限: 記事に値がない -->
+  <path d="M 232 168 V 204" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="232" y="224" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">下限は要較正</text>
+
+  <!-- 0.65: 低リスク社内実験の出発点 -->
+  <path d="M 456 168 V 204" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1"/>
+  <text x="456" y="224" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-ink, #2d3142)">0.65</text>
+  <text x="456" y="244" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">低リスク実験の出発点</text>
+
+  <!-- 0.8: 例の人間レビュー閾値 -->
+  <path d="M 552 168 V 204" fill="none" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="552" y="224" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-ink, #2d3142)">0.8</text>
+  <text x="600" y="264" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">例: needs_human ≥ 0.8 なら人間へ回す</text>
+
+  <text x="40" y="296" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">閾値は誤りのコストで決まる。他のワークフローへ流用せず、ラベル付き結果で再計測する</text>
+</svg>

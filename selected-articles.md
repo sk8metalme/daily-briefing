@@ -327,3 +327,6 @@
 | 2026-10-24 | More Code, Fewer Deployments: Why Progressive Delivery Is the Missing Half of Your AI Coding Strategy | https://stepto.net/blog/progressive-delivery-feature-flags-ai-generated-code-release-safety-2026 |
 | 2026-10-24 | The AI-Native Team | https://hoolahoop.io/articles/cto-coaching/ai-native-team-topology/ |
 | 2026-10-24 | jev-judge: Jev pre-tool gate plugin for Hermes Agent | https://hermes-agent.nousresearch.com/docs/plugins/jev-judge |
+| 2026-10-25 | Spec-Driven Development, Without the Hype | https://utsabpant.com/blog/spec-driven-development-without-the-hype |
+| 2026-10-25 | The Agent-Native Developer Workflow: A Practitioner's Guide | https://www.shiplight.ai/blog/agent-native-developer-workflow |
+| 2026-10-25 | Jev System One Model: A Practical Guide to Typed AI Decisions | https://huggingface.co/blog/paidaxccc/jev-system-one-model-a-practical-guide-to-typed-ai |
