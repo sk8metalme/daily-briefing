@@ -330,3 +330,6 @@
 | 2026-10-25 | Spec-Driven Development, Without the Hype | https://utsabpant.com/blog/spec-driven-development-without-the-hype |
 | 2026-10-25 | The Agent-Native Developer Workflow: A Practitioner's Guide | https://www.shiplight.ai/blog/agent-native-developer-workflow |
 | 2026-10-25 | Jev System One Model: A Practical Guide to Typed AI Decisions | https://huggingface.co/blog/paidaxccc/jev-system-one-model-a-practical-guide-to-typed-ai |
+| 2026-10-26 | Agentic SDLC Playbook: The Build Shrank. Fix Both Sides. | https://felipefontoura.com/articles/agentic-sdlc/ |
+| 2026-10-26 | Jev guardrails in production: a security platform's front door for five cents a day | https://www.metaheuristic.co/blog/jev-quality-gates-cybersecurity/ |
+| 2026-10-26 | Agentic Engineering: Building Production Systems with Coding Agents | https://www.zenml.io/llmops-database/agentic-engineering-building-production-systems-with-coding-agents |

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img"
+     aria-labelledby="ladder-title ladder-desc">
+  <title id="ladder-title">エージェント自律度ラダー L1〜L5</title>
+  <desc id="ladder-desc">L1 Assisted から L5 Full agentic までの5段。各段の検証手段と、その段を解放するスコアカード項目を示す。L2 から L4 への跳躍が「操作から判定へ」の転換点。</desc>
+
+  <rect x="0" y="0" width="720" height="380" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 転換点の注釈線（ノードより先に描く） -->
+  <path d="M 228 132 H 440" fill="none" stroke="var(--fig-accent, #bf4520)"
+        stroke-width="1" stroke-dasharray="4 4" marker-end="url(#ladder-arrow)"/>
+  <rect x="284" y="120" width="104" height="24" fill="var(--fig-paper, #ffffff)"/>
+  <text x="336" y="136" text-anchor="middle" font-size="12"
+        font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-accent, #bf4520)">操作 → 判定</text>
+
+  <!-- L1 -->
+  <rect x="24" y="284" width="128" height="64" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="88" y="308" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L1 Assisted</text>
+  <text x="88" y="328" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">検証: 人の目</text>
+
+  <!-- L2 -->
+  <rect x="164" y="228" width="128" height="120" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="228" y="252" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L2 Supervised</text>
+  <text x="228" y="272" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">人の目＋テスト</text>
+  <text x="228" y="300" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">AGENTS.md</text>
+  <text x="228" y="316" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">make check</text>
+
+  <!-- L3 -->
+  <rect x="304" y="172" width="128" height="176" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="368" y="160" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L3 Pull request</text>
+  <text x="368" y="236" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">層状テスト＋CI</text>
+  <text x="368" y="264" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">受け入れ基準</text>
+  <text x="368" y="280" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">自動テスト</text>
+  <text x="368" y="296" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">設定のバージョン管理</text>
+  <text x="368" y="312" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">デプロイ連動</text>
+  <text x="368" y="328" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">レビュー規律</text>
+
+  <!-- L4（転換点の到達先＝アクセント） -->
+  <rect x="444" y="116" width="128" height="232" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="508" y="104" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L4 Autonomous</text>
+  <text x="508" y="180" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">eval ゲート</text>
+  <text x="508" y="264" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">環境と配信</text>
+  <text x="508" y="280" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">eval ハーネス</text>
+  <text x="508" y="296" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">サンドボックス＋trace</text>
+  <text x="508" y="312" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">規約を linter へ</text>
+
+  <!-- L5 -->
+  <rect x="584" y="60" width="112" height="288" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="640" y="48" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">L5 Full agentic</text>
+  <text x="640" y="124" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">自律 eval</text>
+  <text x="640" y="140" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">人は意図と当番</text>
+
+  <text x="24" y="372" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">箱の中の下段 = その段を解放するスコアカード項目（全項目 2 点以上で到達）</text>
+
+  <defs>
+    <marker id="ladder-arrow" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 z" fill="var(--fig-accent, #bf4520)"/>
+    </marker>
+  </defs>
+</svg>
