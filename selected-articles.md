@@ -333,3 +333,6 @@
 | 2026-10-26 | Agentic SDLC Playbook: The Build Shrank. Fix Both Sides. | https://felipefontoura.com/articles/agentic-sdlc/ |
 | 2026-10-26 | Jev guardrails in production: a security platform's front door for five cents a day | https://www.metaheuristic.co/blog/jev-quality-gates-cybersecurity/ |
 | 2026-10-26 | Agentic Engineering: Building Production Systems with Coding Agents | https://www.zenml.io/llmops-database/agentic-engineering-building-production-systems-with-coding-agents |
+| 2026-10-27 | The End Is Nigh for Code Review | https://semgrep.dev/blog/2026/end-is-nigh-for-code-review/ |
+| 2026-10-27 | Don't Adopt AI-DLC. Steal From It. | https://felipefontoura.com/articles/dont-adopt-ai-dlc/ |
+| 2026-10-27 | Inference-time compute strategy for (Jev-like) Prefill-Only Decision Models with Confidence Cascades | https://github.com/rlisml/jev-cascade |

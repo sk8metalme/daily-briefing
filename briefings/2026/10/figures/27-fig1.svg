@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img"
+     aria-labelledby="cascade-title cascade-desc">
+  <title id="cascade-title">確信度カスケードとランダム振り分けのコスト対精度</title>
+  <desc id="cascade-desc">kev-0.8b から kev-9b へのカスケード（7ソース3500件のプール）。横軸は 0.8B の1回分を1とした推論コスト、縦軸は正解率。確信度の低い順に25%を大モデルへ回すとコスト3.56で81.5%、50%で6.12で87.9%となり、9B単独（コスト11.25、88.7%）にほぼ並ぶ。同コストのランダム振り分けは75.4%と79.8%にとどまる。</desc>
+
+  <rect x="0" y="0" width="720" height="400" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 軸 -->
+  <path d="M 80 60 V 300 H 640" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <!-- 目盛り（縦） -->
+  <path d="M 80 220 H 640" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="2 4"/>
+  <path d="M 80 140 H 640" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="72" y="304" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">65%</text>
+  <text x="72" y="224" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">75%</text>
+  <text x="72" y="144" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">85%</text>
+  <text x="72" y="64" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">95%</text>
+  <!-- 目盛り（横） -->
+  <text x="128" y="320" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">1.0</text>
+  <text x="244" y="320" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">3.56</text>
+  <text x="364" y="320" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">6.12</text>
+  <text x="604" y="320" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">11.25</text>
+  <text x="360" y="340" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">推論コスト（0.8B の1パス = 1）</text>
+  <text x="24" y="180" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)" transform="rotate(-90 24 180)">正解率</text>
+
+  <!-- ランダム振り分け -->
+  <path d="M 128 252 L 244 216 L 364 180 L 604 112" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <circle cx="244" cy="216" r="4" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-muted, #6b6f80)" stroke-width="1.5"/>
+  <circle cx="364" cy="180" r="4" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-muted, #6b6f80)" stroke-width="1.5"/>
+  <text x="252" y="236" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">75.4</text>
+  <text x="372" y="200" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">79.8</text>
+
+  <!-- カスケード（アクセント1） -->
+  <path d="M 128 252 L 244 168 L 364 116 L 604 112" fill="none" stroke="var(--fig-accent, #bf4520)" stroke-width="2"/>
+  <circle cx="128" cy="252" r="4" fill="var(--fig-ink, #2d3142)"/>
+  <circle cx="244" cy="168" r="4" fill="var(--fig-accent, #bf4520)"/>
+  <circle cx="364" cy="116" r="4" fill="var(--fig-accent, #bf4520)"/>
+  <circle cx="604" cy="112" r="4" fill="var(--fig-ink, #2d3142)"/>
+  <text x="136" y="272" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">0.8B 単独 70.9</text>
+  <text x="228" y="156" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">r=0.25 81.5</text>
+  <text x="604" y="100" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">9B 単独 88.7</text>
+
+  <!-- 注釈（アクセント2） -->
+  <rect x="372" y="64" width="176" height="28" rx="2" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="380" y="82" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">r=0.5: 87.9 / コスト54%</text>
+  <path d="M 380 92 V 108" fill="none" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+
+  <!-- 凡例 -->
+  <path d="M 160 372 H 196" fill="none" stroke="var(--fig-accent, #bf4520)" stroke-width="2"/>
+  <text x="204" y="376" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">確信度カスケード</text>
+  <path d="M 380 372 H 416" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="424" y="376" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">同コストのランダム振り分け</text>
+</svg>
