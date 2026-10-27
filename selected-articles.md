@@ -336,3 +336,6 @@
 | 2026-10-27 | The End Is Nigh for Code Review | https://semgrep.dev/blog/2026/end-is-nigh-for-code-review/ |
 | 2026-10-27 | Don't Adopt AI-DLC. Steal From It. | https://felipefontoura.com/articles/dont-adopt-ai-dlc/ |
 | 2026-10-27 | Inference-time compute strategy for (Jev-like) Prefill-Only Decision Models with Confidence Cascades | https://github.com/rlisml/jev-cascade |
+| 2026-10-28 | How frontier teams are reinventing AI-native development | https://aws.amazon.com/blogs/machine-learning/how-frontier-teams-are-reinventing-ai-native-development/ |
+| 2026-10-28 | I Opened AWS's AI-DLC to Random Strangers on the Internet: 40 Comments In, 5 Work Units Out | https://dev.to/_76130e67067eab4c8510/i-opened-awss-ai-dlc-to-random-strangers-on-the-internet-40-comments-in-5-work-units-out-2f71 |
+| 2026-10-28 | The Router Is the Harness | https://agentconn.com/blog/router-is-the-harness-classifier-models-agent-control-loop/ |
