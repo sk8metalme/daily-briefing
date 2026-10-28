@@ -339,3 +339,6 @@
 | 2026-10-28 | How frontier teams are reinventing AI-native development | https://aws.amazon.com/blogs/machine-learning/how-frontier-teams-are-reinventing-ai-native-development/ |
 | 2026-10-28 | I Opened AWS's AI-DLC to Random Strangers on the Internet: 40 Comments In, 5 Work Units Out | https://dev.to/_76130e67067eab4c8510/i-opened-awss-ai-dlc-to-random-strangers-on-the-internet-40-comments-in-5-work-units-out-2f71 |
 | 2026-10-28 | The Router Is the Harness | https://agentconn.com/blog/router-is-the-harness-classifier-models-agent-control-loop/ |
+| 2026-10-29 | AI coding has made CI a bottleneck, so we reworked ours to keep up | https://linear.app/now/ci-bottleneck-reworked |
+| 2026-10-29 | How Dynata scaled AI across the development lifecycle with AI-DLC and Kiro IDE | https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide/ |
+| 2026-10-29 | jev-engineering: coding-agent tools on Jev, measured in public | https://github.com/eugeniughelbur/jev-gate |

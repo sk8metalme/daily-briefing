@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img"
+     aria-labelledby="lci-title lci-desc">
+  <title id="lci-title">シャード数とセットアップ総時間</title>
+  <desc id="lci-desc">1シャードあたりのセットアップが110〜140秒のまま8シャードにすると総セットアップは15〜19分に膨らむ。セットアップを約40秒に削ってから8シャードにすると、4シャード時代の8.3分より少ない7.5分に収まる</desc>
+
+  <rect x="0" y="0" width="720" height="300" fill="var(--fig-paper, #ffffff)"/>
+
+  <text x="24" y="36" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">1 run あたりのセットアップ総時間（分）</text>
+
+  <!-- 目盛り: 1分 = 24px、原点 x=232 -->
+  <path d="M 232 56 V 236" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <path d="M 472 56 V 236" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="472" y="252" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">10</text>
+  <path d="M 712 56 V 236" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="700" y="252" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">20</text>
+  <text x="232" y="252" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">0</text>
+
+  <!-- 行1: 4シャード（改善前） -->
+  <text x="24" y="84" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">4 シャード</text>
+  <text x="24" y="100" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">setup 110–140s</text>
+  <rect x="232" y="72" width="200" height="28" rx="2"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="440" y="91" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-ink, #2d3142)">8.3</text>
+
+  <!-- 行2: 8シャード（セットアップそのまま・仮定） -->
+  <text x="24" y="144" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">8 シャード（先に増やす）</text>
+  <text x="24" y="160" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">setup 110–140s</text>
+  <rect x="232" y="132" width="360" height="28" rx="2"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <rect x="592" y="132" width="96" height="28" rx="2"
+        fill="none" stroke="var(--fig-accent, #bf4520)" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="640" y="151" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-accent, #bf4520)">15–19</text>
+
+  <!-- 行3: 8シャード（セットアップ削減後） -->
+  <text x="24" y="204" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">8 シャード（先に削る）</text>
+  <text x="24" y="220" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">setup 約40s</text>
+  <rect x="232" y="192" width="180" height="28" rx="2"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-link, #2f6f8f)" stroke-width="1"/>
+  <text x="420" y="211" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-ink, #2d3142)">7.5</text>
+
+  <!-- 凡例 -->
+  <rect x="24" y="268" width="12" height="12" rx="2"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="44" y="279" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">記事が試算した「やっていたら」の値（実施せず）</text>
+  <text x="400" y="279" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">出典: Linear の記事中のグラフ</text>
+</svg>
