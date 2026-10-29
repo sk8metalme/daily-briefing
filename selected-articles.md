@@ -342,3 +342,6 @@
 | 2026-10-29 | AI coding has made CI a bottleneck, so we reworked ours to keep up | https://linear.app/now/ci-bottleneck-reworked |
 | 2026-10-29 | How Dynata scaled AI across the development lifecycle with AI-DLC and Kiro IDE | https://aws.amazon.com/blogs/architecture/how-dynata-scaled-ai-across-the-development-lifecycle-with-ai-dlc-and-kiro-ide/ |
 | 2026-10-29 | jev-engineering: coding-agent tools on Jev, measured in public | https://github.com/eugeniughelbur/jev-gate |
+| 2026-10-30 | Does Your Engineering Team Have a Parallelization Strategy for AI Coding Agents 2026? | https://blog.codacy.com/does-your-engineering-team-have-a-parallelization-strategy-for-ai-coding-agents-2026 |
+| 2026-10-30 | Agile Was the Last Revolution: Now It's AI-DLC | https://benevity.com/blog/ai-dlc-software-development-agile-unleashed |
+| 2026-10-30 | How to Use Jev: Tested Guide With Working Code (2026) | https://www.ayautomate.com/blog/how-to-use-jev-guide |
