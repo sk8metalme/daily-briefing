@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img"
+     aria-labelledby="vstack-title vstack-desc">
+  <title id="vstack-title">エージェント生成コードの5層検証スタック</title>
+  <desc id="vstack-desc">下から順にコードベース構造、静的解析とテストとCI、エージェント評価、文章ルールとスキル、人間のレビュー。下の層ほど決定的で広く、上の層ほど判断的で狭い。追加された層はエージェント評価、人間レビューは意図と範囲の逸脱を担う</desc>
+
+  <rect x="0" y="0" width="720" height="420" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 層 5: 人間のレビュー（最上・最狭） -->
+  <rect x="240" y="24" width="240" height="56" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="360" y="48" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">5. 人間のレビュー</text>
+  <text x="360" y="68" text-anchor="middle" font-size="11"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">意図違い・範囲逸脱・トレードオフ</text>
+
+  <!-- 層 4: 文章ルールとスキル -->
+  <rect x="192" y="92" width="336" height="56" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="360" y="116" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">4. 文章ルールとスキル</text>
+  <text x="360" y="136" text-anchor="middle" font-size="11"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">短い AGENTS.md・タスク別スキル</text>
+
+  <!-- 層 3: エージェント評価（追加された層） -->
+  <rect x="144" y="160" width="432" height="56" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="360" y="184" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">3. エージェント評価（eval）</text>
+  <text x="360" y="204" text-anchor="middle" font-size="11"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">版管理されたケース・欠陥を仕込んだレビュー試験</text>
+
+  <!-- 層 2: 静的解析・テスト・CI -->
+  <rect x="96" y="228" width="528" height="56" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="360" y="252" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">2. 静的解析・テスト・CI</text>
+  <text x="360" y="272" text-anchor="middle" font-size="11"
+        font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">strict tsc / mypy · Ruff · Semgrep · migration tests</text>
+
+  <!-- 層 1: コードベース構造（最下・最広） -->
+  <rect x="48" y="296" width="624" height="56" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="360" y="320" text-anchor="middle" font-size="14"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">1. コードベース構造</text>
+  <text x="360" y="340" text-anchor="middle" font-size="11"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">DB 制約・狭いインタフェース・1つの仕事に1つのパターン</text>
+
+  <!-- 軸の注記（凡例として下端に横並び） -->
+  <text x="48" y="388" font-size="12"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">下ほど決定的・広く安い ／ 上ほど判断的・狭く高い</text>
+  <rect x="480" y="376" width="16" height="16" rx="2"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="504" y="388" font-size="12"
+        font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">記事が強調する層</text>
+</svg>

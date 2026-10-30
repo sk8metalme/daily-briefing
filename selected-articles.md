@@ -345,3 +345,6 @@
 | 2026-10-30 | Does Your Engineering Team Have a Parallelization Strategy for AI Coding Agents 2026? | https://blog.codacy.com/does-your-engineering-team-have-a-parallelization-strategy-for-ai-coding-agents-2026 |
 | 2026-10-30 | Agile Was the Last Revolution: Now It's AI-DLC | https://benevity.com/blog/ai-dlc-software-development-agile-unleashed |
 | 2026-10-30 | How to Use Jev: Tested Guide With Working Code (2026) | https://www.ayautomate.com/blog/how-to-use-jev-guide |
+| 2026-10-31 | Your Agents Ship Code Faster Than You Can Check It | https://majesticlabs.dev/blog/202610/ai-code-review-verification-stack |
+| 2026-10-31 | From SDLC to AI-DLC: Coding Agents Are Only the Beginning | https://dev.to/aws-builders/from-sdlc-to-ai-dlc-coding-agents-are-only-the-beginning-3n6f |
+| 2026-10-31 | Jev API Tutorial: Typed Decisions in Python, from First Call to a Tool-Call Gate | https://preporato.com/blog/jev-api-tutorial |
