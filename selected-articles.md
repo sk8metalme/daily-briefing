@@ -348,3 +348,6 @@
 | 2026-10-31 | Your Agents Ship Code Faster Than You Can Check It | https://majesticlabs.dev/blog/202610/ai-code-review-verification-stack |
 | 2026-10-31 | From SDLC to AI-DLC: Coding Agents Are Only the Beginning | https://dev.to/aws-builders/from-sdlc-to-ai-dlc-coding-agents-are-only-the-beginning-3n6f |
 | 2026-10-31 | Jev API Tutorial: Typed Decisions in Python, from First Call to a Tool-Call Gate | https://preporato.com/blog/jev-api-tutorial |
+| 2026-11-01 | Agentic Harness: What Spec Driven Development Actually Is | https://juliantellez.com/blog/what-spec-driven-development-is |
+| 2026-11-01 | What Is AI Context Engineering? Giving Coding Agents the Right Context | https://blog.codacy.com/ai-context-engineering |
+| 2026-11-01 | Jev: Built for Decisions, Not Conversation | https://www.edenai.co/post/jev-a-new-kind-of-ai-model-built-for-decisions-not-conversation |

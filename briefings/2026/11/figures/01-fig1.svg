@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img"
+     aria-labelledby="ctx-title ctx-desc">
+  <title id="ctx-title">コーディングエージェントのコンテキスト責務の3層</title>
+  <desc id="ctx-desc">下層ほど強制力が高い。チームが所有する判断と理由、ツールが保つ記録、ツールが強制する決定論的チェックの3層と、それぞれに入る5種類のコンテキスト</desc>
+
+  <rect x="0" y="0" width="720" height="400" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 強制力の軸 -->
+  <path d="M 48 64 V 300" fill="none" stroke="var(--fig-muted, #6b6f80)"
+        stroke-width="1" marker-end="url(#ctx-arrow)"/>
+  <text x="36" y="56" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">お願い</text>
+  <text x="36" y="324" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">保証</text>
+
+  <!-- 層1: チームが所有 -->
+  <rect x="80" y="48" width="600" height="72" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="100" y="76" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">チームが所有する: 判断とその理由</text>
+  <text x="100" y="100" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">アーキテクチャ境界 / 規約 / 障害から得た教訓</text>
+
+  <!-- 層2: ツールが記録 -->
+  <rect x="80" y="136" width="600" height="72" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="100" y="164" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">ツールが記録を保つ: 捕捉・横展開・廃止</text>
+  <text x="100" y="188" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">過去の判断 / 指示ファイルの鮮度と全リポジトリ整合</text>
+
+  <!-- 層3: ツールが強制（アクセント） -->
+  <rect x="80" y="224" width="600" height="88" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="100" y="254" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">ツールが強制する: 独立した決定論的チェック</text>
+  <text x="100" y="278" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">制約（セキュリティ・依存・性能）/ フィードバック信号</text>
+  <text x="100" y="298" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">ファイルと行を返し、指示ファイルの記述に関係なくマージ可否を決める</text>
+
+  <!-- 注釈 -->
+  <text x="80" y="352" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">要点: 作業を形づくった指示ファイルで自己検証しても誤りは通る。検証は独立した層から。</text>
+
+  <defs>
+    <marker id="ctx-arrow" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 z" fill="var(--fig-muted, #6b6f80)"/>
+    </marker>
+  </defs>
+</svg>
