@@ -351,3 +351,6 @@
 | 2026-11-01 | Agentic Harness: What Spec Driven Development Actually Is | https://juliantellez.com/blog/what-spec-driven-development-is |
 | 2026-11-01 | What Is AI Context Engineering? Giving Coding Agents the Right Context | https://blog.codacy.com/ai-context-engineering |
 | 2026-11-01 | Jev: Built for Decisions, Not Conversation | https://www.edenai.co/post/jev-a-new-kind-of-ai-model-built-for-decisions-not-conversation |
+| 2026-11-02 | Software Engineering has changed. Again. | https://currents.dev/posts/software-engineering-has-changed-again |
+| 2026-11-02 | Building AI-Native Engineering Teams: From Coding to Verification | https://larridin.com/blog/building-ai-native-engineering-teams-from-coding-to-verification |
+| 2026-11-02 | I'm Building an Agent. Where Does Jev Fit? | https://cellcog.ai/blog/how-to-use-jev-in-your-agent/ |
