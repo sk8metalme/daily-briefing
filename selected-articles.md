@@ -354,3 +354,6 @@
 | 2026-11-02 | Software Engineering has changed. Again. | https://currents.dev/posts/software-engineering-has-changed-again |
 | 2026-11-02 | Building AI-Native Engineering Teams: From Coding to Verification | https://larridin.com/blog/building-ai-native-engineering-teams-from-coding-to-verification |
 | 2026-11-02 | I'm Building an Agent. Where Does Jev Fit? | https://cellcog.ai/blog/how-to-use-jev-in-your-agent/ |
+| 2026-11-03 | How Coinbase Wallet built an agent-first product development lifecycle | https://arize.com/blog/how-coinbase-wallet-built-an-agent-first-product-development-lifecycle/ |
+| 2026-11-03 | Jev and AI Decision Models: A Practical Getting Started Guide | https://blog.starmorph.com/blog/jev-decision-models-guide |
+| 2026-11-03 | Agentic Engineering Operating Model: Teams + Agents | https://www.augmentcode.com/guides/agentic-engineering-operating-model |

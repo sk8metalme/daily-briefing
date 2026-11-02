@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img"
+     aria-labelledby="tier-title tier-desc">
+  <title id="tier-title">エージェント時代の意思決定の3階層</title>
+  <desc id="tier-desc">Tier A は人間のみ、Tier B はエージェントが起案し人間が承認、Tier C はポリシー範囲内でエージェントが自律実行する。下層ほど自律度が高く、各層の境界は人間が定義する</desc>
+
+  <rect x="0" y="0" width="720" height="420" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 自律度の軸 -->
+  <path d="M 48 64 V 316" fill="none" stroke="var(--fig-muted, #6b6f80)"
+        stroke-width="1" marker-end="url(#tier-arrow)"/>
+  <text x="20" y="52" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">人間が決める</text>
+  <text x="20" y="340" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">エージェントが実行</text>
+
+  <!-- Tier A（アクセント） -->
+  <rect x="80" y="60" width="600" height="76" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="100" y="88" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">Tier A 人間のみ: ハーネスを定義する</text>
+  <text x="100" y="112" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">アーキテクチャ / セキュリティ方針 / 規制対象リリース承認 / エージェントのスコープ / 責任者の指名</text>
+
+  <!-- Tier B -->
+  <rect x="80" y="152" width="600" height="76" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="100" y="180" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">Tier B エージェント支援: 起案は機械、効力の前に人間が承認</text>
+  <text x="100" y="204" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">要件の妥当性確認 / 設計レビュー / マージ承認 / コンプライアンス評価</text>
+
+  <!-- Tier C -->
+  <rect x="80" y="244" width="600" height="76" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="100" y="272" font-size="15" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">Tier C 完全自律: ポリシーの範囲内で実行</text>
+  <text x="100" y="296" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">単体テスト生成 / スキャフォールド / 静的解析 / 定型 CI/CD / 軽微な依存更新</text>
+
+  <!-- 注釈 -->
+  <text x="80" y="372" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">要点: human-in-the-loop（全件レビュー）から human-on-the-loop（境界と品質チェックを人間が定義）へ。</text>
+  <text x="80" y="396" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">境界の監督は、ビルド面・オーケストレーション面の外にある独立したコントロールプレーンに置く。</text>
+
+  <defs>
+    <marker id="tier-arrow" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 z" fill="var(--fig-muted, #6b6f80)"/>
+    </marker>
+  </defs>
+</svg>
