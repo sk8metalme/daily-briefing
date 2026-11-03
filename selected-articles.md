@@ -357,3 +357,6 @@
 | 2026-11-03 | How Coinbase Wallet built an agent-first product development lifecycle | https://arize.com/blog/how-coinbase-wallet-built-an-agent-first-product-development-lifecycle/ |
 | 2026-11-03 | Jev and AI Decision Models: A Practical Getting Started Guide | https://blog.starmorph.com/blog/jev-decision-models-guide |
 | 2026-11-03 | Agentic Engineering Operating Model: Teams + Agents | https://www.augmentcode.com/guides/agentic-engineering-operating-model |
+| 2026-11-04 | AI in Platform Engineering: When Agents Join Your Platform | https://spacelift.io/blog/ai-in-platform-engineering |
+| 2026-11-04 | Your engineers are not slow. Your review queue is. | https://dev.to/levelbrook/your-engineers-are-not-slow-your-review-queue-is-948 |
+| 2026-11-04 | How to use decision models like Jev in software factories | https://www.port.io/blog/jev-in-software-factories |
