@@ -360,3 +360,6 @@
 | 2026-11-04 | AI in Platform Engineering: When Agents Join Your Platform | https://spacelift.io/blog/ai-in-platform-engineering |
 | 2026-11-04 | Your engineers are not slow. Your review queue is. | https://dev.to/levelbrook/your-engineers-are-not-slow-your-review-queue-is-948 |
 | 2026-11-04 | How to use decision models like Jev in software factories | https://www.port.io/blog/jev-in-software-factories |
+| 2026-11-05 | An Agent That Asks Permission From a Model That Cannot Lie: Jev Guardrails on AWS | https://builder.aws.com/content/3L1JAXoHCTuquxxX8BR4wtlzeut/an-agent-that-asks-permission-from-a-model-that-cannot-lie-jev-guardrails-on-aws |
+| 2026-11-05 | Harness Engineering for Coding Agents: 9 Patterns for More Reliable AI-Assisted Development | https://deepsense.ai/blog/harness-engineering-for-coding-agents-9-patterns-for-more-reliable-ai-assisted-development/ |
+| 2026-11-05 | Spec-Driven Development: GitHub Spec Kit and Kiro | https://omidsaffari.com/blog/spec-driven-development |
