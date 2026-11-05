@@ -363,3 +363,6 @@
 | 2026-11-05 | An Agent That Asks Permission From a Model That Cannot Lie: Jev Guardrails on AWS | https://builder.aws.com/content/3L1JAXoHCTuquxxX8BR4wtlzeut/an-agent-that-asks-permission-from-a-model-that-cannot-lie-jev-guardrails-on-aws |
 | 2026-11-05 | Harness Engineering for Coding Agents: 9 Patterns for More Reliable AI-Assisted Development | https://deepsense.ai/blog/harness-engineering-for-coding-agents-9-patterns-for-more-reliable-ai-assisted-development/ |
 | 2026-11-05 | Spec-Driven Development: GitHub Spec Kit and Kiro | https://omidsaffari.com/blog/spec-driven-development |
+| 2026-11-06 | 90/10: what we took away from our AI coding agent, and why | https://dev.to/panthpatel/9010-what-we-took-away-from-our-ai-coding-agent-and-why-179g |
+| 2026-11-06 | Spec-Driven Development Benchmark 2026: Spec Kit vs Kiro vs BMAD vs OpenSpec vs No Spec on 50 Production Python Tickets | https://uvik.net/blog/spec-driven-development-benchmark/ |
+| 2026-11-06 | Agent-Routing mit Jev: Tool-Auswahl, Modellwahl und Retries | https://aisuperior.com/de/blog/jev-agent-routing/ |

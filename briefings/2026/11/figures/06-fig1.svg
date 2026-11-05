@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img"
+     aria-labelledby="sddsize-title sddsize-desc">
+  <title id="sddsize-title">チケット規模別のマージ率: 最良のスペック手法と No spec の比較</title>
+  <desc id="sddsize-desc">小規模チケットでは両者とも85%で差がない。中規模では85%対70%、大規模では80%対50%と、規模が大きいほどスペックの効果が広がる。</desc>
+
+  <rect x="0" y="0" width="720" height="360" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 軸 -->
+  <path d="M 80 280 H 680" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <path d="M 80 40 V 280" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <path d="M 80 160 H 680" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="72" y="284" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">0%</text>
+  <text x="72" y="164" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">50%</text>
+  <text x="72" y="44" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">100%</text>
+
+  <!-- 小規模: 85 / 85  (高さ = 率 * 2.4) -->
+  <rect x="124" y="76" width="64" height="204" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <rect x="196" y="76" width="64" height="204" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-muted, #6b6f80)" stroke-width="1"/>
+  <text x="156" y="68" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">85%</text>
+  <text x="228" y="68" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">85%</text>
+  <text x="192" y="304" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">小規模（1〜2ファイル）</text>
+
+  <!-- 中規模: 85 / 70 -->
+  <rect x="324" y="76" width="64" height="204" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <rect x="396" y="112" width="64" height="168" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-muted, #6b6f80)" stroke-width="1"/>
+  <text x="356" y="68" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">85%</text>
+  <text x="428" y="104" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">70%</text>
+  <text x="392" y="304" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">中規模</text>
+
+  <!-- 大規模: 80 / 50（アクセント） -->
+  <rect x="524" y="88" width="64" height="192" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <rect x="596" y="160" width="64" height="120" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-muted, #6b6f80)" stroke-width="1"/>
+  <text x="556" y="80" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-accent, #bf4520)">80%</text>
+  <text x="628" y="152" text-anchor="middle" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">50%</text>
+  <text x="592" y="304" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">大規模（差 30pt）</text>
+
+  <!-- 凡例 -->
+  <rect x="208" y="328" width="16" height="12" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="232" y="338" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">最良のスペック手法</text>
+  <rect x="400" y="328" width="16" height="12" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-muted, #6b6f80)" stroke-width="1"/>
+  <text x="424" y="338" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">No spec（対照群）</text>
+</svg>
