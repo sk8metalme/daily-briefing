@@ -366,3 +366,6 @@
 | 2026-11-06 | 90/10: what we took away from our AI coding agent, and why | https://dev.to/panthpatel/9010-what-we-took-away-from-our-ai-coding-agent-and-why-179g |
 | 2026-11-06 | Spec-Driven Development Benchmark 2026: Spec Kit vs Kiro vs BMAD vs OpenSpec vs No Spec on 50 Production Python Tickets | https://uvik.net/blog/spec-driven-development-benchmark/ |
 | 2026-11-06 | Agent-Routing mit Jev: Tool-Auswahl, Modellwahl und Retries | https://aisuperior.com/de/blog/jev-agent-routing/ |
+| 2026-11-07 | Coding Got Faster. Verification Became the Bottleneck | https://dev.to/thomson_nguy/coding-got-faster-verification-became-the-bottleneck-1p10 |
+| 2026-11-07 | Accelerating software delivery with units of work in the AI-DLC | https://builder.aws.com/content/3HAB4twQ38WEKqLK7gfEIfOzHbc/accelerating-software-delivery-with-units-of-work-in-the-ai-dlc |
+| 2026-11-07 | Teaching Agents to Decide: From JEV Integration to the Full Harness Decision Flow | https://www.alibabacloud.com/blog/teaching-agents-to-decide-from-jev-integration-to-the-full-harness-decision-flow_603722 |
