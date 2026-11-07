@@ -369,3 +369,6 @@
 | 2026-11-07 | Coding Got Faster. Verification Became the Bottleneck | https://dev.to/thomson_nguy/coding-got-faster-verification-became-the-bottleneck-1p10 |
 | 2026-11-07 | Accelerating software delivery with units of work in the AI-DLC | https://builder.aws.com/content/3HAB4twQ38WEKqLK7gfEIfOzHbc/accelerating-software-delivery-with-units-of-work-in-the-ai-dlc |
 | 2026-11-07 | Teaching Agents to Decide: From JEV Integration to the Full Harness Decision Flow | https://www.alibabacloud.com/blog/teaching-agents-to-decide-from-jev-integration-to-the-full-harness-decision-flow_603722 |
+| 2026-11-08 | 98.7% adoption was the easy part | https://www.pagerduty.com/eng/98-7-adoption-was-the-easy-part/ |
+| 2026-11-08 | Auto-Approve Coding Agent Permission Prompts with Jev | https://openrouter.ai/docs/cookbook/coding-agents/auto-approve-permission-prompts-with-jev |
+| 2026-11-08 | I Opened AI-DLC's Mob Elaboration to Strangers | https://builder.aws.com/content/3HRX5hF8YeB0TFmg9I6cxWEPFM6/i-opened-ai-dlcs-mob-elaboration-to-strangers |

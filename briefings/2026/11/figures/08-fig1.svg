@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-labelledby="pd-title pd-desc">
+  <title id="pd-title">PagerDuty AI-Native Sprint の4層</title>
+  <desc id="pd-desc">中央ガイダンス、ハーネス、自動テストとレビュー、計測と学習の4層を積み上げ、計測結果が中央ガイダンスへ戻る。自動承認は第3層の適格基準を満たしたリポジトリにだけ開放される</desc>
+  <rect x="0" y="0" width="720" height="400" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- feedback loop: layer4 -> layer1 -->
+  <path d="M 540 324 H 620 V 76 H 548" fill="none" stroke="var(--fig-accent, #bf4520)" stroke-width="1.5" marker-end="url(#pd-arrow-accent)"/>
+  <rect x="628" y="184" width="84" height="36" fill="var(--fig-paper, #ffffff)"/>
+  <text x="632" y="200" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">標準へ還流</text>
+  <text x="632" y="216" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">rework rate</text>
+
+  <!-- layer 1 -->
+  <rect x="60" y="48" width="480" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="76" y="72" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">1. 中央ガイダンス</text>
+  <text x="76" y="92" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">hook で全セッションに標準を強制ロード（遵守率 100%）</text>
+
+  <!-- layer 2 -->
+  <rect x="60" y="120" width="480" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="76" y="144" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">2. ハーネス</text>
+  <text x="76" y="164" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">社内プラグインマーケット 30日で30超（ボトムアップ）</text>
+
+  <!-- layer 3 (accent: gate) -->
+  <rect x="60" y="192" width="480" height="72" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1.5"/>
+  <text x="76" y="216" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">3. 自動テストとレビュー（自動承認の門）</text>
+  <text x="76" y="236" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">段階的ロールアウト / 有意なカバレッジ</text>
+  <text x="76" y="254" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">CI のミューテーションテスト / サービスメッシュ参加</text>
+
+  <!-- layer 4 -->
+  <rect x="60" y="280" width="480" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="76" y="304" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">4. 計測と学習</text>
+  <text x="76" y="324" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">セッションテレメトリ / 手戻り率 / 自動化ティアの評価基準</text>
+
+  <text x="60" y="372" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">第3層の基準を満たしたリポジトリだけ自律度（自動承認）を広げる</text>
+
+  <defs>
+    <marker id="pd-arrow-accent" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 z" fill="var(--fig-accent, #bf4520)"/>
+    </marker>
+  </defs>
+</svg>
