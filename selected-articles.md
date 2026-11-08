@@ -372,3 +372,6 @@
 | 2026-11-08 | 98.7% adoption was the easy part | https://www.pagerduty.com/eng/98-7-adoption-was-the-easy-part/ |
 | 2026-11-08 | Auto-Approve Coding Agent Permission Prompts with Jev | https://openrouter.ai/docs/cookbook/coding-agents/auto-approve-permission-prompts-with-jev |
 | 2026-11-08 | I Opened AI-DLC's Mob Elaboration to Strangers | https://builder.aws.com/content/3HRX5hF8YeB0TFmg9I6cxWEPFM6/i-opened-ai-dlcs-mob-elaboration-to-strangers |
+| 2026-11-09 | How Rescale built an AI triage agent with Strands Agents and AI-DLC | https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/ |
+| 2026-11-09 | Rewiring the SDLC After Code Became Cheap | https://www.podium.com/article/rewiring-the-sdlc-after-code-became-cheap |
+| 2026-11-09 | Gate Agent Tool Calls with Jev | https://openrouter.ai/docs/cookbook/building-agents/gate-tool-calls-with-jev |
