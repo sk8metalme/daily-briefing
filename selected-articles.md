@@ -375,3 +375,6 @@
 | 2026-11-09 | How Rescale built an AI triage agent with Strands Agents and AI-DLC | https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/ |
 | 2026-11-09 | Rewiring the SDLC After Code Became Cheap | https://www.podium.com/article/rewiring-the-sdlc-after-code-became-cheap |
 | 2026-11-09 | Gate Agent Tool Calls with Jev | https://openrouter.ai/docs/cookbook/building-agents/gate-tool-calls-with-jev |
+| 2026-11-10 | When Code Stops Being the Bottleneck: Scaling Source Control and CI for AI Agents | https://www.harness.io/blog/when-code-stops-being-the-bottleneck |
+| 2026-11-10 | Running an AI-native engineering org | https://claude.com/blog/running-an-ai-native-engineering-org |
+| 2026-11-10 | Decision Models in Dataiku: Testing Jev vs. LLM Agents | https://www.dataiku.com/tech-blog/jev-inside-a-dataiku-agent |
