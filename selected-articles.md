@@ -378,3 +378,6 @@
 | 2026-11-10 | When Code Stops Being the Bottleneck: Scaling Source Control and CI for AI Agents | https://www.harness.io/blog/when-code-stops-being-the-bottleneck |
 | 2026-11-10 | Running an AI-native engineering org | https://claude.com/blog/running-an-ai-native-engineering-org |
 | 2026-11-10 | Decision Models in Dataiku: Testing Jev vs. LLM Agents | https://www.dataiku.com/tech-blog/jev-inside-a-dataiku-agent |
+| 2026-11-11 | Spec-Driven Development in iOS: Practical Experience With Spec-kit | https://maddevs.io/writeups/spec-driven-development-in-ios/ |
+| 2026-11-11 | Designing the AI-native engineering organization | https://newsletter.getdx.com/p/designing-the-ai-native-engineering |
+| 2026-11-11 | Decision Models for Guardrails: Exploring Jev and Kev for Moderation | https://blog.ai.gov.sg/decision-models-for-guardrails-exploring-jev-and-kev-for-moderation/ |
