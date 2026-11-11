@@ -381,3 +381,6 @@
 | 2026-11-11 | Spec-Driven Development in iOS: Practical Experience With Spec-kit | https://maddevs.io/writeups/spec-driven-development-in-ios/ |
 | 2026-11-11 | Designing the AI-native engineering organization | https://newsletter.getdx.com/p/designing-the-ai-native-engineering |
 | 2026-11-11 | Decision Models for Guardrails: Exploring Jev and Kev for Moderation | https://blog.ai.gov.sg/decision-models-for-guardrails-exploring-jev-and-kev-for-moderation/ |
+| 2026-11-12 | Addressing the Code Review Bottleneck | https://www.warp.dev/blog/agent-code-review-bottleneck |
+| 2026-11-12 | How we made vulnerability fixes review-ready with Agentic Pipelines | https://www.atlassian.com/blog/bitbucket/vulnerability-fixes-with-agentic-pipelines |
+| 2026-11-12 | Jev Gate | https://github.com/lymagics/jev-gate |
