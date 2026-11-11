@@ -384,3 +384,8 @@
 | 2026-11-12 | Addressing the Code Review Bottleneck | https://www.warp.dev/blog/agent-code-review-bottleneck |
 | 2026-11-12 | How we made vulnerability fixes review-ready with Agentic Pipelines | https://www.atlassian.com/blog/bitbucket/vulnerability-fixes-with-agentic-pipelines |
 | 2026-11-12 | Jev Gate | https://github.com/lymagics/jev-gate |
+| 2026-11-12 | Building an Autonomous Engineering Org | https://ai.engineer/talks/building-an-autonomous-engineering-org |
+| 2026-11-12 | Vulnerability Remediation: From Scan to Merge in AI Pipelines | https://www.augmentcode.com/guides/vulnerability-remediation-scan-to-merge |
+| 2026-11-12 | Human-in-the-Loop Runbook Improvement with Agentic Support Automation | https://cdn.amazon.science/78/ae/133af2444c9f98d4dd40d025751f/scipub-approval152129-40856700-humanintheloop-runbook-improvement-with-agentic-support-automation.pdf |
+| 2026-11-12 | 10,000 PRs a month is easy: How devex is evolving at PostHog | https://posthog.com/blog/10k-prs-a-month |
+| 2026-11-12 | Real-time LLM guardrails with Jev: comparing latency and cost | https://arize.com/blog/llm-guardrails-jev/ |

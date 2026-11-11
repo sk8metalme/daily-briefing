@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img"
+     aria-labelledby="bk-title bk-desc">
+  <title id="bk-title">Block のエージェント活用成熟度モデル（6段階）と各段階を押し上げた施策</title>
+  <desc id="bk-desc">段階0（未使用）から段階5（自律）までを階段状に示す。段階3（委任）への壁はリポジトリのコンテキスト整備で、段階5（自律）への壁は社内 2.5 万リポジトリの機械可読な世界モデルで越えた。H1 2025 末時点で大半のエンジニアは段階1〜2にいた。</desc>
+
+  <rect x="0" y="0" width="720" height="400" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 基線 -->
+  <path d="M 40 340 H 690" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+
+  <!-- 段階0 -->
+  <rect x="48" y="300" width="96" height="40" rx="4" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="96" y="318" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">0 未使用</text>
+  <text x="96" y="333" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">AI を使わない</text>
+
+  <!-- 段階1 -->
+  <rect x="152" y="260" width="96" height="80" rx="4" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="200" y="278" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">1 補助</text>
+  <text x="200" y="293" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">補完のみ</text>
+
+  <!-- 段階2 -->
+  <rect x="256" y="220" width="96" height="120" rx="4" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="304" y="238" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">2 対話</text>
+  <text x="304" y="253" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">PR は作らない</text>
+
+  <!-- 段階3（アクセント） -->
+  <rect x="360" y="180" width="96" height="160" rx="4" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1.5"/>
+  <text x="408" y="198" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">3 委任</text>
+  <text x="408" y="213" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">任せてレビュー</text>
+
+  <!-- 段階4 -->
+  <rect x="464" y="140" width="96" height="200" rx="4" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="512" y="158" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">4 並列</text>
+  <text x="512" y="173" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">複数エージェント</text>
+
+  <!-- 段階5（アクセント） -->
+  <rect x="568" y="100" width="96" height="240" rx="4" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1.5"/>
+  <text x="616" y="118" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">5 自律</text>
+  <text x="616" y="133" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">出荷可能な成果</text>
+
+  <!-- 注釈 -->
+  <text x="408" y="290" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">壁: 規約無視</text>
+  <text x="408" y="305" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">→ AGENTS.md</text>
+  <text x="616" y="290" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">壁: 横断知識</text>
+  <text x="616" y="305" text-anchor="middle" font-size="10" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">→ 世界モデル</text>
+
+  <!-- H1 2025 の分布 -->
+  <path d="M 152 372 H 352" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1"/>
+  <path d="M 152 366 V 378 M 352 366 V 378" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1"/>
+  <text x="252" y="392" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">H1 2025 末: 大半がここ</text>
+
+  <text x="48" y="40" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">エンジニアとエージェントの関係（Block）</text>
+  <text x="48" y="60" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">高さ = 委任の度合い。アクセントは施策で越えた2つの壁</text>
+</svg>
