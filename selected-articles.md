@@ -389,3 +389,8 @@
 | 2026-11-12 | Human-in-the-Loop Runbook Improvement with Agentic Support Automation | https://cdn.amazon.science/78/ae/133af2444c9f98d4dd40d025751f/scipub-approval152129-40856700-humanintheloop-runbook-improvement-with-agentic-support-automation.pdf |
 | 2026-11-12 | 10,000 PRs a month is easy: How devex is evolving at PostHog | https://posthog.com/blog/10k-prs-a-month |
 | 2026-11-12 | Real-time LLM guardrails with Jev: comparing latency and cost | https://arize.com/blog/llm-guardrails-jev/ |
+| 2026-11-12 | VulnBump: Can AI Agents Fix Vulnerable Dependencies Without Breaking the Build? | https://snyk.io/blog/vulnbump/ |
+| 2026-11-12 | Understanding Security Risks of AI Agents' Dependency Updates | https://arxiv.org/html/2601.00205v1 |
+| 2026-11-12 | Remediate dependency vulnerabilities (Cursor Autonomous Agents) | https://cursor.com/workflows/autonomous-agents/remediate-dependency-vulnerabilities |
+| 2026-11-12 | How we 3×'d PRs in 6 months, and how you can too | https://amplitude.com/3x |
+| 2026-11-12 | What is Jev and when to use it (with examples) | https://mastra.ai/articles/jev |
