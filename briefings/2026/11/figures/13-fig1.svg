@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img"
+     aria-labelledby="flawed-title flawed-desc">
+  <title id="flawed-title">LLM 生成パッチ 6,080 件の結果内訳と、入力情報の質による S1 率の変化</title>
+  <desc id="flawed-desc">1Password の FLAWED 研究。上段は全体の内訳で、S1（完全修正かつ挙動変化なし）26.0%、S2（修正したが無関係な挙動を変更）20.1%、S3〜S5（未修正または新たな脆弱性を追加）53.9%。下段は与えた情報の質ごとの S1 率で、検証済みの正しい修正方針 31%、混在 26%、誤った根本原因 15%。</desc>
+
+  <rect x="0" y="0" width="720" height="300" fill="var(--fig-paper, #ffffff)"/>
+
+  <text x="40" y="36" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">全 6,080 パッチの内訳</text>
+
+  <!-- 積み上げバー: 幅 640px = 100% -->
+  <rect x="40" y="52" width="168" height="40" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <rect x="208" y="52" width="128" height="40" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <rect x="336" y="52" width="344" height="40" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+
+  <text x="124" y="77" text-anchor="middle" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">S1 26.0%</text>
+  <text x="272" y="77" text-anchor="middle" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">S2 20.1%</text>
+  <text x="508" y="77" text-anchor="middle" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-accent, #bf4520)">S3〜S5 53.9%</text>
+
+  <text x="40" y="116" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">完全修正・挙動維持</text>
+  <text x="208" y="116" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">修正済・挙動変化</text>
+  <text x="336" y="116" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">未修正 または 新たな脆弱性を追加</text>
+
+  <path d="M 40 140 H 680" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+
+  <text x="40" y="168" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">与えた情報の質ごとの S1 率</text>
+
+  <text x="40" y="200" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">検証済みの修正方針</text>
+  <rect x="200" y="188" width="200" height="16" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="408" y="201" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">31%</text>
+
+  <text x="40" y="232" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">正誤混在（平均）</text>
+  <rect x="200" y="220" width="168" height="16" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="376" y="233" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">26%</text>
+
+  <text x="40" y="264" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">誤った根本原因</text>
+  <rect x="200" y="252" width="96" height="16" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="304" y="265" font-size="12" font-family="'Geist Mono', monospace" fill="var(--fig-accent, #bf4520)">15%</text>
+
+  <text x="440" y="233" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">バー長 = S1 率（100% = 640px 換算）</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img"
+     aria-labelledby="aisre-title aisre-desc">
+  <title id="aisre-title">Databricks AI SRE の4層アーキテクチャ</title>
+  <desc id="aisre-desc">下から、プリミティブ（メトリクス・アラート・ログ・リリース情報・コード）、API 層（Observability / Deployment / Alerts API。認証・レート制限・正規化）、コアエンジン（ボットフレームワーク。並列実行・相関・LLM 合成）、アプリケーション層（プラットフォームのトリアージボットとチーム所有のエージェント型ランブック）。API 層はエージェントの突発的な負荷から基盤を守るガードレールとして再設計された。</desc>
+
+  <rect x="0" y="0" width="720" height="360" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 4: アプリケーション層 -->
+  <rect x="40" y="24" width="440" height="64" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="56" y="52" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">4. アプリケーション層</text>
+  <text x="56" y="72" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">トリアージボット / チーム所有のエージェント型ランブック</text>
+
+  <!-- 3: コアエンジン -->
+  <rect x="40" y="104" width="440" height="64" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="56" y="132" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">3. コアエンジン</text>
+  <text x="56" y="152" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">ボットフレームワーク: 並列実行・結果の相関・LLM 合成</text>
+
+  <!-- 2: API 層（アクセント） -->
+  <rect x="40" y="184" width="440" height="64" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="56" y="212" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">2. API 層</text>
+  <text x="56" y="232" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">Observability / Deployment / Alerts API</text>
+
+  <!-- 1: プリミティブ -->
+  <rect x="40" y="264" width="440" height="64" rx="6" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="56" y="292" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">1. プリミティブ（真実の源）</text>
+  <text x="56" y="312" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">メトリクス・アラート・ログ・リリース情報・コード</text>
+
+  <!-- 右側の注記 -->
+  <path d="M 480 56 H 512" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="520" y="52" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">各チームが専門知を</text>
+  <text x="520" y="70" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">ランブックとして所有</text>
+
+  <path d="M 480 136 H 512" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="520" y="132" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">決定的チェックが先</text>
+  <text x="520" y="150" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">LLM は合成と説明のみ</text>
+
+  <path d="M 480 216 H 512" fill="none" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="520" y="212" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">認証・レート制限・正規化</text>
+  <text x="520" y="230" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">エージェントの突発負荷を吸収</text>
+
+  <path d="M 480 296 H 512" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="520" y="292" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">以前は5ツール・</text>
+  <text x="520" y="310" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">5つのクエリ言語</text>
+</svg>

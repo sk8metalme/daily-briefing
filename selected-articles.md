@@ -394,3 +394,8 @@
 | 2026-11-12 | Remediate dependency vulnerabilities (Cursor Autonomous Agents) | https://cursor.com/workflows/autonomous-agents/remediate-dependency-vulnerabilities |
 | 2026-11-12 | How we 3×'d PRs in 6 months, and how you can too | https://amplitude.com/3x |
 | 2026-11-12 | What is Jev and when to use it (with examples) | https://mastra.ai/articles/jev |
+| 2026-11-13 | A Phased Workflow for Operating LLM-Based Coding Agents | https://arxiv.org/html/2608.30701v1 |
+| 2026-11-13 | How information quality impacts LLMs' ability to patch complex, novel vulnerabilities | https://1password.com/blog/why-ai-generated-patches-still-require-human-review |
+| 2026-11-13 | How Databricks Uses AI to Accelerate Incident Investigation | https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation |
+| 2026-11-13 | The Half-Finished Redesign: How AI Reshapes Software Organizations | https://www.bain.com/insights/the-half-finished-redesign-how-ai-reshapes-software-organizations-technology-report-2026/ |
+| 2026-11-13 | How to Build an AI Model Router with Jev and Open Jev | https://www.mindstudio.ai/blog/how-to-build-model-router-with-jev |
