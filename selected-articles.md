@@ -399,3 +399,8 @@
 | 2026-11-13 | How Databricks Uses AI to Accelerate Incident Investigation | https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation |
 | 2026-11-13 | The Half-Finished Redesign: How AI Reshapes Software Organizations | https://www.bain.com/insights/the-half-finished-redesign-how-ai-reshapes-software-organizations-technology-report-2026/ |
 | 2026-11-13 | How to Build an AI Model Router with Jev and Open Jev | https://www.mindstudio.ai/blog/how-to-build-model-router-with-jev |
+| 2026-11-14 | How we built a real-world evaluation platform for autonomous SRE agents at scale | https://www.datadoghq.com/blog/engineering/bits-ai-eval-platform/ |
+| 2026-11-14 | Spec-Driven Development with AI: A Spec Kit + Claude Code Case Study | https://orangeloops.com/2026/05/spec-driven-development-with-ai-a-spec-kit-claude-code-case-study/ |
+| 2026-11-14 | Building AI-Enabled Engineering, Product & Design Teams in 2026 | https://forgent.ai/blog/building-ai-enabled-engineering-product-design-teams-in-2026 |
+| 2026-11-14 | What Is Jev? | https://browserbase.com/blog/what-is-jev |
+| 2026-11-14 | 85% of Automated Security Fixes Get Dismissed. The Fix Isn't More Fixes. | https://www.pixee.ai/blog/merge-rate-problem-security-prs-ignored |

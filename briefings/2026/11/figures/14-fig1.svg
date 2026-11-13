@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img"
+     aria-labelledby="mrq-title mrq-desc">
+  <title id="mrq-title">セキュリティ修正 PR の摩擦をリスクに合わせて配分する四象限</title>
+  <desc id="mrq-desc">横軸は修正の確信度（低から高）、縦軸は変更のリスク（低から高）。低リスクかつ高確信度の修正は CI 通過を条件に自動マージ、高リスクかつ高確信度はセキュリティ担当を含むフルレビュー、高リスクかつ低確信度は PR を自動生成せず人が修正、低リスクかつ低確信度はトリアージで除外して PR を開かない。</desc>
+
+  <rect x="0" y="0" width="720" height="420" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 軸 -->
+  <path d="M 120 340 H 680" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1" marker-end="url(#mrq-arrow)"/>
+  <path d="M 120 340 V 32" fill="none" stroke="var(--fig-muted, #6b6f80)" stroke-width="1" marker-end="url(#mrq-arrow)"/>
+  <text x="400" y="368" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">修正の確信度（CI 実績・コンテキスト適合）→</text>
+  <text x="40" y="192" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)" transform="rotate(-90 40 192)">変更のリスク →</text>
+
+  <!-- 左上: 高リスク×低確信 -->
+  <rect x="136" y="44" width="256" height="136" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="152" y="76" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">PR を自動生成しない</text>
+  <text x="152" y="100" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">認証・権限まわりで修正案に</text>
+  <text x="152" y="118" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">自信がない → 人が設計して直す</text>
+
+  <!-- 右上: 高リスク×高確信 -->
+  <rect x="408" y="44" width="256" height="136" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="424" y="76" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">フルレビュー</text>
+  <text x="424" y="100" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">悪用可能・重大な脆弱性</text>
+  <text x="424" y="118" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">セキュリティ担当を必ず含める</text>
+
+  <!-- 左下: 低リスク×低確信 -->
+  <rect x="136" y="192" width="256" height="136" rx="6" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="152" y="224" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">トリアージで除外</text>
+  <text x="152" y="248" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">誤検知・到達不能な指摘</text>
+  <text x="152" y="266" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">PR を開くと信頼を削る</text>
+
+  <!-- 右下: 低リスク×高確信（アクセント） -->
+  <rect x="408" y="192" width="256" height="136" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="424" y="224" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">確信度ゲート付き自動マージ</text>
+  <text x="424" y="248" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">小さく証明可能な修正</text>
+  <text x="424" y="266" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">CI 全通過を条件に人を通さない</text>
+
+  <!-- 凡例 -->
+  <rect x="136" y="388" width="12" height="12" rx="2" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="156" y="399" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">レビュー帯域を解放する領域</text>
+  <rect x="408" y="388" width="12" height="12" rx="2" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="428" y="399" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">人の判断を集中させる領域</text>
+
+  <defs>
+    <marker id="mrq-arrow" viewBox="0 0 8 8" refX="7" refY="4"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 8 4 L 0 8 z" fill="var(--fig-muted, #6b6f80)"/>
+    </marker>
+  </defs>
+</svg>
