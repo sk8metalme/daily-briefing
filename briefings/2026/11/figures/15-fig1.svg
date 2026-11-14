@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img"
+     aria-labelledby="axc-title axc-desc">
+  <title id="axc-title">リポジトリを制御システムとして設計する: ガイドとセンサーの2×2</title>
+  <desc id="axc-desc">横軸はタイミング（行動前に誘導するガイド、行動後に検証するセンサー）、縦軸は実装方式（決定的な計算か、LLM による推論か）。計算型センサー（型検査・リンタ・テスト・構造ルール）が毎回の変更で回る主役であり、推論型ガイド（AGENTS.md・docs・ADR・spec）が入口になる。</desc>
+
+  <rect x="0" y="0" width="720" height="420" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 列見出し -->
+  <text x="276" y="36" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">ガイド（行動前に誘導）</text>
+  <text x="540" y="36" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">センサー（行動後に検証）</text>
+
+  <!-- 行見出し -->
+  <text x="72" y="116" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">計算型</text>
+  <text x="72" y="136" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">毎変更・安価</text>
+  <text x="72" y="268" text-anchor="middle" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">推論型</text>
+  <text x="72" y="288" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">LLM・定期/ゲート</text>
+
+  <!-- 計算型 × ガイド -->
+  <rect x="148" y="52" width="256" height="140" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="164" y="84" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">1コマンドのセットアップ</text>
+  <text x="164" y="108" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">タスクランナー</text>
+  <text x="164" y="128" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">スキャフォールド</text>
+  <text x="164" y="148" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">生成されたリファレンス文書</text>
+
+  <!-- 計算型 × センサー（アクセント） -->
+  <rect x="412" y="52" width="256" height="140" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="428" y="84" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">単一の verify コマンド</text>
+  <text x="428" y="108" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">型検査・リンタ・テスト・ビルド</text>
+  <text x="428" y="128" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">構造ルール（import 制限）</text>
+  <text x="428" y="148" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">ドリフト検査・Playwright</text>
+
+  <!-- 推論型 × ガイド（アクセント） -->
+  <rect x="148" y="204" width="256" height="140" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="164" y="236" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">AGENTS.md（約150行）</text>
+  <text x="164" y="260" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">docs/ の6種の成果物</text>
+  <text x="164" y="280" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">ARCHITECTURE・spec・ADR</text>
+  <text x="164" y="300" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">スキル（必要時に読込）</text>
+
+  <!-- 推論型 × センサー -->
+  <rect x="412" y="204" width="256" height="140" rx="6" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="428" y="236" font-size="13" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">AI レビューパス</text>
+  <text x="428" y="260" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">spec・ガイドラインとの照合</text>
+  <text x="428" y="280" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">セキュリティ・モジュール性</text>
+  <text x="428" y="300" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">古くなった docs の検出</text>
+
+  <!-- 凡例 -->
+  <rect x="148" y="380" width="12" height="12" rx="2" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="168" y="391" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">最初に整える2象限（入口のガイドと、完了判定のセンサー）</text>
+</svg>

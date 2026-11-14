@@ -404,3 +404,8 @@
 | 2026-11-14 | Building AI-Enabled Engineering, Product & Design Teams in 2026 | https://forgent.ai/blog/building-ai-enabled-engineering-product-design-teams-in-2026 |
 | 2026-11-14 | What Is Jev? | https://browserbase.com/blog/what-is-jev |
 | 2026-11-14 | 85% of Automated Security Fixes Get Dismissed. The Fix Isn't More Fixes. | https://www.pixee.ai/blog/merge-rate-problem-security-prs-ignored |
+| 2026-11-15 | How to architect software projects for AI agents | https://www.typefox.io/blog/software-projects-for-ai-agents/ |
+| 2026-11-15 | I Ran AWS AI-DLC Workflows on a Real Project | https://builder.aws.com/content/3Jf8J3oSE6d92kkduSWNrmcAmAg/i-ran-aws-ai-dlc-workflows-on-a-real-project |
+| 2026-11-15 | AI Powered CVE Remediation Framework for Faster Fixes | https://www.talentica.com/blogs/ai-powered-cve-remediation-framework/ |
+| 2026-11-15 | Agentic Coding: What We Learned | https://www.gehtsoftusa.com/blog/agentic-coding-what-we-learned/ |
+| 2026-11-15 | Jev AI Review: Decision Models for Agent Workflows | https://wavect.io/blog/jev-ai-decision-model-review.md |
