@@ -409,3 +409,8 @@
 | 2026-11-15 | AI Powered CVE Remediation Framework for Faster Fixes | https://www.talentica.com/blogs/ai-powered-cve-remediation-framework/ |
 | 2026-11-15 | Agentic Coding: What We Learned | https://www.gehtsoftusa.com/blog/agentic-coding-what-we-learned/ |
 | 2026-11-15 | Jev AI Review: Decision Models for Agent Workflows | https://wavect.io/blog/jev-ai-decision-model-review.md |
+| 2026-11-16 | Measuring AGENTS.md: What Five Runs Show That One Doesn't | https://aaif.io/blog/measuring-agents-md-what-five-runs-show-that-one-doesn-t |
+| 2026-11-16 | Inside PagerDuty's SRE Agent: How We Built Deep Incident Investigation | https://www.pagerduty.com/eng/inside-pagerdutys-sre-agent-how-we-built-deep-incident-investigation/ |
+| 2026-11-16 | AI Coded It, AI Shipped It, Who Owns It? | https://www.pagerduty.com/eng/ai-coded-it-ai-shipped-it-who-owns-it/ |
+| 2026-11-16 | What Is Agentic Remediation? The Complete Guide | https://www.endorlabs.com/learn/what-is-agentic-remediation-guide |
+| 2026-11-16 | Jev Tutorial: Make Your First Decision Call on OpenRouter | https://openrouter.ai/docs/guides/community/jev-tutorial |

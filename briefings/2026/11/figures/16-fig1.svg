@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img"
+     aria-labelledby="arf-title arf-desc">
+  <title id="arf-title">エージェント型修復のファネル: 検出から人間の承認まで</title>
+  <desc id="arf-desc">数十万件の検出結果を、到達可能性で実行される経路上のものに絞り、エージェントが修正案を作り、提案・テスト・確認の再帰検証とアップグレード影響分析を通ったものだけを PR として人間が承認する。絞り込みの要は到達可能性ゲートと再帰検証の2段。</desc>
+
+  <rect x="0" y="0" width="720" height="400" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- 段1: 全検出 -->
+  <rect x="40" y="24" width="440" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="260" y="50" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">全検出結果（コード＋依存）</text>
+  <text x="260" y="68" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">数千リポジトリ × 数百件</text>
+
+  <!-- 段2: 到達可能性ゲート（アクセント） -->
+  <rect x="88" y="96" width="344" height="56" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="260" y="122" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">到達可能性ゲート</text>
+  <text x="260" y="140" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">実行される経路上のものだけ</text>
+
+  <!-- 段3: 修正案生成 -->
+  <rect x="128" y="168" width="264" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="260" y="194" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">修正案の生成</text>
+  <text x="260" y="212" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">自前コード / 依存の更新</text>
+
+  <!-- 段4: 再帰検証（アクセント） -->
+  <rect x="160" y="240" width="200" height="56" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="260" y="266" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-accent, #bf4520)">再帰検証</text>
+  <text x="260" y="284" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">提案→テスト→新リスク確認</text>
+
+  <!-- 段5: PR と人間の承認 -->
+  <rect x="192" y="312" width="136" height="56" rx="6" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-ink, #2d3142)" stroke-width="1"/>
+  <text x="260" y="338" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">PR＋人間承認</text>
+  <text x="260" y="356" text-anchor="middle" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">根拠と来歴つき</text>
+
+  <!-- 右側の注記 -->
+  <text x="508" y="128" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">深刻度順ではなく</text>
+  <text x="508" y="146" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">「到達できるか」で並べる</text>
+  <text x="508" y="262" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">成功率 67% → 90%超</text>
+  <text x="508" y="280" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">（記事が SACR を引用）</text>
+  <text x="508" y="334" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">依存更新は影響分析を</text>
+  <text x="508" y="352" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">通してからマージ</text>
+</svg>
