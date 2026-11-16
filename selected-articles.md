@@ -414,3 +414,8 @@
 | 2026-11-16 | AI Coded It, AI Shipped It, Who Owns It? | https://www.pagerduty.com/eng/ai-coded-it-ai-shipped-it-who-owns-it/ |
 | 2026-11-16 | What Is Agentic Remediation? The Complete Guide | https://www.endorlabs.com/learn/what-is-agentic-remediation-guide |
 | 2026-11-16 | Jev Tutorial: Make Your First Decision Call on OpenRouter | https://openrouter.ai/docs/guides/community/jev-tutorial |
+| 2026-11-17 | CI/CD pipelines with agentic AI: How to create self-correcting monorepos | https://www.elastic.co/search-labs/blog/ci-pipelines-claude-ai-agent |
+| 2026-11-17 | AI-Driven Development Lifecycle for Financial Services | https://aws.amazon.com/blogs/industries/ai-driven-development-lifecycle-for-financial-services/ |
+| 2026-11-17 | The engineering-org of the future: Bet-taking factories and commercial AI engineers | https://www.foundamental.com/perspectives/the-engineering-org-of-the-future-bet-taking-factories-and-commercial-ai-engineers |
+| 2026-11-17 | Jev by TypeSafe: The Non-Hallucinating Decision Model for AI Agents | https://beam.ai/agentic-insights/jev-typesafe-ai-agents |
+| 2026-11-17 | Automating 70% of Dependency & Vulnerability Management with Renovate and CI/CD | https://engineering.salesforce.com/automating-70-of-dependency-vulnerability-management-with-renovate-and-ci-cd/ |
