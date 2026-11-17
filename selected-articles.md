@@ -419,3 +419,8 @@
 | 2026-11-17 | The engineering-org of the future: Bet-taking factories and commercial AI engineers | https://www.foundamental.com/perspectives/the-engineering-org-of-the-future-bet-taking-factories-and-commercial-ai-engineers |
 | 2026-11-17 | Jev by TypeSafe: The Non-Hallucinating Decision Model for AI Agents | https://beam.ai/agentic-insights/jev-typesafe-ai-agents |
 | 2026-11-17 | Automating 70% of Dependency & Vulnerability Management with Renovate and CI/CD | https://engineering.salesforce.com/automating-70-of-dependency-vulnerability-management-with-renovate-and-ci-cd/ |
+| 2026-11-18 | AI-Assisted Incident Response: Giving Your On-Call Agent a Runbook | https://tianpan.co/blog/2026-04-12-ai-assisted-incident-response-giving-your-on-call-agent-a-runbook |
+| 2026-11-18 | Prepare your pipeline for AI-discovered zero-days | https://about.gitlab.com/blog/prepare-your-pipeline-for-ai-discovered-zero-days/ |
+| 2026-11-18 | DoorDash's Flux Runs 130,000 Engineering Tasks through Cloud-Based Agents | https://infoq.com/news/2026/08/doordash-flux-cloud-agent |
+| 2026-11-18 | Meta tried to shrink engineering teams around AI | https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai |
+| 2026-11-18 | Trying TypeSafe AI's Jev with TypeScript | https://azukiazusa.dev/en/blog/jev-support-routing |
