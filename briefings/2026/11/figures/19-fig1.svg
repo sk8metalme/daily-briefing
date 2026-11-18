@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img"
+     aria-labelledby="mdt-oracle-title mdt-oracle-desc">
+  <title id="mdt-oracle-title">AI エージェント監査をどこに当てるか: 検証オラクル × 外部入力への露出</title>
+  <desc id="mdt-oracle-desc">横軸は検証オラクルの種類（左が二値オラクル＝クラッシュするか否か、右がアーキテクチャ的オラクル＝業務文脈が必要）、縦軸は信頼できない外部入力への露出度。左上の「メモリ非安全な外部入力パーサ」がエージェント監査の最優先領域、右下の業務ロジックは SAST/DAST と人間の脅威モデリングに残す。Mandiant 記事の4つの優先対象を編集部が2軸に配置したもの。</desc>
+
+  <rect x="0" y="0" width="720" height="460" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- axes -->
+  <path d="M 120 48 V 368" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <path d="M 120 368 H 680" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <path d="M 400 48 V 368" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="4 4"/>
+  <path d="M 120 208 H 680" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- axis labels -->
+  <text x="120" y="392" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">二値オラクル（クラッシュする/しない）</text>
+  <text x="680" y="392" text-anchor="end" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">アーキテクチャ的オラクル（業務文脈が必要）</text>
+  <text x="108" y="60" text-anchor="end" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">露出 高</text>
+  <text x="108" y="364" text-anchor="end" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">露出 低</text>
+
+  <!-- Q1 top-left (accent 1) -->
+  <rect x="136" y="64" width="248" height="128" rx="6"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="152" y="92" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-accent, #bf4520)">エージェント監査を集中</text>
+  <text x="152" y="120" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">C/C++ のネイティブ拡張</text>
+  <text x="152" y="140" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">取り込みパイプライン・独自 API GW</text>
+  <text x="152" y="168" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">PoC ハーネス → サンドボックス実行</text>
+
+  <!-- Q2 top-right -->
+  <rect x="416" y="64" width="248" height="128" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="432" y="92" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">エージェント＋決定論チェック</text>
+  <text x="432" y="120" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">認証サービス・独自 OAuth</text>
+  <text x="432" y="140" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">クレデンシャルブローカー</text>
+  <text x="432" y="168" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">ロジック由来のノイズが多い</text>
+
+  <!-- Q3 bottom-left -->
+  <rect x="136" y="224" width="248" height="128" rx="6"
+        fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="152" y="252" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">ハーネス内ファジング</text>
+  <text x="152" y="280" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">共有ライブラリ・シリアライザ</text>
+  <text x="152" y="300" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">メッセージキューのパーサ</text>
+
+  <!-- Q4 bottom-right (accent 2) -->
+  <rect x="416" y="224" width="248" height="128" rx="6"
+        fill="var(--fig-paper, #ffffff)" stroke="var(--fig-link, #2f6f8f)" stroke-width="1"/>
+  <text x="432" y="252" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-link, #2f6f8f)">SAST/DAST と人間に残す</text>
+  <text x="432" y="280" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">認可バイパス・業務ロジック</text>
+  <text x="432" y="300" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">間接 SSRF</text>
+  <text x="432" y="328" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">失敗が幻覚か構築ミスか判別不能</text>
+
+  <!-- legend -->
+  <rect x="120" y="420" width="16" height="12" rx="2"
+        fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="144" y="431" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">AI 投資の最優先</text>
+  <rect x="300" y="420" width="16" height="12" rx="2"
+        fill="var(--fig-paper, #ffffff)" stroke="var(--fig-link, #2f6f8f)" stroke-width="1"/>
+  <text x="324" y="431" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">AI に任せない領域</text>
+  <text x="680" y="431" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">配置は編集部による整理</text>
+</svg>

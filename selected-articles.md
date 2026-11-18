@@ -424,3 +424,8 @@
 | 2026-11-18 | DoorDash's Flux Runs 130,000 Engineering Tasks through Cloud-Based Agents | https://infoq.com/news/2026/08/doordash-flux-cloud-agent |
 | 2026-11-18 | Meta tried to shrink engineering teams around AI | https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai |
 | 2026-11-18 | Trying TypeSafe AI's Jev with TypeScript | https://azukiazusa.dev/en/blog/jev-support-routing |
+| 2026-11-19 | Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management | https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management |
+| 2026-11-19 | AI Agents: Experience Doesn't Fit in a Prompt | https://spin.atomicobject.com/ai-agents-experience-prompt/ |
+| 2026-11-19 | Spec-Driven Development in 2026: What It Is and Where It Fails With AI Agents | https://alexcloudstar.com/md/blog/spec-driven-development-2026/ |
+| 2026-11-19 | A Few Things I've Learned About AI-Assisted Development in Mid-2026 | https://www.modern-datatools.com/blog/ai-assisted-software-development-2026 |
+| 2026-11-19 | What is Jev? How System One models could change AI agents | https://fireup.pro/news/what-is-jev-how-system-one-models-could-change-ai-agents |
