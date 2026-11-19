@@ -429,3 +429,8 @@
 | 2026-11-19 | Spec-Driven Development in 2026: What It Is and Where It Fails With AI Agents | https://alexcloudstar.com/md/blog/spec-driven-development-2026/ |
 | 2026-11-19 | A Few Things I've Learned About AI-Assisted Development in Mid-2026 | https://www.modern-datatools.com/blog/ai-assisted-software-development-2026 |
 | 2026-11-19 | What is Jev? How System One models could change AI agents | https://fireup.pro/news/what-is-jev-how-system-one-models-could-change-ai-agents |
+| 2026-11-20 | How the Claude Code team does code review | https://claude.dev/blog/solving-code-review-at-anthropic/ |
+| 2026-11-20 | Your AI agent fixed the bug, but what else did it change? | https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/ |
+| 2026-11-20 | Backporting security fixes at scale with Codex | https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/ |
+| 2026-11-20 | Shift-AI: Patterns for AI-Augmented Incident Response | https://www.mercedes-benz.io/blog/2026-06-02-shift-ai-patterns-for-ai-augmented-incident-response |
+| 2026-11-20 | How to Use Jev: A Practical Guide + Use Cases for AI Engineers (2026) | https://aiengineerinsights.com/blog/how-to-use-jev/ |

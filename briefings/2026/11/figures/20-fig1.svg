@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img"
+     aria-labelledby="kbp-title kbp-desc">
+  <title id="kbp-title">Linux 安定版ブランチ別の未バックポート CVE 数</title>
+  <desc id="kbp-desc">2026-09-18 時点で上流では修正済みだが安定版ブランチに未適用の CVE 数。5.10.y が 2006 件で最多、6.18.y が 337 件で最少。古いブランチほど多い</desc>
+
+  <rect x="0" y="0" width="720" height="400" fill="var(--fig-paper, #ffffff)"/>
+
+  <text x="40" y="36" font-size="16" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-ink, #2d3142)">上流で修正済み・安定版に未適用の CVE 数</text>
+  <text x="40" y="56" font-size="12" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">ブランチ / 件数 / うち High・Critical（NVD スコア有のみ）</text>
+
+  <path d="M 160 76 V 320" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+
+  <!-- 5.10.y -->
+  <text x="148" y="98" text-anchor="end" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">5.10.y</text>
+  <rect x="160" y="80" width="440" height="28" rx="2" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="612" y="98" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">2,006 / 213</text>
+
+  <!-- 5.15.y -->
+  <text x="148" y="138" text-anchor="end" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">5.15.y</text>
+  <rect x="160" y="120" width="416" height="28" rx="2" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="588" y="138" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">1,889 / 195</text>
+
+  <!-- 6.1.y -->
+  <text x="148" y="178" text-anchor="end" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">6.1.y</text>
+  <rect x="160" y="160" width="292" height="28" rx="2" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="464" y="178" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">1,329 / 99</text>
+
+  <!-- 6.6.y -->
+  <text x="148" y="218" text-anchor="end" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">6.6.y</text>
+  <rect x="160" y="200" width="220" height="28" rx="2" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="392" y="218" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">1,012 / 65</text>
+
+  <!-- 6.12.y -->
+  <text x="148" y="258" text-anchor="end" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">6.12.y</text>
+  <rect x="160" y="240" width="152" height="28" rx="2" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="324" y="258" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">686 / 21</text>
+
+  <!-- 6.18.y -->
+  <text x="148" y="298" text-anchor="end" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">6.18.y</text>
+  <rect x="160" y="280" width="72" height="28" rx="2" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="244" y="298" font-size="13" font-family="'Geist Mono', monospace" fill="var(--fig-ink, #2d3142)">337 / 3</text>
+
+  <text x="40" y="348" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif"
+        fill="var(--fig-muted, #6b6f80)">古いブランチほど未適用が積み上がる。利用者の大半（Debian popcon で約96%）は旧安定版系列を使っている</text>
+  <text x="40" y="372" font-size="11" font-family="'Geist Mono', monospace"
+        fill="var(--fig-muted, #6b6f80)">出典: Trail of Bits, kernel CVE team vulns.git（2026-09-18 時点の概数。悪用可能性の指標ではない）</text>
+</svg>
