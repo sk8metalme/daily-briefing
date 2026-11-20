@@ -434,3 +434,8 @@
 | 2026-11-20 | Backporting security fixes at scale with Codex | https://blog.trailofbits.com/2026/11/02/backporting-security-fixes-at-scale-with-codex/ |
 | 2026-11-20 | Shift-AI: Patterns for AI-Augmented Incident Response | https://www.mercedes-benz.io/blog/2026-06-02-shift-ai-patterns-for-ai-augmented-incident-response |
 | 2026-11-20 | How to Use Jev: A Practical Guide + Use Cases for AI Engineers (2026) | https://aiengineerinsights.com/blog/how-to-use-jev/ |
+| 2026-11-21 | What it took to triple our software engineering output in 18 months | https://www.infoworld.com/article/4212172/what-it-took-to-triple-our-software-engineering-output-in-18-months.html |
+| 2026-11-21 | Agentic vulnerability management, end to end: 2,731 findings, one approved fix | https://sysdig.com/blog/agentic-vulnerability-management-end-to-end-2-731-findings-one-approved-fix |
+| 2026-11-21 | Spec-Driven Development: Adoption at Enterprise Scale | https://www.infoq.com/articles/enterprise-spec-driven-development |
+| 2026-11-21 | Optimizing Your Codebase for AI Coding Agents | https://www.aaron-gustafson.com/notebook/optimizing-your-codebase-for-ai-coding-agents/ |
+| 2026-11-21 | Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses | https://arxiv.org/abs/2610.02267 |
