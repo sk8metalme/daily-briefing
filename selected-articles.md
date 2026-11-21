@@ -439,3 +439,8 @@
 | 2026-11-21 | Spec-Driven Development: Adoption at Enterprise Scale | https://www.infoq.com/articles/enterprise-spec-driven-development |
 | 2026-11-21 | Optimizing Your Codebase for AI Coding Agents | https://www.aaron-gustafson.com/notebook/optimizing-your-codebase-for-ai-coding-agents/ |
 | 2026-11-21 | Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses | https://arxiv.org/abs/2610.02267 |
+| 2026-11-22 | Lessons from 9 months of experiments with LLM-assisted coding | https://discourse.ubuntu.com/t/lessons-from-9-months-of-experiments-with-llm-assisted-coding/88588 |
+| 2026-11-22 | Spec Kit vs Kiro vs a Plain plan.md: The Spec-Driven Setup I Kept (2026 Field Log) | https://www.devmoment.dev/journal/spec-kit-vs-kiro-field-log-2026 |
+| 2026-11-22 | Narratives Mislead: An Empirical Study of How LLMs Misjudge CVSS Severity in Bug Bounty Reports | https://arxiv.org/abs/2610.24623 |
+| 2026-11-22 | How we tuned TypeSafe Jev for log triage without alert storms | https://dev.to/reachjalil/how-we-tuned-typesafe-jev-for-log-triage-without-alert-storms-1ei0 |
+| 2026-11-22 | AI Incident Triage for SREs: What Works On-Call | https://stackgen.com/blog/ai-incident-triage-for-sres-what-works-on-call |

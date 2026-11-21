@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img"
+     aria-labelledby="sdd22-title sdd22-desc">
+  <title id="sdd22-title">SDD ツールの位置づけ: 導入コスト × 仕様ドリフトへの耐性</title>
+  <desc id="sdd22-desc">横軸は導入と運用の儀式コスト、縦軸は仕様とコードのずれを検出しやすいか。plan.md は低コスト・低耐性、Spec Kit は中コストで共有ルールに強い、Kiro は高コスト・高耐性。小さな修正は仕様なしが適する。位置は記事の定性評価に基づく相対配置</desc>
+
+  <rect x="0" y="0" width="720" height="460" fill="var(--fig-paper, #ffffff)"/>
+
+  <!-- axes -->
+  <path d="M 80 380 H 680" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <path d="M 80 40 V 380" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <path d="M 380 40 V 380" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="4 4"/>
+  <path d="M 80 212 H 680" fill="none" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <text x="680" y="404" text-anchor="end" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">導入・運用の儀式コスト →</text>
+  <text x="88" y="32" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">↑ 仕様ドリフトへの耐性</text>
+
+  <!-- Kiro: high cost, high drift resistance -->
+  <rect x="512" y="68" width="148" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="586" y="92" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">Kiro</text>
+  <text x="586" y="112" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">IDE ごと乗り換え</text>
+
+  <!-- Spec Kit: mid cost, mid -->
+  <rect x="400" y="236" width="176" height="56" rx="6" fill="var(--fig-paper-2, #ecebe8)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1"/>
+  <text x="488" y="260" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">Spec Kit</text>
+  <text x="488" y="280" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">constitution が本体</text>
+
+  <!-- plan.md: low cost, low-mid (accent, kept by author) -->
+  <rect x="168" y="248" width="164" height="56" rx="6" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="250" y="272" text-anchor="middle" font-size="14" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-ink, #2d3142)">plan.md</text>
+  <text x="250" y="292" text-anchor="middle" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">著者が残した構成</text>
+
+  <!-- no spec: small fixes -->
+  <rect x="100" y="320" width="140" height="44" rx="6" fill="var(--fig-paper, #ffffff)" stroke="var(--fig-rule, #c4c3bf)" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="170" y="347" text-anchor="middle" font-size="12" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">仕様なし（小修正）</text>
+
+  <!-- legend -->
+  <rect x="80" y="424" width="16" height="12" rx="2" fill="var(--fig-accent-tint, #f6e3dc)" stroke="var(--fig-accent, #bf4520)" stroke-width="1"/>
+  <text x="104" y="434" font-size="11" font-family="Geist, 'Noto Sans JP', sans-serif" fill="var(--fig-muted, #6b6f80)">著者が最終的に採用</text>
+  <text x="680" y="434" text-anchor="end" font-size="11" font-family="'Geist Mono', monospace" fill="var(--fig-muted, #6b6f80)">相対配置（記事の定性評価）</text>
+</svg>
