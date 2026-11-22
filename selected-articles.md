@@ -444,3 +444,8 @@
 | 2026-11-22 | Narratives Mislead: An Empirical Study of How LLMs Misjudge CVSS Severity in Bug Bounty Reports | https://arxiv.org/abs/2610.24623 |
 | 2026-11-22 | How we tuned TypeSafe Jev for log triage without alert storms | https://dev.to/reachjalil/how-we-tuned-typesafe-jev-for-log-triage-without-alert-storms-1ei0 |
 | 2026-11-22 | AI Incident Triage for SREs: What Works On-Call | https://stackgen.com/blog/ai-incident-triage-for-sres-what-works-on-call |
+| 2026-11-23 | How Google Does It: Using agents to help find, track, and fix vulnerabilities | https://cloud.google.com/transform/how-google-does-it-using-agents-help-find-track-and-fix-vulnerabilities |
+| 2026-11-23 | Nobody brags about lines of code twice | https://www.cio.com/article/4236554/nobody-brags-about-lines-of-code-twice.html |
+| 2026-11-23 | DORA Metrics in the AI Era: Necessary but No Longer Sufficient | https://getunblocked.com/blog/dora-metrics-ai-era/ |
+| 2026-11-23 | Getting Started with Jev in Java and Spring Boot | https://www.danvega.dev/blog/getting-started-jev-java-spring-boot |
+| 2026-11-23 | Lessons from Six Months of Building Production Software with AI Coding Agents | https://dev.to/manju_kiran/lessons-from-six-months-of-building-production-software-with-ai-coding-agents-2ifg |
