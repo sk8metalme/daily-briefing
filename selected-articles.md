@@ -449,3 +449,8 @@
 | 2026-11-23 | DORA Metrics in the AI Era: Necessary but No Longer Sufficient | https://getunblocked.com/blog/dora-metrics-ai-era/ |
 | 2026-11-23 | Getting Started with Jev in Java and Spring Boot | https://www.danvega.dev/blog/getting-started-jev-java-spring-boot |
 | 2026-11-23 | Lessons from Six Months of Building Production Software with AI Coding Agents | https://dev.to/manju_kiran/lessons-from-six-months-of-building-production-software-with-ai-coding-agents-2ifg |
+| 2026-11-24 | AI-Assisted CVE Patch Prioritisation: EPSS, Reachability, and Business Context | https://www.systemshardening.com/articles/ai-landscape/ai-patch-prioritization/ |
+| 2026-11-24 | Agentic Engineering: Lessons Learned Vol. 2 | https://dev.to/duske/agentic-engineering-lessons-learned-vol-2-7mh |
+| 2026-11-24 | PagerDuty for AI: How the SRE Agent Triages AI Incidents | https://www.pagerduty.com/eng/pagerduty-for-ai-how-the-sre-agent-triages-ai-incidents/ |
+| 2026-11-24 | The AWS AI-DLC: Why AI Coding Still Needs Human Accountability | https://www.scrum.org/resources/blog/aws-ai-dlc-why-ai-coding-still-needs-human-accountability |
+| 2026-11-24 | Jev for Python engineers | https://vercel.com/blog/jev-for-python-engineers |
