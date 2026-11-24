@@ -454,3 +454,8 @@
 | 2026-11-24 | PagerDuty for AI: How the SRE Agent Triages AI Incidents | https://www.pagerduty.com/eng/pagerduty-for-ai-how-the-sre-agent-triages-ai-incidents/ |
 | 2026-11-24 | The AWS AI-DLC: Why AI Coding Still Needs Human Accountability | https://www.scrum.org/resources/blog/aws-ai-dlc-why-ai-coding-still-needs-human-accountability |
 | 2026-11-24 | Jev for Python engineers | https://vercel.com/blog/jev-for-python-engineers |
+| 2026-11-25 | From prototype to production: lessons learned taking AI-built software to enterprise scale | https://www.atlassian.com/blog/jira/ai-built-prototype-to-production |
+| 2026-11-25 | AI Adoption: An Engineering Readiness Guide for Software Orgs | https://cjlludwig.github.io/blog/ai-readiness/ |
+| 2026-11-25 | The code review crisis and how you should rebuild review models | https://www.cio.com/article/4207438/the-code-review-crisis-and-how-you-should-rebuild-review-models.html |
+| 2026-11-25 | AI in SRE: Where and how Google is deploying agentic AI to improve operations | https://cloud.google.com/blog/products/devops-sre/how-google-sre-is-using-agentic-ai-to-improve-operations |
+| 2026-11-25 | Decision models, part 2: how to choose the right one for your process | https://www.dataiku.com/tech-blog/decision-models-part-2 |
