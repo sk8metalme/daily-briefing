@@ -459,3 +459,8 @@
 | 2026-11-25 | The code review crisis and how you should rebuild review models | https://www.cio.com/article/4207438/the-code-review-crisis-and-how-you-should-rebuild-review-models.html |
 | 2026-11-25 | AI in SRE: Where and how Google is deploying agentic AI to improve operations | https://cloud.google.com/blog/products/devops-sre/how-google-sre-is-using-agentic-ai-to-improve-operations |
 | 2026-11-25 | Decision models, part 2: how to choose the right one for your process | https://www.dataiku.com/tech-blog/decision-models-part-2 |
+| 2026-11-26 | Toss the Keys & Don't Watch the Catch: How We Let AI Merge Dependabot PRs Overnight | https://tech.zenbusiness.com/toss-the-keys-dont-watch-the-catch-how-we-let-ai-merge-dependabot-prs-overnight/ |
+| 2026-11-26 | How Spec-Driven Development Helped an SAP Team Move 71% Faster | https://hackernoon.com/how-spec-driven-development-helped-an-sap-team-move-71percent-faster |
+| 2026-11-26 | What I learned in the past 6 months about using agentic AI | https://flaviocopes.com/agentic-ai-lessons/ |
+| 2026-11-26 | Jev TypeSafe AI: Enterprise Security Guide | https://neuraltrust.ai/blog/jev-typesafe-ai-security |
+| 2026-11-26 | A grounded take on agentic coding for production environments | https://iximiuz.com/en/posts/grounded-take-on-agentic-coding/ |
