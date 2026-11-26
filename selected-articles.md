@@ -464,3 +464,8 @@
 | 2026-11-26 | What I learned in the past 6 months about using agentic AI | https://flaviocopes.com/agentic-ai-lessons/ |
 | 2026-11-26 | Jev TypeSafe AI: Enterprise Security Guide | https://neuraltrust.ai/blog/jev-typesafe-ai-security |
 | 2026-11-26 | A grounded take on agentic coding for production environments | https://iximiuz.com/en/posts/grounded-take-on-agentic-coding/ |
+| 2026-11-27 | Scaling Security in the Age of AI, Part 2: How One Agent Triages, Remediates, and Approves Across TRM | https://www.trmlabs.com/trm-tech-blog/scaling-security-in-the-age-of-ai-part-2-how-one-agent-triages-remediates-and-approves-across-trm |
+| 2026-11-27 | Managing Agentic Security at Scale | https://www.salesforce.com/blog/managing-agentic-security-at-scale |
+| 2026-11-27 | AI Made Your Engineers Faster. It Should Have Changed How You Build | https://www.bounteous.com/insights/2026/05/20/ai-made-your-engineers-faster-it-should-have-changed-how-you-build/ |
+| 2026-11-27 | Navigating the Shift to Agentic AI | https://www.pagerduty.com/eng/navigating-the-shift-to-agentic-ai/ |
+| 2026-11-27 | Jev in Production: What Worked, What We Rolled Back, and What We Measured | https://audiala.com/blog/jev-in-production/ |
