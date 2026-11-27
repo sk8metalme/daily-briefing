@@ -469,3 +469,8 @@
 | 2026-11-27 | AI Made Your Engineers Faster. It Should Have Changed How You Build | https://www.bounteous.com/insights/2026/05/20/ai-made-your-engineers-faster-it-should-have-changed-how-you-build/ |
 | 2026-11-27 | Navigating the Shift to Agentic AI | https://www.pagerduty.com/eng/navigating-the-shift-to-agentic-ai/ |
 | 2026-11-27 | Jev in Production: What Worked, What We Rolled Back, and What We Measured | https://audiala.com/blog/jev-in-production/ |
+| 2026-11-28 | Scaling Vulnerability Management with AI: What Actually Worked | https://www.synthesia.io/post/scaling-vulnerability-management-with-ai-what-actually-worked |
+| 2026-11-28 | Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human | https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone |
+| 2026-11-28 | Logbook of a Spec-Driven Developer | https://dev.to/sidiar/logbook-of-a-spec-driven-developer-pcm |
+| 2026-11-28 | Route every Claude Code message to the right model with Jev | https://www.pulumi.com/blog/route-every-claude-code-message-to-the-right-model-with-jev/ |
+| 2026-11-28 | Spec-Driven Development: A Spec-First Approach to AI-Native Engineering | https://developer.microsoft.com/blog/spec-driven-development-ai-native-engineering/ |
